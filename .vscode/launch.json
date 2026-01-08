@@ -1,0 +1,77 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug: API (FastAPI)",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "main:app",
+                "--host",
+                "0.0.0.0",
+                "--port",
+                "8000",
+                "--reload"
+            ],
+            "jinja": true,
+            "justMyCode": true,
+            "env": {
+                "LLM_PROVIDER": "azure",
+                "LOG_LEVEL": "DEBUG"
+            }
+        },
+        {
+            "name": "Debug: Worker (Kafka)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/worker.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "LLM_PROVIDER": "azure",
+                "LOG_LEVEL": "DEBUG"
+            }
+        },
+        {
+            "name": "Debug: UI (Gradio)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/ui.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "API_URL": "http://localhost:8000"
+            }
+        },
+        {
+            "name": "Debug: Retrieval Script",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/debug_retrieval.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "LLM_PROVIDER": "azure"
+            }
+        },
+        {
+            "name": "Debug: Graph Script",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/debug_graph.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Full Stack (API + Worker + UI)",
+            "configurations": [
+                "Debug: API (FastAPI)",
+                "Debug: Worker (Kafka)",
+                "Debug: UI (Gradio)"
+            ]
+        }
+    ]
+}

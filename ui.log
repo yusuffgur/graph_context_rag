@@ -1,0 +1,9 @@
+INFO:httpx:HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+INFO:UI:Loading config from http://127.0.0.1:8000/settings...
+INFO:UI:Config loaded: {'provider': 'azure', 'api_key': 'a71***78', 'model': 'mistral', 'endpoint': 'https://genai-core-dev.openai.azure.com', 'api_version': '2023-05-15', 'deployment': 'gpt-4o', 'embedding_deployment': 'text-embedding-ada-002'}
+INFO:UI:Loading config from http://127.0.0.1:8000/settings...
+INFO:UI:Config loaded: {'provider': 'azure', 'api_key': 'a71***78', 'model': 'mistral', 'endpoint': 'https://genai-core-dev.openai.azure.com', 'api_version': '2023-05-15', 'deployment': 'gpt-4o', 'embedding_deployment': 'text-embedding-ada-002'}

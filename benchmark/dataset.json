@@ -1,0 +1,519 @@
+[
+    {
+        "id": "1",
+        "question": "What is the primary motivation for integrating security during the requirements analysis phase?",
+        "ground_truth": "Integrating security during initial requirements analysis is essential to proactively mitigate risks, reduce vulnerabilities, and reduce the high costs associated with downstream remediation. This aligns with the 'Shift-Left' security paradigm[cite: 32, 33].",
+        "keywords": [
+            "motivation",
+            "Shift-Left",
+            "cost reduction",
+            "risk mitigation"
+        ]
+    },
+    {
+        "id": "2",
+        "question": "Why is the manual identification of security requirements described as challenging?",
+        "ground_truth": "Manual identification is described as time-consuming, error-prone, and reliant on specialized expertise because security requirements are often implicitly embedded within standard functional descriptions rather than being explicitly stated[cite: 8, 40, 41, 42].",
+        "keywords": [
+            "manual identification",
+            "challenges",
+            "implicit",
+            "expertise"
+        ]
+    },
+    {
+        "id": "3",
+        "question": "What is the specific name of the dataset introduced in this paper?",
+        "ground_truth": "The dataset is named the Agency Security Requirements Dataset (ASRD)[cite: 12, 69].",
+        "keywords": [
+            "dataset name",
+            "ASRD"
+        ]
+    },
+    {
+        "id": "4",
+        "question": "How many requirements does the ASRD contain and where did they come from?",
+        "ground_truth": "The ASRD comprises 2,652 real-world requirement statements derived from six diverse Software Requirements Specification (SRS) documents from a government agency[cite: 12, 71].",
+        "keywords": [
+            "count",
+            "source",
+            "2652",
+            "SRS documents"
+        ]
+    },
+    {
+        "id": "5",
+        "question": "Which security standard was used to annotate the dataset?",
+        "ground_truth": "The dataset was annotated using a high-granularity taxonomy based on the OWASP Application Security Verification Standard (ASVS) V2-V13[cite: 12, 73].",
+        "keywords": [
+            "standard",
+            "OWASP ASVS",
+            "V2-V13"
+        ]
+    },
+    {
+        "id": "6",
+        "question": "What specific annotation framework was employed to ensure dataset quality?",
+        "ground_truth": "The MATTER cycle annotation framework (Model, Annotate, Train, Test, Evaluate, Revise) was used[cite: 12, 72, 235].",
+        "keywords": [
+            "annotation framework",
+            "MATTER cycle"
+        ]
+    },
+    {
+        "id": "7",
+        "question": "Who performed the annotations for the ASRD?",
+        "ground_truth": "Three cybersecurity subject matter experts (SME) from the agency, each with over 15 years of industry experience, performed the annotations[cite: 71, 241].",
+        "keywords": [
+            "annotators",
+            "experts",
+            "cybersecurity"
+        ]
+    },
+    {
+        "id": "8",
+        "question": "What was the Inter-Annotator Agreement (IAA) score for the dataset?",
+        "ground_truth": "The Fleiss' Kappa coefficient was 0.82 across the three annotators, indicating strong agreement[cite: 276].",
+        "keywords": [
+            "IAA",
+            "Fleiss' Kappa",
+            "score"
+        ]
+    },
+    {
+        "id": "9",
+        "question": "Which specific OWASP ASVS classes were excluded from the study and why?",
+        "ground_truth": "Classes V1 (Architecture), V11 (Business Logic), and V14 (Configuration) were excluded because they are generally not inferable from functional or non-functional requirements statements[cite: 223, 224].",
+        "keywords": [
+            "excluded classes",
+            "V1",
+            "V11",
+            "V14",
+            "reason"
+        ]
+    },
+    {
+        "id": "10",
+        "question": "What are the limitations of the PROMISE_exp dataset mentioned in the background?",
+        "ground_truth": "PROMISE_exp has a 'High Dimension, Low Sample Size' (HDLSS) nature, high feature-to-instance ratio, and includes only a single, high-level security category rather than fine-grained classes[cite: 56, 143, 144].",
+        "keywords": [
+            "PROMISE_exp",
+            "limitations",
+            "HDLSS",
+            "single category"
+        ]
+    },
+    {
+        "id": "11",
+        "question": "What is the primary limitation of the DOSSPRE dataset?",
+        "ground_truth": "DOSSPRE is based on student projects, which may lack the realism and complexity of industry-grade requirements[cite: 57, 158].",
+        "keywords": [
+            "DOSSPRE",
+            "limitation",
+            "student projects"
+        ]
+    },
+    {
+        "id": "12",
+        "question": "Why is the Electronic Health Domain Dataset considered limited for this study's purpose?",
+        "ground_truth": "It is limited to a narrow domain (healthcare) and uses coarse-grained labels (6 security objectives) rather than detailed technical categories[cite: 58, 164].",
+        "keywords": [
+            "Healthcare dataset",
+            "limitations",
+            "narrow domain",
+            "coarse-grained"
+        ]
+    },
+    {
+        "id": "13",
+        "question": "What preprocessing steps were applied to the raw SRS documents?",
+        "ground_truth": "The steps included Sentence Segmentation and Extraction (using rule-based pattern matching), Anonymization (removing PII and entities), Filtering (removing administrative/ambiguous items), and Randomization[cite: 174, 175, 178, 183, 186].",
+        "keywords": [
+            "preprocessing",
+            "segmentation",
+            "anonymization",
+            "filtering",
+            "randomization"
+        ]
+    },
+    {
+        "id": "14",
+        "question": "What are the six business domains covered in the ASRD?",
+        "ground_truth": "The domains are Construction, Legal, Education, Software, Meeting, and Accommodation[cite: 187].",
+        "keywords": [
+            "domains",
+            "Construction",
+            "Legal",
+            "Education",
+            "Software"
+        ]
+    },
+    {
+        "id": "15",
+        "question": "In what language is the ASRD corpus written?",
+        "ground_truth": "The ASRD is a Turkish-language corpus[cite: 192].",
+        "keywords": [
+            "language",
+            "Turkish"
+        ]
+    },
+    {
+        "id": "16",
+        "question": "Which fine-tuned BERT model achieved the highest Weighted-F1 score?",
+        "ground_truth": "The bert-base-multilingual-uncased model achieved the highest Weighted-F1 score at 0.983[cite: 438].",
+        "keywords": [
+            "BERT",
+            "best performance",
+            "multilingual",
+            "Weighted-F1"
+        ]
+    },
+    {
+        "id": "17",
+        "question": "What was the Macro-F1 score for the Gemini 2.0 Few-Shot approach?",
+        "ground_truth": "Gemini 2.0 Few-Shot achieved a Macro-F1 score of 0.941[cite: 24, 78].",
+        "keywords": [
+            "Gemini 2.0",
+            "Few-Shot",
+            "Macro-F1",
+            "score"
+        ]
+    },
+    {
+        "id": "18",
+        "question": "How does the performance of Gemini 2.0 Few-Shot compare to the best fine-tuned BERT model?",
+        "ground_truth": "It is directly comparable, with Gemini 2.0 Few-Shot scoring 0.941 Macro-F1 versus the fine-tuned BERT model's 0.942[cite: 24, 26].",
+        "keywords": [
+            "comparison",
+            "Gemini",
+            "BERT",
+            "comparable"
+        ]
+    },
+    {
+        "id": "19",
+        "question": "Which categories were identified as 'minority classes' or underrepresented in the dataset?",
+        "ground_truth": "The minority classes are V6 (Stored Cryptography) and V12 (Files and Resources)[cite: 291, 452].",
+        "keywords": [
+            "minority classes",
+            "V6",
+            "V12",
+            "underrepresented"
+        ]
+    },
+    {
+        "id": "20",
+        "question": "What was the performance of the Naive Baseline model?",
+        "ground_truth": "The Naive Baseline achieved a Weighted-F1 of 0.933 but a significantly lower Macro-F1 of 0.774, with 0.00 scores for minority classes[cite: 495, 499].",
+        "keywords": [
+            "Naive Baseline",
+            "performance",
+            "Weighted-F1",
+            "Macro-F1"
+        ]
+    },
+    {
+        "id": "21",
+        "question": "Why did the Naive Baseline achieve a high Weighted-F1 score despite poor overall classification?",
+        "ground_truth": "Because the dataset's class imbalance allows a trivial classifier to achieve high accuracy by simply predicting the most frequent classes and ignoring minority ones[cite: 498].",
+        "keywords": [
+            "Naive Baseline",
+            "class imbalance",
+            "high accuracy"
+        ]
+    },
+    {
+        "id": "22",
+        "question": "What prompting strategy was used for the Zero-Shot experiments?",
+        "ground_truth": "Tuning-free prompting was used, relying on carefully engineered prompts to guide the models without any task-specific training[cite: 401, 407].",
+        "keywords": [
+            "Zero-Shot",
+            "prompting strategy",
+            "Tuning-free"
+        ]
+    },
+    {
+        "id": "23",
+        "question": "What prompting strategy was used for the Few-Shot experiments?",
+        "ground_truth": "Fixed-LLM prompt tuning was used, where in-context examples were provided within the prompt to guide the model's predictions[cite: 402, 408].",
+        "keywords": [
+            "Few-Shot",
+            "prompting strategy",
+            "Fixed-LLM"
+        ]
+    },
+    {
+        "id": "24",
+        "question": "How many examples were used in the Few-Shot prompts?",
+        "ground_truth": "Approximately 30 labeled examples were used in the few-shot setup[cite: 460].",
+        "keywords": [
+            "Few-Shot",
+            "example count",
+            "30"
+        ]
+    },
+    {
+        "id": "25",
+        "question": "What specific elements were included in the 'Persona-Context-Constraint' prompt structure?",
+        "ground_truth": "The prompt included a persona (cybersecurity specialist), context (OWASP ASVS definitions and 'Extra Information' rules), and constraints (PSV output format)[cite: 461, 469, 475].",
+        "keywords": [
+            "prompt structure",
+            "persona",
+            "context",
+            "constraint"
+        ]
+    },
+    {
+        "id": "26",
+        "question": "What is 'Contextual Anchoring' in the context of this study's prompt engineering?",
+        "ground_truth": "It involves injecting explicit definitions of the 11 OWASP ASVS classes and heuristic 'Extra Information' rules directly into the prompt to mitigate contextual bias[cite: 474, 475].",
+        "keywords": [
+            "Contextual Anchoring",
+            "definitions",
+            "heuristics"
+        ]
+    },
+    {
+        "id": "27",
+        "question": "Which statistical test was used to reject the null hypothesis regarding classifier performance?",
+        "ground_truth": "The Friedman test was used, yielding a p-value of 2.38 x 10^-28, rejecting the null hypothesis[cite: 514].",
+        "keywords": [
+            "statistical test",
+            "Friedman",
+            "null hypothesis"
+        ]
+    },
+    {
+        "id": "28",
+        "question": "Which post-hoc test was used to visualize performance differences in the Critical Difference diagram?",
+        "ground_truth": "The Nemenyi post-hoc test was used to construct the Critical Difference (CD) diagram[cite: 532].",
+        "keywords": [
+            "post-hoc test",
+            "Nemenyi",
+            "CD diagram"
+        ]
+    },
+    {
+        "id": "29",
+        "question": "What does the 'zone of failure' in the performance heatmap refer to?",
+        "ground_truth": "It refers to the red areas in the heatmap corresponding to classes V6 and V12, indicating low F1-scores across all models due to data sparsity[cite: 556, 606].",
+        "keywords": [
+            "zone of failure",
+            "heatmap",
+            "V6",
+            "V12"
+        ]
+    },
+    {
+        "id": "30",
+        "question": "How many person-hours were required to annotate the ASRD?",
+        "ground_truth": "The annotation process took 267 person-hours of expert time[cite: 273, 650].",
+        "keywords": [
+            "effort",
+            "person-hours",
+            "267"
+        ]
+    },
+    {
+        "id": "31",
+        "question": "What is the estimated setup effort for the LLM Few-Shot approach compared to BERT fine-tuning?",
+        "ground_truth": "LLM Few-Shot requires low effort (<10 hours) compared to the high effort (267 hours) required for dataset curation for BERT fine-tuning[cite: 656].",
+        "keywords": [
+            "effort comparison",
+            "LLM Few-Shot",
+            "BERT",
+            "hours"
+        ]
+    },
+    {
+        "id": "32",
+        "question": "What is SecureBERT and why was it included in the study?",
+        "ground_truth": "SecureBERT is a domain-specific language model pre-trained on cybersecurity texts (NVD, CVE, CAPEC). It was included to test if domain-specific vocabulary improves classification accuracy[cite: 375].",
+        "keywords": [
+            "SecureBERT",
+            "domain-specific",
+            "rationale"
+        ]
+    },
+    {
+        "id": "33",
+        "question": "Why was the bert-base-turkish-cased model included?",
+        "ground_truth": "It was included to explore the performance of a model pre-trained on the native language (Turkish) of the dataset[cite: 375].",
+        "keywords": [
+            "bert-base-turkish",
+            "rationale",
+            "native language"
+        ]
+    },
+    {
+        "id": "34",
+        "question": "What does the 'UNASSIGNED' label in the dataset represent?",
+        "ground_truth": "It represents requirements (0.98% of data) determined to be purely functional with no discernible implicit security component, retained as true negatives[cite: 300].",
+        "keywords": [
+            "UNASSIGNED",
+            "true negatives",
+            "functional"
+        ]
+    },
+    {
+        "id": "35",
+        "question": "What is the 'Long Tail' challenge described in the discussion?",
+        "ground_truth": "It refers to the distribution where important security failures often reside in the least represented classes (like V6 and V12), which standard models struggle to learn[cite: 621, 706].",
+        "keywords": [
+            "Long Tail",
+            "distribution",
+            "minority classes"
+        ]
+    },
+    {
+        "id": "36",
+        "question": "What future work is proposed to handle rare security classes using RAG?",
+        "ground_truth": "The study proposes using Retrieval-Augmented Generation (RAG) to dynamically retrieve explicit verification requirements and definitions relevant to the input text, substituting dense in-context examples[cite: 718, 725].",
+        "keywords": [
+            "future work",
+            "RAG",
+            "dynamic retrieval"
+        ]
+    },
+    {
+        "id": "37",
+        "question": "What is the proposed 'Teacher-Student Data Generation' loop?",
+        "ground_truth": "It involves using high-reasoning LLMs (like GPT-4o) to generate synthetic requirements for sparse classes (V6/V12) to populate the training set for smaller supervised models[cite: 734].",
+        "keywords": [
+            "Teacher-Student",
+            "synthetic data",
+            "data augmentation"
+        ]
+    },
+    {
+        "id": "38",
+        "question": "Why were experimental LLMs (like Gemini 2.0 Flash Thinking) included in the evaluation?",
+        "ground_truth": "They were included to benchmark state-of-the-art capabilities in 'reasoning' (Chain-of-Thought) which were hypothesized to be advantageous for identifying implicit security requirements[cite: 640, 641].",
+        "keywords": [
+            "experimental LLMs",
+            "reasoning",
+            "Chain-of-Thought"
+        ]
+    },
+    {
+        "id": "39",
+        "question": "What specific threat to internal validity is associated with the use of experimental LLM endpoints?",
+        "ground_truth": "The use of experimental endpoints poses a threat to reproducibility as these models are subject to deprecation or unannounced updates[cite: 642].",
+        "keywords": [
+            "threat to validity",
+            "experimental endpoints",
+            "reproducibility"
+        ]
+    },
+    {
+        "id": "40",
+        "question": "What was the main finding regarding the scalability of Large Language Models vs. Fine-Tuned models?",
+        "ground_truth": "LLMs represent a highly practical and resource-saving strategy as they achieve competitive performance (Macro-F1 0.941 vs 0.942) with substantially less data preparation effort[cite: 27, 660].",
+        "keywords": [
+            "scalability",
+            "resource-saving",
+            "LLM vs Fine-Tuning"
+        ]
+    },
+    {
+        "id": "41",
+        "question": "What is the 'pre-train, prompt, and predict' paradigm?",
+        "ground_truth": "It is a paradigm that replaces traditional 'pre-train, fine-tune' approaches by using prompt engineering to steer a general-purpose model toward task-specific outputs without adjusting model weights[cite: 395].",
+        "keywords": [
+            "paradigm",
+            "prompt engineering",
+            "pre-train prompt predict"
+        ]
+    },
+    {
+        "id": "42",
+        "question": "Why is the OWASP ASVS framework preferred over STRIDE for this specific task?",
+        "ground_truth": "STRIDE operates at a high level of abstraction useful for threat modeling but lacks the granularity needed for requirement classification, whereas ASVS provides a detailed, developer-centric taxonomy[cite: 129, 132].",
+        "keywords": [
+            "ASVS vs STRIDE",
+            "granularity",
+            "taxonomy"
+        ]
+    },
+    {
+        "id": "43",
+        "question": "What loss function was used for training the BERT-based models?",
+        "ground_truth": "Binary Cross-Entropy (BCE) Loss was used as the primary objective function due to the multi-label nature of the task[cite: 382].",
+        "keywords": [
+            "loss function",
+            "BCE",
+            "Binary Cross-Entropy"
+        ]
+    },
+    {
+        "id": "44",
+        "question": "What strategy was used to mitigate overfitting during BERT training?",
+        "ground_truth": "The study monitored validation loss and implemented early stopping with a patience of 2-4 epochs[cite: 391].",
+        "keywords": [
+            "overfitting",
+            "early stopping",
+            "patience"
+        ]
+    },
+    {
+        "id": "45",
+        "question": "How did the study handle the uneven distribution of security classes during BERT training?",
+        "ground_truth": "The label assignment threshold (Decision Threshold) was tuned rather than fixed at 0.5 to better balance precision and recall across categories[cite: 383].",
+        "keywords": [
+            "class imbalance",
+            "decision threshold",
+            "tuning"
+        ]
+    },
+    {
+        "id": "46",
+        "question": "What is the key limitation of static few-shot prompting observed in the study?",
+        "ground_truth": "Static few-shot prompting is rigid; providing a fixed set of examples yielded inconsistent gains and sometimes degraded performance for minority classes because the examples did not cover the high variance of contexts[cite: 683, 684].",
+        "keywords": [
+            "limitation",
+            "static prompting",
+            "minority classes"
+        ]
+    },
+    {
+        "id": "47",
+        "question": "What role did the 'senior SME' play in the annotation process?",
+        "ground_truth": "The senior SME acted as both an annotator and the final adjudicator for resolving disagreements during the consensus process[cite: 244].",
+        "keywords": [
+            "senior SME",
+            "adjudicator",
+            "role"
+        ]
+    },
+    {
+        "id": "48",
+        "question": "Why did the study categorize 'Asset Handover' requirements under Authentication (V2) and Access Control (V4)?",
+        "ground_truth": "An asset handover implies a legally binding transfer of custody, which implicitly necessitates verifying identity (V2) and authority (V4) to ensure the action is valid[cite: 679].",
+        "keywords": [
+            "Asset Handover",
+            "V2",
+            "V4",
+            "implicit requirement"
+        ]
+    },
+    {
+        "id": "49",
+        "question": "What is the 'Human-AI Collaborative Multi-Agent Framework' proposed for future work?",
+        "ground_truth": "It is a framework combining automated classification with expert oversight, where agents retrieve relevant requirements, assess confidence, and flag unclear cases for human clarification[cite: 729, 730].",
+        "keywords": [
+            "future work",
+            "multi-agent",
+            "human-in-the-loop"
+        ]
+    },
+    {
+        "id": "50",
+        "question": "What method is proposed to improve the evaluation of model generalizability in future studies?",
+        "ground_truth": "A leave-one-project-out cross-validation approach is proposed, where the model is trained on five projects and tested on the single held-out project[cite: 737, 738].",
+        "keywords": [
+            "evaluation",
+            "generalizability",
+            "cross-validation"
+        ]
+    }
+]

@@ -1,0 +1,117 @@
+{
+    "info": {
+        "_postman_id": "e5c7a9b2-1d3f-4e5a-9c8d-7e6f5a4b3c2d",
+        "name": "Federated RAG System",
+        "description": "API collection for the Enterprise Federated Contextual & Graph RAG system.",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "1. Upload Batch",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "exec": [
+                            "var jsonData = pm.response.json();",
+                            "if (jsonData.batch_id) {",
+                            "    pm.collectionVariables.set(\"current_batch_id\", jsonData.batch_id);",
+                            "    console.log(\"Batch ID saved: \" + jsonData.batch_id);",
+                            "}"
+                        ],
+                        "type": "text/javascript"
+                    }
+                }
+            ],
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "formdata",
+                    "formdata": [
+                        {
+                            "key": "files",
+                            "type": "file",
+                            "src": [],
+                            "description": "Select multiple PDF or TXT files",
+                            "multi": true
+                        }
+                    ]
+                },
+                "url": {
+                    "raw": "{{base_url}}/upload",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "upload"
+                    ]
+                },
+                "description": "Uploads files to the processing queue. Saves the `batch_id` automatically to collection variables for the stream request."
+            },
+            "response": []
+        },
+        {
+            "name": "2. Stream Progress (SSE)",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "text/event-stream",
+                        "type": "text"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/stream/{{current_batch_id}}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "stream",
+                        "{{current_batch_id}}"
+                    ]
+                },
+                "description": "Open this request and click 'Send'. It will keep the connection open and stream events as the worker processes files. Requires a `current_batch_id` set by the Upload request."
+            },
+            "response": []
+        },
+        {
+            "name": "3. Query Memory",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{base_url}}/query?q=What is the main topic of the uploaded documents?",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "query"
+                    ],
+                    "query": [
+                        {
+                            "key": "q",
+                            "value": "What is the main topic of the uploaded documents?",
+                            "description": "Your natural language query"
+                        }
+                    ]
+                },
+                "description": "Performs a hybrid search (Graph + Vector) and returns a synthesized answer."
+            },
+            "response": []
+        }
+    ],
+    "variable": [
+        {
+            "key": "base_url",
+            "value": "http://127.0.0.1:8000",
+            "type": "string"
+        },
+        {
+            "key": "current_batch_id",
+            "value": "",
+            "type": "string"
+        }
+    ]
+}
