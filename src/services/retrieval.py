@@ -42,45 +42,62 @@ class RetrievalService:
             
             # --- PATH A: GRAPH SEARCH (Skip if mode='vector') ---
             if mode in ["hybrid", "graph"]:
-                # Step A: Entity Extraction
+                # Step A: Entity Extraction (Extract UP TO 3 entities)
                 entity_res = await self.llm.generate_local(
-                    f"Analyze the following query and extract the most relevant primary entity (Person, Organization, Project) OR Key Concept (Technical Term, Process) as a single string. If none, return 'None'. Query: '{refined_query}'",
-                    system="You are a precise entity and concept extractor. Return ONLY the entity or concept name (e.g., 'Requirements Analysis', 'Security'). Do not explain."
+                    f"Analyze the following query and extract up to 3 mmost relevant primary entities (Person, Organization, Project) OR Key Concepts. Return them as a comma-separated list. If none, return 'None'. Query: '{refined_query}'",
+                    system="You are a precise entity extractor. Return ONLY a comma-separated list e.g., 'Project X, Security, John Doe'. No preamble."
                 )
-                target_entity = entity_res.strip().strip('"').strip("'")
-                logger.info(f"🔍 Extracted Entity: '{target_entity}'")
+                raw_entities = entity_res.strip().strip('"').strip("'")
                 
-                if target_entity.lower() == "none":
-                    target_entity = ""
+                if raw_entities.lower() == "none" or not raw_entities:
+                    target_entities = []
+                else:
+                    target_entities = [e.strip() for e in raw_entities.split(",") if e.strip()]
                 
-                # Step B: Get Neighbors & Related Chunks (Graph Retrieval)
-                graph_context_str = ""
-                if target_entity:
+                logger.info(f"🔍 Extracted Entities: {target_entities}")
+                
+                # Step B: Get Neighbors & Paths
+                graph_context_lines = []
+                if target_entities:
                     # 1. Get Neighbors (Relationships)
-                    graph_data = self.graph_db.query_neighbors(target_entity)
-                    logger.info(f"🕸️ Graph Neighbors for '{target_entity}': {graph_data}")
+                    neighbors_data = self.graph_db.query_neighbors(target_entities)
+                    # neighbors_data is [[Source, Rel, Target], ...]
                     
-                    # Format Graph Context for LLM
-                    graph_context_str = self._format_graph_response(graph_data)
+                    # 2. Get Paths between entities (if > 1 entity)
+                    paths_data = self.graph_db.find_paths(target_entities)
                     
-                    # 2. Get Source Content (Chunks)
-                    # Strategy: Get chunks for Target Entity + Chunks for Neighbors (1-hop expansion)
-                    target_entities = [target_entity]
+                    # Combine and Format
+                    all_graph_data = neighbors_data + paths_data
+                    # Deduplicate triples
+                    unique_triples = set()
+                    for row in all_graph_data:
+                        if isinstance(row, (list, tuple)) and len(row) >= 3:
+                            # (Source, Rel, Target)
+                            t = (row[0], row[1], row[2])
+                            unique_triples.add(t)
+                            
+                    graph_context_str = self._format_graph_response(list(unique_triples))
                     
-                    # Add neighbors to search list
-                    if graph_data:
-                        for row in graph_data:
-                            if len(row) >= 2:
-                                neighbor_name = row[1]
-                                target_entities.append(neighbor_name)
+                    # 3. Get Source Content (Chunks)
+                    # Expand search to include neighbors found in the graph
+                    expanded_entities = set(target_entities)
+                    for s, r, t in unique_triples:
+                         expanded_entities.add(s)
+                         expanded_entities.add(t)
                     
-                    # Deduplicate
-                    target_entities = list(set(target_entities))
-                    logger.info(f"🕸️ Expanded Graph Search Entities: {target_entities}")
+                    expanded_entities_list = list(expanded_entities)
+                    logger.info(f"🕸️ Expanded Graph Search Entities: {expanded_entities_list}")
+
 
                     try:
                         all_chunk_ids = []
-                        for ent in target_entities:
+                        # Batch query for chunks? Currently get_chunks_for_entity is loop-based
+                        # We can optimize this later, or update get_chunks_for_entity to accept a list too.
+                        # For now, let's just loop over the top X most relevant entities to avoid massive queries
+                        # Limit to top 10 entities to keep it fast
+                        search_candidates = expanded_entities_list[:10]
+                        
+                        for ent in search_candidates:
                             c_ids = self.graph_db.get_chunks_for_entity(ent, file_filter=file_filter)
                             all_chunk_ids.extend(c_ids)
                         
@@ -175,7 +192,7 @@ class RetrievalService:
                     } 
                     for r in top_docs
                 ],
-                "graph_context": target_entity,
+                "graph_context": target_entities if mode in ["hybrid", "graph"] else [],
                 "debug": {
                     "mode": mode,
                     "original_query": query,
@@ -195,8 +212,7 @@ class RetrievalService:
 
     def _format_graph_response(self, graph_data):
         """Helper to format nested list from RedisGraph."""
-        # The 'query_neighbors' method in graph.py now extracts 'res[1]',
-        # which is the list of records: [['WORKS_AT', 'Acme'], ...]
+        # Expecting list of tuples/lists: [(Source, Rel, Target), ...]
         
         lines = []
         if not graph_data or not isinstance(graph_data, list):
@@ -204,8 +220,11 @@ class RetrievalService:
 
         try:
             for row in graph_data:
-                # Ensure row is a list/tuple and has at least 2 elements
-                if isinstance(row, (list, tuple)) and len(row) >= 2:
+                # Ensure row is a list/tuple and has at least 3 elements [Source, Rel, Target]
+                if isinstance(row, (list, tuple)) and len(row) >= 3:
+                    lines.append(f"- {row[0]} -[{row[1]}]-> {row[2]}")
+                # Backwards compatibility (if only 2 items)
+                elif isinstance(row, (list, tuple)) and len(row) >= 2:
                     lines.append(f"- {row[0]} -> {row[1]}")
             
             if not lines:
@@ -215,21 +234,3 @@ class RetrievalService:
         except Exception as e:
             logger.error(f"Graph formatting error: {e}")
             return "Error formatting graph context."
-            headers = raw_data[0]
-            rows = raw_data[1]
-            
-            if not rows:
-                return "Entity found in graph, but has no direct connections."
-            
-            lines = []
-            for row in rows:
-                if len(row) >= 2:
-                    rel_type = row[0]
-                    target_name = row[1]
-                    lines.append(f"- {rel_type} -> {target_name}")
-            
-            return "\n".join(lines) if lines else "No meaningful connections."
-            
-        except Exception as e:
-            logger.error(f"Graph Parse Error: {e}")
-            return str(raw_data) # Fallback to raw if logic fails

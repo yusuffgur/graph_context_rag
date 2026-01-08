@@ -68,27 +68,34 @@ async def run_system_benchmark():
         mode = "graph"
         
         print(f"   -> Asking: {q}")
-        try:
-            # Call your API
-            # Graph retrieval + LLM generation can be slow, especially with local models.
-            resp = requests.get(f"{API_URL}/query", params={"q": q,"mode": mode}, timeout=300)
-            
-            if resp.status_code == 200:
-                data = resp.json()
-                answer = data.get("answer", "")
+        
+        # Retry Logic (3 Attempts)
+        for attempt in range(3):
+            try:
+                # Call your API (Timeout increased to 600s for large graph traversals)
+                resp = requests.get(f"{API_URL}/query", params={"q": q,"mode": mode}, timeout=600)
                 
-                # RAGAS expects list of strings for contexts
-                sources = [s.get("text", "") for s in data.get("sources", [])]
-                
-                data_points["user_input"].append(q)
-                data_points["response"].append(answer)
-                data_points["retrieved_contexts"].append(sources)
-                data_points["reference"].append(gt) # Single string reference
-            else:
-                print(f"      ❌ Failed: {resp.status_code}")
-                
-        except Exception as e:
-            print(f"      ❌ Error: {e}")
+                if resp.status_code == 200:
+                    data = resp.json()
+                    answer = data.get("answer", "")
+                    
+                    # RAGAS expects list of strings for contexts
+                    sources = [s.get("text", "") for s in data.get("sources", [])]
+                    
+                    data_points["user_input"].append(q)
+                    data_points["response"].append(answer)
+                    data_points["retrieved_contexts"].append(sources)
+                    data_points["reference"].append(gt) # Single string reference
+                    break # Success, exit retry loop
+                else:
+                    print(f"      ❌ Failed (Attempt {attempt+1}): {resp.status_code}")
+                    if attempt == 2: # Last attempt
+                        print(f"      💀 Give up on: {q}")
+                    
+            except Exception as e:
+                print(f"      ❌ Error (Attempt {attempt+1}): {e}")
+                if attempt == 2:
+                     print(f"      💀 Give up on: {q}")
 
     if not data_points["user_input"]:
         print("❌ No successful queries to evaluate.")
@@ -100,8 +107,8 @@ async def run_system_benchmark():
     print("\n⚖️  Running RAGAS Evaluation on YOUR System...")
     print("   (This uses LLM-as-a-Judge to score your Graph RAG vs Ground Truth)")
     
-    # RunConfig to silence warnings or handle timeouts (optional)
-    # n=1 to avoid "requested 3 got 1" warning if needed, but Ragas 0.4 handles defaults best.
+    # Configure Ragas to be more resilient
+    run_config = RunConfig(timeout=300, max_retries=5, max_wait=60)
     
     results = evaluate(
         dataset=dataset,
@@ -111,16 +118,17 @@ async def run_system_benchmark():
             answer_relevancy,
         ],
         llm=wrapped_llm,
-        embeddings=wrapped_embeddings
+        embeddings=wrapped_embeddings,
+        run_config=run_config
     )
 
-    print("\n✅ Evaluation Results:")
+    print(f"\n✅ Evaluation Results for {mode}:")
     print(results)
     
     # Save
     df = results.to_pandas()
-    df.to_csv(f"benchmark/system_results_{mode}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv", index=False)
-    print("💾 Saved results to benchmark/system_results.csv")
+    df.to_csv(f"benchmark/results/system_results_{mode}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv", index=False)
+    print("💾 Saved results to benchmark/results/system_results.csv")
 
 if __name__ == "__main__":
     if "OPENAI_API_KEY" not in os.environ:

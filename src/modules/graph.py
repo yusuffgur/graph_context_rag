@@ -52,16 +52,58 @@ class FalkorGraph:
              """
              self.execute_cypher(q)
 
-    def query_neighbors(self, entity_name):
-        """Read: Find 1-hop neighbors (Case-Insensitive)."""
-        safe_name = entity_name.replace("'", "\\'")
-        # Search via Case-Insensitive partial match for better recall
-        q = f"MATCH (n)-[r]->(m) WHERE toLower(n.name) CONTAINS toLower('{safe_name}') RETURN type(r), m.name LIMIT 15"
+    def query_neighbors(self, entities):
+        """Read: Find 1-hop neighbors (Case-Insensitive) for a list of entities."""
+        if isinstance(entities, str):
+            entities = [entities]
+        
+        # Sanitize all
+        safe_names = [e.replace("'", "\\'") for e in entities if e]
+        if not safe_names:
+            return []
+
+        # Construct WHERE clause for ANY of the entities
+        # toLower(n.name) IN [...] doesn't work easily with case-insen partial match
+        # So we use ORs with CONTAINS
+        
+        conditions = [f"toLower(n.name) CONTAINS toLower('{name}')" for name in safe_names]
+        where_clause = " OR ".join(conditions)
+
+        q = f"MATCH (n)-[r]->(m) WHERE {where_clause} RETURN n.name, type(r), m.name LIMIT 50"
+        
         res = self.execute_cypher(q)
-        logger.info(f"DEBUG QUERY_NEIGHBORS for {entity_name}: {res}")
-        # Parse standard [Header, Data, Stats] format
+        # logger.info(f"DEBUG QUERY_NEIGHBORS for {entities}: {res}")
+        
         if res and len(res) >= 2 and isinstance(res[1], list):
-            return res[1] # Return only the data rows [['REL', 'Target'], ...]
+            return res[1] # Return data rows [['Source', 'REL', 'Target'], ...]
+        return []
+
+    def find_paths(self, entities):
+        """Find relationships BETWEEN these entities (2-hops max)."""
+        if not entities or len(entities) < 2:
+            return []
+            
+        safe_names = [e.replace("'", "\\'") for e in entities if e]
+        conditions = [f"toLower(n.name) CONTAINS toLower('{name}')" for name in safe_names]
+        where_clause = " OR ".join(conditions)
+        
+        # Find paths between any two nodes in this set
+        # Match (a)-[*1..2]-(b) where a in set and b in set
+        # Using simple pattern matching for now
+        
+        # Actually, let's just find direct connections or shared neighbors
+        # (n1)-[]-(shared)-[]-(n2)
+        
+        # Simplified: Just dump all connections between these nodes if they exist
+        q = f"""
+        MATCH (a)-[r]-(b)
+        WHERE ({where_clause}) AND ({where_clause.replace('n.', 'b.')}) AND id(a) <> id(b)
+        RETURN a.name, type(r), b.name
+        LIMIT 20
+        """
+        res = self.execute_cypher(q)
+        if res and len(res) >= 2:
+            return res[1]
         return []
 
     def get_chunks_for_entity(self, entity_name, file_filter=None):
