@@ -5,3 +5,5 @@ __pycache__
 .venv/*
 benchmark/results
 benchmark/results/*
+falkor_data/*
+qdrant_data/*
