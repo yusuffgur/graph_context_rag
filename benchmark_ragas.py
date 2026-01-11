@@ -40,15 +40,18 @@ else:
 
 wrapped_llm = LangchainLLMWrapper(openai_llm)
 wrapped_embeddings = LangchainEmbeddingsWrapper(openai_emb)
+dataset_path="benchmark/dataset_upd.json"
+mode = "hybrid"
+
 
 async def run_system_benchmark():
     # 3. Load Questions
-    print("📂 Loading benchmark/dataset.json...")
+    print(f"📂 Loading {dataset_path}...")
     try:
-        with open("benchmark/dataset.json", "r") as f:
+        with open(dataset_path, "r") as f:
             raw_data = json.load(f)
     except FileNotFoundError:
-        print("❌ benchmark/dataset.json not found! Please create it.")
+        print(f"❌ {dataset_path} not found! Please create it.")
         return
 
     # Data container for Ragas
@@ -65,7 +68,7 @@ async def run_system_benchmark():
     for item in raw_data:
         q = item.get("question")
         gt = item.get("ground_truth")
-        mode = "graph"
+        
         
         print(f"   -> Asking: {q}")
         
