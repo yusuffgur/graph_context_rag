@@ -1,0 +1,1129 @@
+[
+    {
+        "question":"What is the role of the OWASP Application Security Verification Standard (ASVS) 4.0.3-tr in classifying and analyzing project requirements from a cybersecurity perspective?",
+        "contexts":[
+            "Task: Classify and analyze project requirements based on their security and functional aspects from a cybersecurity perspective, aligning with the OWASP Application Security Verification Standard (ASVS) 4.0.3-tr. Provide detailed explanations for all classifications and potential security concerns.\n\nr\u2014\n\nInstructions:\n\n1. You will receive a list of project requirements in PSV (Pipe Separated Values) format."
+        ],
+        "ground_truth":"The answer to given question is not present in context",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":44,
+                "orig_elements":"eJy1VF1r2zAU\/SvCTx3ERrJkxe5b2VNhH4F0HaMbQZGuU22O7Eny1nT0v+\/KSbsPssEGeQjk3ujo6px7cm6+ZdDBFlxcWZOdk4yZueBgRE5rUeeioU1eKwp5rduyFRTKklXZjGRbiMqoqBDzLdN97411KkKY6k7t+jGubsFubiN2Ss4bxBzaX62Jt9hlshLYHXrrYsLd3LCmLOSMSFYX8sOMPNbzkhV0qrlsivJIY4\/AThZ2IcI2MVnYO+iWg9KQPeAPBiLoaHu30p0KYTX4fo3HaFFXvEnvaG0HcTfAhF28TCRtWMFd9EpHmMSJfoRsIuI2o9pMbG8ycJssjR6ws3Ljdg0e+0KkqRHxCXmlwqdz8jxNtu2OKGfwo7rdPRB8yEd8GfHwebR+2kUgaxXAkN6RiCJ6EkCP3sY9sB3dRER1RIUBoYG0vt8SRfQOZz+dHfB7+tl+gRlRnd046zbkq4236Vby+u3FckEuhqGzWqX7yPIReQ3etk\/diEOVN+TsYnm9fEZEQQueR1+Qhe+\/WAMEpVUoniFwN6A0Ewzf1Huc2hG9J324LkwUhj4iTYsMnl6re6fBu1AkgR\/38Ep5rxKBq6QjCvq7XUuouZS6ymu0GNpV8ryhxuSGayrpXDZ6bU5o16qg6EYpD2481HO+r0s057F6Ov9Xsx7x4r97zr8fS8rEz3q+cbgF2PTe3oP5k6a1NLRlpsqbeQu5aJt1rta8zlFMzilrq5aVJ9SUF2xGak4fI2BfV1XBUs15dbSezv9fAEg0yqn\/\/5cuIHgaH87\/yeHztWhpq3kuKW9zUQuV14yzXDIDpVhzA5U86TYwXhsqfmwj1VwcHM8aWsyPNSbE\/+1jLipZn3ohrCDv+hHTEBPKgwbcAAZoZ0MkfXs8k60ji+U1OVvYATArB4WLw9C7Vt0I4VnKu62Kv8TXC7zuMrF\/+PAd0TBIWQ==",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How does a role-based access control model help in managing permissions effectively?",
+        "contexts":[
+            "iiye olabilecegi giivenlik gruplarim segebilmesini saglayacaktir.|1|11|0]01|01|0|0|0| Identity Verification (V2), Session Management (V3), Access Controls (V4), Debugging and Logging (V7), Data Protection (V8): Standard security practices apply. Analysis & Recommendations: Regularly review and update security group memberships to ensure users have appropriate access. Use a role-based access control model to manage permissions effectively. 24Sistem, giilii sifrelerin kullanilmasi zorunlu"
+        ],
+        "ground_truth":"A role-based access control model helps in managing permissions effectively by ensuring users have appropriate access through regular review and updates of security group memberships.",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":52,
+                "orig_elements":"eJzdV21PG0cQ\/isjf2iIZLu2gQTzLUpaKVLTopDSDxSh9d34vPLe7nVfIEfIf+8ze2ebAKFKlX6pdGB7dnd2Xp5nZu7804AN12zjpS4HxzQ4WMymywM1Hy0PJ9PRweTlcnRULuej6WJeHhWLl\/MXBy8HQxrUHFWposKZT4PCOV9qqyKH\/Nuo1qV4uWJdrSIks\/39Oc704mtdxhWk0xeHB5A2Ttso587Pp\/Pp+GhIs\/lsPLkY0vb3ZP+oF8Cg8exRST4DySC0IXItvpzoj2xOG1Xw4DMWSo5cRO3sZWFUCJeNdwtsm4xfzGb7UDFYasOxbTifPXknbupwyR+jV0XkHJ7oEw+yK7ZKqsr+ng\/YVgO5uoHk0qZ6wR7yw5ncGnFeTk7nt6daLBtSaqtkVK2oVTfa6FpbbYd02nhtK1p6VfO182uCNfTu7DXtvXMlm9GZ5uvRa2ejd8awf061rpXXFFXAR01BLYyzyaqs31LFBvdpDzULbWoOuAabKmRBFWqNlfHt5GKCB\/9uJ933327pw0oHwqMI4VpZXShDnv9K2mecUFypSKXjYJ\/hE9IimhY7DNJP0dGr07NTKvCjcl5zGNNpTetkEDFdiKd0xbC6gmEB9mivYFiphuSiq1XUa3JGebWmWoV1xiaVjLhVD4yf3k7xXNxO5P\/kx+zDLb0tYaSOLZ3hmiWsl4zT3tnsOULMIcivd8oiU9mbvbN9LLwqCixRH90A6QGkdzUM6bVhuGCrISlb0k+28G3T6z7E5je8SFUlGZTlX1z3fe\/spayBKHTiXY8\/SI8gfe3qOtmdhfPnx3QacVr5khrBnIZVtHSehGmkbZNi1t5sVY3plVWmDcjXD\/SeC6hkKJClcAwjQ\/Is2xv2OaBiU5fWvxJ0K6ymwKXkrVdKgW3QUV9xvnUsQQm6xPkU5HSpl0v2ErpH9GVbtxuy1UIogGA23cI\/Ir0tsEBa3yDCtmSqHJYEqZZAQl15RHq4RQ2pEqChtycEIFcCm0ovNCksAioWIFoCfmwF45k1zqQqJr9DygQYQXUQnON5AiPHgD\/TNdDrQa618MBou+4iFFc5Wv4Z+NFrGH8LSI63AonaF\/fkUHFOF5RH\/FlA3ouNoqhwdtldqUy+9TFEHW8FD9Rri8zUnZvC7rpxHkiLT8Pn98AUQAio450nygix46ru0v3Qj\/EGd\/F+KAMXkKNaVGzZY6XM3pU6NCD2BoZ8lcuMqhtBRwXszLbYaS3HrowMqfozTSY8x36jCXuDs2xIg3c75KwYZfFYABEEEF8thLmWZJRMcxmZftdC8t\/XBs8RxfYKpVoFumaTPwvP3Xnsql25dWJMP4MlIRvznoNLXnTtnU0F\/69K6UeZjrBR4E6qKFyyGZRXzlxhby1+5261VeQ3ioCpk7dZ9AcvECl\/pXv1+6K+07WzrVbtRm8+iHZjwtO4fFs33cyyQWeDdo6Wicg4A3T0FvVmk3HFGnMH1ahTAEWow\/heZQygGld9rJZUpqj74G4d3cQAaNx\/FI1ftDhBFfTom1zdtG6lJgn6uJBGVmmUV2vQ6yqfAP3cvrn6ep\/u4Hmxw+f3bXTfis87WMyUFit2oFRNY9qnM\/ieZQLyeW64wlyT701NKSPEVmPlXWqQNRmnwko3QcpDVyMzLgOtFECD65BFr+Wsyu6Nc+UCKZzh0UJJf+sWpI6K38IGlAqoy\/llqR61ziELxGhfhfQ\/cWJ2sMk1cma03vQavysyBn1Q043zyZpEa21209VEpqu+nsiAhXwIPl2SDAAY4MQkdwVArZCQ38MzPGQDvzc1ceFT5JFs5r5w5pwojy4RoyrW\/0CcN7zUViJToE35e7Rp6RpV\/e6o11EAjbWKqyFiJ7T7iMwMe8LnHPZpCw8GBbXT30XZS8DFoT57myaQtYXoPD\/wHwk43LJtyzAhjL2TCU1t1wqEjhsOZcZZzJEPqZTJ1DPqfzQy\/jsq3immuTvvsoaKzrFPdeEwtbdflNDHpwNBjORy4xXenWyodcxDyZ283gNLnUzUoyXsxnmVMDkgI72bolKVJe88BCxePECF1N3phMo1LVybbIGBOcAzvGQ1NV624GqZfEL4SoV3je5rkne5zSvfr8oDjiD+B3ll+3zxN2gOWZE=",
+                "is_continuation":true,
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How do LLMs facilitate adaptation to specialized domains like SRE?",
+        "contexts":[
+            "and traceability (Rajbhoj et al., 2024; White et al., 2024). LLMs can perform zero-shot and few-shot learning, reducing the need for large annotated datasets and facilitating adap- tation to specialized domains like SRE (Labrak et al., 2023). Techniques such as prompt engineering and integration with external knowledge bases (e.g., Retrieval-Augmented Generation) further improve their performance and con- textual relevance (Masoudifard et al., 2024)."
+        ],
+        "ground_truth":"LLMs facilitate adaptation to specialized domains like SRE by performing zero-shot and few-shot learning, which reduces the need for large annotated datasets.",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":6,
+                "orig_elements":"eJyVVMFu2zgQ\/ZWBTi5gCY4ce+321EOxl2RRpAEW2KAwRtRIYkORKknFcYr++z7SzXbT9tKTwCfNvDdvHnX3pRAjo9h40G3xmoruQni\/anYl79tdedmppmzq7bqsd5u1dLVs67oullSMErnlyKj5UijnfKstRwn5bPjk5ngYRPdDBFKv13vUfIOPuo0D0Ivt5hLo5LSNqe7u7mK\/rfDhpq6rPz4u6fm836yqy3y+WG+r1S+AcwWQIpxClDFN8l4\/ivkwsZLiK160EkVF7exBGQ7hMHnX4LNVtd\/td0lHp43E0yS59v11GlKHgzxGzypKNif6WYo8iO1n7vO0d4XYvkjUE5CDncdGPPBtIo0oT4W3nm3onB\/Flw0HaWl0rZhAAz8IieXGALNyJMUTN9roqCWQtsRzdCOMbSn1otm24kNkC7v7xT+Dm0kisamWVK\/qzauKbgc50eRCkBAIm\/U9lkvfexp9L2hcknI2tzTC3qLbEmjAhNkk6pwx7phhkBFMncrmVKYneeHgUglBwQ8ClnQctBqAoJziICNFR5P4ND04x8nII0UO9yERKjOnSdDy86x9DmKgvCDdacVJCjrqONCorR7ZkPNkHRluJFmWIkiLK\/1Cxbp5Qz8Jq+hGVLIierFtoDBAH1Pv85SQEsVLiNnzaTKnBF5dXYck\/+bdbyqevHYefj99OycLU47kvIcTLW74UzO4T\/\/XePmG\/h50lBcYdGcViu1\/Lj6JdyX0x9y3k+P58H2RXtpZJZHwH6mCT6iDZ8gCSqyLOVDJuyBQn7uwSsqgF2W42VNJMYtP84dJlGajn1IV4oignHP0Ac4srrjxfP9iASmHogarP8+IXJhTIAJcwfoj4t5riPKZCdTJ+t6fyfKqkUrxFru+t+6ILUN1ujSBFlL1YLiR6LU8sCnfzn1aAGT9KVbOPV5RN3sM7kmPYMT9wkH7Z\/fYKsm0yH+ZL9UMJo80PeRXi2uEGyvu2Lc\/bCJd\/ec\/xF\/sE92D3KYr\/vXjv1hpyEw=",
+                "is_continuation":true,
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"What are the key security requirements for APIs and microservices?",
+        "contexts":[
+            "preventing directory traversal attacks (e.g., ASVS 12.0). V13, API ve Web Servisleri (API and Web Services) - Covers requirements specific to securing web services, APIs, and microservices, including authentication, authorization, input validation, and error handling (e.g., ASVS 13.0)."
+        ],
+        "ground_truth":"The key security requirements for APIs and microservices include authentication, authorization, input validation, and error handling.",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":48,
+                "orig_elements":"eJyNlW1v2zYQgP\/KQZ8cQDZkx07sfQuSDivSDlldZMPSwqCps8RZIjWScqoW\/e+7o2RFTrfB38QT7+W5Nz59i7DAErXfqDT6CSJ5PV+mV9v5OFns0vFcprPxdrHdjlerRM5Ws8VqJ0UUQ1SiF6nwgnS+RdIYmyotPLpwLkRjar\/JUWW5J8ns8nJFOp34WaU+J+n0ajEnaWWU9qz39DRdzSZXMZCfyfRzDMfzNEkWkyQI5slykvybpNUhSeQa57Fklgf1BYt1JSRG3+lHih6lV0ZvZCGc21TWbOlaMlleL+ZTurBTBfqmwqD78J4xldvgF2+F9BjS422NUUDRWS2ywPsUoc4idl2RZKPrcouW5PMle\/Wkz5qPxPrGKlXCvdHemqJAq2B0IyU6B7etzF3AmL4PaB1Y\/LtWNtSGDwVlNwVvQNQ+N1Z9FYwSA2khlEKTa74ag9ApVBYPdFA6g1ofFUhdtN7IikVnaksnGOEkm8Rws35cw3ySXEzgcRHDp+jOZLYuRCli+Iil+sptAgeEtdrZ0DOfIhg9EsROyS6W2wKFJqdtEG+0tE3Ff86gUrqqPRxEodLOGLUKi1BLkwab3G7gyIHv4dlNcEKxiipXkshNV2UwO3CoHV2nqIPyEHXRolJ73WFlqJ6lcnBvVWtrR6VZe2MpuNsX+81\/geyM7T1TzoMz4TnJHmrHokGUTUy0sqiZCvbYDKoXgBzK2iI4ck9ixsA+k3z\/tGRXLcd1DL+w15tG7bloXKl70SgPozvc1lnGztj6OxO+zyhJF0fRKhAfTYGijokBrSXgnMwVfbUHLac05aMMJQLqiD1T+NyaOssh5WBObgxhrluYZQzcWDQptiaU0R2TPfSVPSP2kwpweEoDjTF3w6BFhoV4yXEMWyH3deVasGDK0u7QIVzqFSXVq7lZtnHTkntLK0Q5mvLRrSnLWnezcX665VAtxGokLYZ42F8iE0oTmEb\/bOyeQD1F3MVLLV\/bvgtpt2JmlW8gbaUhC9Tr7nXuVy3DlJbpn8IKm1P6Uxi9F8xrat5RKZ7BMWgEDqek+ctEOPocwSq355Yue7M03khh\/nUsiatlDoLk1jg3poLRKEieSzYx+mO9vgh217+9e9E6AZkmHcmMZtu45jgLWtBkWBj9TGveBRsfjkvw\/PLwGzHs\/HahynZ9871db71fsT8MSEoOJI13w9Vgr6I41vCUZNaRXJLg4S1z\/I5bWKM9KNe9HyRm6738f2hchZK3dY\/DsTyTousUg5cu3FJxAfofL4PCzwlzHJf+q\/fox0UemvJkY5xCXjIkP6rHt\/dXYa3grf2R387vn\/8BdlL1kw==",
+                "is_continuation":true,
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"What is the role of tuning-free prompting in zero-shot experiments?",
+        "contexts":[
+            "\u2013 Prompt + LLM tuning: Jointly tunes both model and prompts; highly expressive but prone to overfitting on small datasets.\n\nIn this study, we evaluated the first two of these strategies, as they do not require modification of the base LLM\u2019s weights. For our zero-shot experi- ments, we implemented tuning-free prompting, relying on carefully engineered prompts to guide the models. For our few-shot analysis, our approach aligns\n\n12 https:\/\/wandb.ai\/site\n\nImplicit Security Requirements Classification\n\n23"
+        ],
+        "ground_truth":"In zero-shot experiments, tuning-free prompting relies on carefully engineered prompts to guide the models.",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":22,
+                "orig_elements":"eJy1VcFu2zgQ\/ZWBrjUVkZIoKT0WKLaLdBG0vWULg6JGNgFZ1JJUHLfYf9+h7HqTjU9Z+GTzkU+cmfc48\/AzwQF3OIa16ZJbSGRX9nnFS6Y61bBCdsjqPOcsk9h2ui51VrbJCpIdBjoRFHF+Jtpa15lRBfTLelAHO4f1Fs1mGwgRed4Q5wTvTRe2hHJZFoRO1owh8h4eBM9SuQJe8jIV31fwL1DJtI4A53mZFpeRhURQ4g8+4C5mc2+ecPg6KY3J37TRYUAdjB3XelDerydnWzqWpY1slgh7M2A4TLhw7z\/HRI1f41NwSgdcChTcjMmSzLiZ1WbJ+CHBcZPEqydC1uO8a9HFvEW8NRA\/Mv+cRcZzuHd2NwV4B3d3nyHMoxk3t\/B7LMJwiGv00NqwhZ3tcAA1djAtDP8etlRPOoRPk0PvzSNCO4e4PSIEC\/YRXW9CoC+CHcHv1DBAFMlj8GkM+ldud8aHT7FGFN9\/HaBEo3qBmrWl6llRNzX9yysmZdGRE0QjZHE1B\/CmSUUUk36rRd4TUIkqlWe9m4vIkfRGB9QF59d2wKcRwtZ48GHuDivYI+CjGmaqWkcbCL1xPkDYk5R9BDzSUUfbG4N+BcpH8ACdhdEGcPjXbBxGo5jeaBXTOhGhJc2jwRbPNZ6uikL4FD5aB3Z28AOdZX5LnyE3oTMMogX8EpTZTUdHxLAWg7LeIZ58SMsV3T0cTjbTymE\/D9GX48aMiA7Plo2u3MymwyWoxdHPYuhxfwxBjWo4eEO3R1hNxFZ6C2owm9E\/9+0fylE5yPjfYkUvmJdnUkQlWSM0Z0WbtaxRvGNaFDpruZaY99drX1l19GqZH817Bmp+7GeFzI\/efQUslDdaV9SiuLZ1uYBtCJO\/vbnZU09qU2VuvAn4XJ2P1gaiXpAFUSCXmWK8V5oVJTasVk3GsowGjCrbOmu7K\/aUehkidfWrpSxrkTVpE9fU2NLs9fp4\/o2S5A2XV5Akf9FN6JkabQJ8RT07Ew7w5dgRlpcMH2JI58bwXKffUHWXdZLUSivdl6yvM3o+vSyo95NYopdVxnVRIb\/e9Of8NO3PQp2AqMyLWf8K+D9a1VVRXWP2v9BK5JcE+P4PsP3qJA==",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"Why are architectural security concerns less frequently referenced in typical specifications?",
+        "contexts":[
+            "This study highlights class imbalance as a persistent challenge in SRE. The issue is not specific to ASRD but reflects the nature of the domain itself. In typical specifications, references to architectural security concerns such as cryptographic storage or low-level file handling, occur far less often than user- facing controls like authentication (V2) or access control (V4). This creates a \u201clong-tail\u201d distribution where the most important security failures often reside in the least represented classes."
+        ],
+        "ground_truth":"Architectural security concerns such as cryptographic storage or low-level file handling are less frequently referenced in typical specifications because they occur far less often than user-facing controls like authentication or access control, leading to a 'long-tail' distribution.",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":36,
+                "orig_elements":"eJyFVMtuGzkQ\/JXGnGJAGkiyHtbeFkgOAZKsYRm5eAOBIntmCHPICR+WtYb\/PdUjOQmwC+xFELub1dVVzXl4qdhxzz7vran+oEotZquVUdvpXC3X06VZ3kwP3GynmxnzbNMs9GK9qSZU9ZyVUVnhzkulQ4jGepU5jWenTqHkfce27TIii+vrLe5cwkdrcofofL1aIjoE67Pce3iYb7f1bEKrxaxefpvQ2\/lmuanX43l+vaqX\/xE430CkSqeUuZdJbu0zu92gNFevSBjOrLMNfq+dSmk\/xHBA2azerm+2KxQ01nE+DTzevf0sQ9q05+cclc48ipNj4WocxLdFteO0DxX7tpLWzvrHMfJSpawiFPWGnxHYzOdIZ0AJyCfbK+JMylE9EbQSncS1zVw7JBez+TaFJh9VHKn\/C26x\/A1Oqv8fRfgNYLz3pT9wROX1+vU3lPvOJkq5mBN1MM2JcYlGpcj2B4WJNZNKpGjgmCxE9pl0p5zD+EzW0+7uQ033Hf6nVOSXfMiUBta2sZpyoD93d+\/pUDJFbhzMSJRRjrUpkSk048mEXgHM5sSuqemjJ3hiNcR6Q1JiYpoICEcGrSTYKurOisMlSi3rEm0+kQ4oiB6zFd0Jfx1PQw5tVEMHUimHCFUoRHLhOHX8xI5kEahT3sDQdkJBA4sahRKGGpCUQQp5KonjFBmNOumUY3CJnH2EUgXD+HxhS+++Lq6kidJaMC61CC+vRDMrvFieD\/T9u8A67YJvp1lZNx4NGUgeLcQTuGOHyUe5+pAyDBpCzAqG\/Jy7wU2o+kYX\/6wZXZJLjlUSEwaEQZLN2WhONe0AY1Q00As+P9mEJMqjlxGRIijkqeHjNHVwF4+oH7LkwK60LYSDFy17hgv2H6YGBWftsZNWWvGz6gcnvca5rYx8ZOemJujSn+lcNkh4fy82jt+nRPK5SZxhvfXaFSNtD1iArlfx8aL77d1fnz\/uPqDLQO9+vbR6QvIeriaQzsoiuBRAq8EGpTPHn0v+Swx5VW8fhC8qRlj5xPfyYF6\/\/QC0rMJf",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"Why is plugin security important for preventing vulnerabilities?",
+        "contexts":[
+            "Protect log files from unauthorized access and modification. 30|Sistemde kullanilan eklentilerin giivenlik dogrulamas: yapilacaktir.|0[00]00|1|10]1|0|1] Debugging and Logging (V7), Data Protection (V8), Malicious Code (V10), Files and Resources (V12), API and Web Services (V13): Plugin security is crucial to prevent vulnerabilities. Analysis & Recommendations: Validate plugins before installation and use. Regularly update plugins to patch security vulnerabilities. Restrict plugin permissions to limit"
+        ],
+        "ground_truth":"Plugin security is important for preventing vulnerabilities because it ensures that plugins are validated before installation and use, are regularly updated to patch security vulnerabilities, and have restricted permissions to limit potential risks.",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":53,
+                "orig_elements":"eJy9V1tv2zYU\/isHftgSIHElK4mbYCjQtR1WYG2DXtKHwAho6VgmTFEaSSVxmv73fYeSY7dx0m4PQ1HFInm+c\/nOhTr\/MmDDFdtwoYvBCQ0OZ7NMTQ+y\/aNknO0fqKPR\/nQ0O9wvirxIDxVzluaDPRpUHFShgoLMl0Fe167QVgX28d2oZd2Giznrch6wMsqyY8j0y1e6CHOspkeHB1htam2DyJ2fp8ejYbZHo+NsOJ7s0d17ko2HSVw4SI4eWIkyWBn4pQ9ciS+n+prNh0blPPiKjYID50HX9iI3yvuLxtVTHEuGR2kyHuPATBsOy4aj7OkbcVP7C74OTuWBY3iCa3kQXbFlq8ro7\/mAbTkQ1Q1WLmxbTdlh\/TATrQHyIulrC6FCA0stgnbD2yR9kiTJbXqbTJLb+G9CH9h7WEhvlAWW8EI7Z9nuHr3kaVuW2pYEEPqr7n7vnI13T+6Egq4YAfbEdq5szuQ5b50Oyyjj53VrCpoyGUhzMaTnVpml155+ofec1xXUgVIg+RN6ZWe1ixDfYYeaGseXYllrVRvmtdM3XJDKcxylmasr2QgBYFju5f1QbF6jsaskX+R3xIJg7db2VrXVAcC2HNJofPtBC6V7VLLjG1q0xigN+ULFlYXRME9XVGoNLKMXpJbKGQV5baldli0iXymPV7qpXWtNSwtthAjwcJ5M0kkymcgfYQREvPtPRGAPBUGnru7zDKtPIz3wiglFstBMYKYwIoK4567NtTLR96YXw07r2W0E7jGaPvme5RW+pysd5hTmTH+G0LyzZkkzoxDHVzZ3yybguPU6IFIk9UsecQZPCFQPMKTXVdP1BDGqgS296XzdIH2jZ01tdB4Pj57e0ROJsViPoUcWkrqhJYeFlpSB1qm2TCX0wXlooKVq1FSbiiM1XpXoEHflkT5JbyMfsUC6GqHXBcySDDljp2c6V32cR4j+g5Q971LzRW2Dq43H6sEPKqrLfnk3rLzEQV+iOZRMjv9utUOY+9BIBYhJnSV7tKqI1SugTQf9OJHrmMNE3p8qv66pvDOcdt7\/\/vzFrlRgFV3sEqWRWupyhXg2kxy6ZLMcQockvkMCoF41X0Vj2gYq70uCx+N7PCJXUV0cDHeVtFBLdPkTCm1Ys9SRhApKuib2f1H0STxQ4qzo6mP8fVGtG2Bb6LAC0jbXRQw1+wbO8+PUSONqV9okyrHCfDubSQkABoNF6e8V9oDDVT8QE0kmzLpH3mueYlxVF3dRG1KW9KwUvKIF\/wk9T4Icidloe0VdOlCOVncitdW1uG7WnEsFSS2l6HOgKZ386062B9qk6utWiIJBO2dpgtU\/olOC8Z593WJqCH+p8P389HXc+MxTcO8udb+XgcBT00LhOmIb1G3MmMvWWHbSJcAf\/6AbnsG+mN5NxPYYdrPYbawPCsGLrsQqEM7X9dEXxUpK1KuQz9e23bMCnganwWon800RQtxgPGEP4QNLcKgAJyVUntO7NjQtsv70w9k+fZzfNZQqDsEwV4GUNHO5oSAPuECkPjNZRpawgk0b5+\/yl2IWIF6SgxUgpmzqq5in2LEofSOd13Oj0L9rd0K\/vd+AeRtvLM9uv1l8yT53upGQYedsJI9MHgfyODzE40h+jeXxVB7H8kiT+IzHUzn\/6rpBxsbQP+vNG0YOrrQxsbUp6Sn7dN8i2sHNEE3X7X63vWEb7QgRtpQjYiVC6Oq2nFNUf0I7jCAAKgXYLI7FzQAiX0q7MTJRdoz5tNwl1HISRcBjUbO3v4Zd0bHhzlo102u7YpW20IprL10p6ENq9MwuwWt6f3LGNltbtZAqJp07hpBuNCH1yq7eNah220YmZT\/CCw8A+u0zmA63A9aFQDV31qCfspHptQUiPXoAI+C7QzxBJVtGN+4t8o85OBptByvBo4\/+NT+DsuXGsjIJvN2gTym\/lEsOqgV9FDLA9hp0\/gR6lm4FR3dQM2zjouq0jqOUw9aLD2Xjnwm7kSPbgz6kgwdS617Uv0mDxyDlo2f1bfRWObkGXvJH+bb5OvkH2tIQLQ==",
+                "is_continuation":true,
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"What is the role of Identity Verification in ensuring standard security practices?",
+        "contexts":[
+            "14Sistem, kullamcinin katiima listesinden katihma segerek, o katilimciya ait detay bilgilerini g\u00e9rmesini saglayacaktir.|1|11|0]01|1]1|0|0|1| Identity Verification (V2), Session Management (V3), Access Controls (V4), Debugging and Logging (V7), Data Protection (V8), Communication (V9), Files and Resources (V12): Standard security practices apply for access control and data protection."
+        ],
+        "ground_truth":"The answer to given question is not present in context",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":51,
+                "orig_elements":"eJxtkk2L2zAQhv+K8GkXEmPFH4n3VrYUCt0SmpJLGsxYnjhDbMlIcrtms\/+9I2dDL8UHa56Zd76kw1uEHfaofUVN9CSiuoBSbpLVslgVzTJrinxZJ6d8meWyTiSk6yzNo4WIevTQgAfWvEXKGNuQBo9utjuYzOirM1J79kxWaVqy5gP\/ocafmcoiz5gOhrQPusNBljLmwHWZx9lxIe52maZxMtspe\/L\/gJuCSeQm57EPk2zpFbvdAAqjd3Y06FF5MrpSHThXDdbUHJbERS6TDQecqEM\/DThrty9hSHIVvnoLyuO8HG9HjOZBdDtCO097iFC3USg9MKn02NdomecyVPWsD0qZ7Sg0thCXseugV6RJiwt4oh5EF3yOdIM3dmbmsEWLl4UwM+qINRMIIC94FJhETV3LLVvOJNpfY5JgafuQhYSDlncNCi6ebHyVVymvyTHh\/5EP\/Mmr+MrFPPlJ7DnFiRSE3YiH\/epxIXboXLBeQPNM4XWwI2XHJ6XYJZ6N9tZ0jmnG9DPWY9uSbgXoRnwzt\/PDfh18\/EbE1pqP5TPdMH02fT\/qf0VLZl94GDdn+IHOjJYrsUeuHp\/EzjMG2\/BS1GhD00O4FAohMAzdJE7GCrg1p27NzZnCC+XYe\/U4XN79jr+DtVz\/N\/4Md\/R+\/Av+FPqT",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"What is the role of the MATTER iterative framework in the annotation process for implicit security requirements classification?",
+        "contexts":[
+            "3.3 Annotation Methodology (MATTER Cycle) & Dataset Curation\n\nThe annotation process followed the MATTER development cycle, an estab- lished iterative framework for corpus annotation (Pustejovsky and Stubbs, 2012). Crucially, the annotation task was defined as a multi-label text classifi- cation problem. It consists of the phases Model, Annotate, Train, Test, Eval- uate, and Revise. The annotation guidelines were developed and iteratively refined to ensure consistency and clarity."
+        ],
+        "ground_truth":"The MATTER iterative framework plays a role in the annotation process for implicit security requirements classification by providing an established iterative framework for corpus annotation. It consists of phases such as Model, Annotate, Train, Test, Evaluate, and Revise, ensuring consistency and clarity through the development and refinement of annotation guidelines.",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":15,
+                "orig_elements":"eJy1U01v2zAM\/SuED0MLxIY\/k3i3outhhwxFm1tRBLJMJ1oUyZDkpEbR\/z5KSbugK7Bh2E42KX68x0c+PEcocYfKrUQbfYZo3hYdb+siruqsjMsS07iumirm01nazMqixqqLJhDt0LGWOUY5zxHX2rRCMYc22JKNenCrDYr1xpEnL4qack7ug2jdhrzZtCrJ22uhnM97eMjqOikmkFdFMn+cwJs9z5I62GleJ+VHjpBBnsiO1uHOM7kVTyjve8YxeqGHFh1yJ7RaccmsXfVGNxSWJvM8zahJ1AmJbuwx5N4uPElhV\/jkDOMOw3CcGTAKRNR6YOvA9iFCtY586548KzXsGjSeXeW7Osr3mUVSwJVS2jEPARboNrrVUq9HuFhcLZc3d3A9comX8Am+0FgtOrgeTIj2HV+BLYWTgc973dqyTrFOs7hi0zwuuymPWVd0cc27lKUZn9fd7D\/qNvM6Fdk8yY66BbvK8qQIdlZUXqZfHMeMv9OtnlfVv5BNCrUNnufIOmZooKrFJ88zz88UvB0I4He9t9sRmGrh3g1NY33ZwUgfwIXDpP8ZRWuV02hJRHkU7F31cnpW3Qf\/aa3f7dpyg4TwbddoYBythU5LqQ\/YgqP30861uEepe79HwP3+TSgTkJA2MUhhNxROUPwe7hE6w3Z40GZLtQxwbQjheaeLj2dE50nwLxO4NgMXTMpxEjCcZdLCb+HALAHqhKKm9MtgN0gnYskalODJQdgA0YkY+Bu3hs4gga\/0qJUV1lnQXSjfb+iKLCx0i3LyenxEcGmYUPQhlhO42TMZwxAePOI73AuLCbyb4XoQVIWQWTigwde5eaDqbEJyBHMi4DSgsgPFnnCh4sehEAkj3Jicn\/U3Zo4Vll7Dl8cfis3JJg==",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"Why is identity verification important in the context of managing plaintiff information?",
+        "contexts":[
+            "7|Sistem, kullanicinin dava dosyasina bir veya birden fazla davac tamimlamasim saglayacaktir. 1|1]1]1\/01]01]00|1| Identity verification (V2), session management (V3), access control (V4), verification, and validation (V5), logging (V7), secure communication (V9), and file and resource management (V12) are all relevant.\n\nAnalysis & Recommendations: Validation is critical for plaintiff information, especially if it involves personal data. Protect against Cross-Site Scripting (XSS) and other injection attacks."
+        ],
+        "ground_truth":"The answer to given question is not present in context",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":50,
+                "orig_elements":"eJy1UsGO00AM\/RUrB0SlJiRN2jR7Q5w4gFYUIaSqqtyJkw47mYlmJmXDln\/Hk261gFYckFbtIX72ex7bb\/sQkaKOtN\/LOrqBqKIiW1Ep4qqqmrjI1xRj2oj4UFNalPWSMM+iOUQdeazRI3MeImGMraVGT26KFY5m8PsjyfboGVnkecWcR\/i7rP2R0Wy1LBjtjdQ+8LbbrFok2RzKapVkuzlc4yrPknSKi3SZ5M8AFwYjkRudpy5McivvSW16FBT95ERNnoSXRu+FQuf2vTUHLkuTdVGUKy5opCI\/9jRxbz+EIaXb0723KDxNy\/F2oGgaRLcDttO024h0G4XWPSN7PXQHsowv09DVMz8wy\/NGhofN4W5QTJdCaqmhxhNCbdyIjtcHB2nhROP0UZOGBn8onIoEeOxkp7Djyg4ctrxMFHjnpU0gO2c7\/r1Js134p+fsDO9ZwEs\/sqCVjRQYZofXXxazOThyLkQdan5zuD4nck6gEJwCYbS3RjFYMPi7AJfoGk6oZH0VXHKJMm0rdctROcmLwRKrdN2gnzpXsws7LHr6sOTMYAX9+Y5sMQNkOirFFYpOqH0Stn49zke0ljVP9Dksl7f8t4cPa0xJ5HWcl6s6LppFHVdNRfEypYwO5ZKqvHpRD6+CRddJcfUwx1nKTr14Nl\/kSfEccuH8p4uz9aJ8aRe\/1ahGJx28gk8Uzkv6YgN3A1+ePMEFwkrPl1fQGAu9Ql6PbBqQmuPu0UnkehKSzzyC5JTn7MmoEznoyTrDvSBcJ4Fba8LUgC3rOA\/vrHEu3khPsOFGvZ+s93WzmU22Mv5IlsW+XTYF6D2KO\/cvD+1+AY4omjQ=",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How are non-functional requirements (NFRs) categorized, and what classes do they include?",
+        "contexts":[
+            "Software requirements (SR) classification supports effective project manage- ment by enabling prioritization and risk assessment (Batool et al., 2025). The task typically involves distinguishing functional requirements (FRs) from non- functional requirements (NFRs) and further categorizing NFRs into classes such as security, usability, and performance. Security requirements may ap- pear as explicit system behaviors or as quality attributes addressing confiden- tiality, integrity, and availability\u2014the"
+        ],
+        "ground_truth":"Non-functional requirements (NFRs) are categorized into classes such as security, usability, and performance.",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":5,
+                "orig_elements":"eJx1U8Fu2zAM\/RXCpxaIA9t1snm37bBbi6LpLSsC2qZjbrLkSnJat+i\/j1LSYB22ky2KfHzvkdq+JqRoIO133CZfIKk+YVMWJaYZrTAt12WdVuvuU5qviyJvCOsyq5IFJAN5bNGj1LwmjTG2ZY2eXDwrnM3kdz3xvvcSKa6uKqk5hZ+49b1E8\/WqlOhoWPtQt93mVbVcLWBd5cvsYQHv5zzLP58C+dVqWf4rcqyRSOJm52kIWm75mdRmxIaSN7loyVPj2ehdo9C53WhNLWnZsqqyspCEjhX5eaRYe3sdZLLb0bO32HiK9ng7URKl6P2E+6h3m5DeJ6H1KJGdnoaarMRXoamX8lC4MZ1\/Qktg6XFiGy13cLG5u4TIhjtuMJADN42jsXJJXRf4HgiE6U\/5hQG1dEghFEM9A2msFeu9JLCx7PnlCIG6BcvuFwgwORfTL76hN0YBeUC1XECRFavLJdz3BB4lVYQLA6VmYH0w6kAOWnZe0Cd2fWjSTTrah+ovEd\/v3CV01gygjU7\/n3cTEwO5brK+JwsimfbC\/CXgh2tp7s3RESHgpqYXDeComUTevIDJYc0q\/gackWxnrNjS0BI2p6yPXQecAcdUUtEGLHoeFTfs4bgnUFOPB3HPgYn3jxMGfEDvLdeTrDRg21qxMXBsjO64JVHpGY88hDHt7ZkSHpDVieSPqcjyUpSeFYCAYnuMP\/Uc5MlOyG6QTK12cdMiTMudbMSkPIgfbqSGu1nGLF9HcUZykFxuCC6+atksuDY9DgO2f0w4r+KEOdgqdoc1wKFmmagwacwQnAiPFgLFlg6kzBiXxXQyg2CYpLYkKyY5YrTIGNFiWIqzotSSEoz2o+vnbTgLN4KxDE\/n\/YXdoA1QB7oPT+Tt4TfBV4\/x",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How do API and Web Services ensure secure file downloads and maintain data integrity?",
+        "contexts":[
+            "16|Sistem, intranet ve internet agindaki kullanicilarin egitim plan duyurusunu indirmesini saglayacaktir.|1|11|0]01|1]1|0|1|1| Identity Verification (V2), Session Management (V3), Access Controls (V4), Debugging and Logging (V7), Data Protection (V8), Communication (V9), Files and Resources (V12): Standard practices for data retrieval. API and Web Services (V13): Securely provide files for download and ensure integrity. Analysis & Recommendations: Validate user authorization before allowing downloads."
+        ],
+        "ground_truth":"API and Web Services securely provide files for download and ensure integrity by following standard practices for data retrieval.",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":51,
+                "orig_elements":"eJxtU01v2kAQ\/SsjH6pEAgsbDCG3KFWlSE2FSkUPCKH17mBGrHet\/SChIf+9s4a0PfTk2Tf73ryZHa\/fMtTYoglbUtk9ZJXCcj4b3Q2rYjcZTpSsh3U1L4ZiXO4mdV1Md1WdDSBrMQglgmDOWyatdYqMCOj7sxYnG8N2j9TsAyPleDxnzhV+IRX2jBbTasJoZ8mExFuvi3mZzwZQjMu7vNwM4A9QzSb5qAfG82k++i9yITGU+ZMP2KZuFvSKetkJidk7JxQGlIGs2UotvN92ztZ8bZTPiqIq+cKONIZThz138ZwaJb\/F1+CEDNgPKLiIWd+MaaJo+o7XGZomS6U7RrYmtjU6xqsiVQ3MT8xiel5ScjYA7tgJgwGOmGJ0KRYNGSUOBIeoWZ0kaeHIADYUqIWOMVDxFF300UTmKXItejIEXjQ8XCHFIZDLz8W5KM6jzYi\/Gw7S+QxPil+ZwglW6GhHUqRBwM2qvB3AEr1Pp2dhuIG0DpwYc+JBSk7Bo2XDVntGJ4x+xjo27LYBYRR8tZf4ZjVLOV4KWDh7nTSjd4w+2raN5m\/ROWNfeNi+V\/iO3kbHlThTlLf3sAwMC6egS4OnlNlZB2nhwGFwhEehc3hYPPX8n1hzC+5IV4lxkkAZHeoTS9gjKYRdX66XsS9GW6F6LhrP9\/pXaByPh1WN0CdPHj6xMcnGkb0k3\/4eVkITHxCiRwcihr119OvSVY0sjiC0ti9pHh9lfA5PbXf5y0DuUR58bD0kI8RPKzR4avjnYRsegv1wlPz+Yyvt3MdqfhPOcc0j\/kir9b75DWvfQAE=",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"What is the significance of gathering security requirements in the software development process?",
+        "contexts":[
+            "Alam JA, Ayman M, Rehman GA, Sarlan AB, et al. (2025) Security require- ments engineering: A review and analysis. Computers 14(10):429\n\nAndrade R, Torres J, Ortiz-Garc\u00b4es I, Mi\u02dcno J, Almeida L (2023) An exploratory study gathering security requirements for the software development process. Electronics 12(17):3594"
+        ],
+        "ground_truth":"The answer to given question is not present in context",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":39,
+                "orig_elements":"eJy1k8FunDAQhl9lxCkrAcKAWdgbraooUaJGSW\/baOW1Z3ctgU1tk4RWffcOpK2iNKdKOSAx\/8zPeMYf2x8RdtijCTutog1EsqplU3CRsFKqpMwPMtln2T5ZC8GrgimuDlkUQ9RjEEoEQZ4fkbTWKW1EQL\/EnZjsGHYn1MdTICUvioY8v+VHrcKJVFbxktTBahNm33bLmjrNY+CsTuv7GP7GNUv5ErOCp+VbwuIgJfKTD9jPk9zoJ+zuBiEx+kkJhQFl0NbsZCe83w3O7qksS2teFhUVHHSHYRpw8d5cz0Nqv8On4IQMuCwnuBGjZRBzHMVxmXYboTlGc+uBlJ0Z+z060otm7hrIPzvbTvRw2cbQTr0wcB3DLZ7mt3PS7oSjL0L7IQYMILoUzvIs5yu4Qzk6HSZw+G3UDhOYb8oDddQG0Wlz3EBL2QeNjyCMokd0k9c+hY+2H8aAzgMrz1i22pR5M5\/9z4hX2oeLeVV0zNcQMLEuUa1ZkjclQSA4QcAJglpUrEGZV6x+fwhqnjYvIKjqLM1e3vk\/wrPjfyHg\/P0hMMoJhXAbwxfrHHq4jOGzC\/p7ci6c\/DrSj1aSehHDtaYoV9LYuabtetRKwNUCRrGC1gA+DZ11Ilg3gQ+jmuAowmlhAvwrbp6pOVgHVAHeHsKjcAgKH7Czw5wF2oRET9x86mhDzhotiZz8jK1Xm4I35dvo3P8CraVLkQ==",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"Why are standardized evaluation frameworks important for ensuring accurate classification of security requirements?",
+        "contexts":[
+            "The use of automated models in security highlights both their potential and the risks they can introduce. Ensuring accurate and reliable classification of security requirements requires evaluation against high-quality, domain-specific benchmarks (Jeong, 2024). This underscores the need for realistic datasets and standardized evaluation frameworks tailored to SRE."
+        ],
+        "ground_truth":"Standardized evaluation frameworks are important for ensuring accurate classification of security requirements because they provide a structured approach to evaluate models against high-quality, domain-specific benchmarks, ensuring reliability and accuracy.",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":6,
+                "orig_elements":"eJxtUstu3DAM\/BXCpxbYNdaPuOvecynQImj2tggMWqJtobLkSHSSbZB\/L+U8kEMvhjXiDDlDnZ8zsjST487o7Dtk1aEp2hLrfUHHal83mvbHQ9Xv674v1XGoazoW2Q6ymRg1MgrnOVPeB20cMsXtbPHiV+4mMuPEgpRV1QrnDX40midBi+aqFnTxxnHinc9F2+ZXOyiqss3rux18AHV7eAOKqsmr\/yKvJIGyeIlMc3JzY57I3i6oKHuRC01Mio13nbIYY7cE30vZIW+P39pGCgZjiS8Lbdybn8moiR09cUDFtAXEYaVsM+PGFcfN8TkjN2ap9SJI59a5pyB4k5qy0BPxNBGskcAPgCv7WdLSMHtNNoJxEEmtwfAFJgnNpuAi9J4nYIkxwOJZlmTQAjqdMAgm\/onp7wIKnUhw8HpVlMO1iyLlRkAlmtJn4wSyBntLsHk3g1GYokjzfPQOdL+asL2H+H6IQA9o19diHNG4yNuQ+\/sVrbB2oMWNcfu4kEq60JNT04xB5vvyg7wbd1AeyvprDqfJRFidphCVT9rJiSNJYvBBOopgZFFITyuSDJEmjyxflBf2V+o+DTMEnOnRpzaMxoqeJOPh9vd1njb0vshfGCQE80CntImXu3\/I9\/pE",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"At which conference was the study 'How do transformers learn implicit reasoning?' by Ye J, Yao Z, Huang Z, Pan L, Liu J, Bai Y, Xin A, Weichuan L, Che X, Hou L, et al. (2025) presented?",
+        "contexts":[
+            "Ye J, Yao Z, Huang Z, Pan L, Liu J, Bai Y, Xin A, Weichuan L, Che X, Hou L, et al. (2025) How do transformers learn implicit reasoning? In: The Thirty-ninth Annual Conference on Neural Information Processing Systems\n\nZadenoori MA, Dabrowski J, Alhoshan W, Zhao L, Ferrari A (2025) Large language models (llms) for requirements engineering (re): A systematic lit- erature review. arXiv preprint arXiv:250911446"
+        ],
+        "ground_truth":"The study 'How do transformers learn implicit reasoning?' by Ye J, Yao Z, Huang Z, Pan L, Liu J, Bai Y, Xin A, Weichuan L, Che X, Hou L, et al. (2025) was presented at The Thirty-ninth Annual Conference on Neural Information Processing Systems.",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":43,
+                "orig_elements":"eJy1kl9r2zAUxb\/KxU8t2Mbyvzh5GVnHWEc6Ai00bShBtq9jMVvyJLlpKPvuu3IWGFufBn3zPb7nSvfot331sMMepd2J2luAx8qiYWmTBjFncZBGGQ94PcOg5k3ZxDHDlNWeD16PltfccvK8epVSuhaSWzRT3fGjGu2uRbFvLSlxkszJ81s+iNq2pLI8S0kdlJDW+bZbNi\/CzIeMzcPsyYdznbM0ZFPNkixM3xBODlI8czQWe7fJWrxgdzvwCr2f9KNGi5UVSu6qjhuzG7QqqS0KizSJEmpoRIf2OODkXd+4JYXZ4YvVvLI4hWP1iN60iNyPfD9tu\/VQ7j139EDKTo59iZr0NHGnWvI75wPCVx8euIJHH76M5Hcfay5h5cNKjO7vRy7gwYeNkLD04R5F1Y6nhqsWYUM+NboKLfAuhIs4irNLEg9QK6BbStMo3aM20CHXEkQ\/dKISFjRyo6SQ+w9wLRdwR9PuWqHtMSDRtrCUcuQdXCnZoEZZISgJ33DUJF5LN5S74GCtVYXG0CC4nWI2LoxzZith7LXLnvb+m6oim1VJzjCIozIK0iYvg7LGWVDlPC+LvCjzYv6uVBUOmiKMzlRRPWNJmP8J0T\/CyfGfVCVJ8d5QPfIaJYUk4IaA+cRLrQ7mu3AsLbtWmZbouffhsSXsiJvPqDWn5uUZnRXXe4TzudCrGjsDF13Xm0ugZydwfoxCTw9pgG4kJKJ2z3+h8XJBg065EB0VdMIGgJrbUSMZnwUeQuB6I55h0DiQzZ7KRZxFc8bSNH+bnqdfCdVoZA==",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"Why is implicit security requirement elicitation important in addressing security vulnerabilities?",
+        "contexts":[
+            "Beyond the dataset construction, this study highlights the complexity of implicit security requirement elicitation. A significant portion of security vul- nerabilities stems not from missing explicit security constraints (e.g., \u201cThe system shall encrypt passwords\u201d), but from functional requirements that im- plicitly demand robust security controls. Our analysis of the ASRD reveals that functional descriptions of business logic often conceal a dense network of security dependencies. A representative example"
+        ],
+        "ground_truth":"Implicit security requirement elicitation is important in addressing security vulnerabilities because a significant portion of security vulnerabilities stems not from missing explicit security constraints but from functional requirements that implicitly demand robust security controls.",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":34,
+                "orig_elements":"eJxtUsFu2zAM\/RXCpw6IjdhOvXi3DruuK9oCO2RFoEiMTUyWPElOYhT991FKVrTbjnrUI9975OY5Q40DmrAllX2CDNe1VAKbvGlkm6\/qXZmvy\/V1rlBWy2qlmrJdZQvIBgxCiSCY85xJa50iIwL69NZitlPY9khdHxip6rplzgU+kgo9o2VzvWJ0tGRC5G02ZdsW1QLK66os6qcFvAIf11WxSkBZN0X9X+RMYijzsw84RDd3dEL9MAqJ2QsXFAaUgazZSi28347O7vjbsmjb5brhD3vSGOYRE\/fuazRKfoun4IQMmAIKbsIsmTHdJLrkeJOh6bI4emRka6Zhh47xehWnBuZH5mecrVEQeoSYnMcA0hrPDZOmBVfIgw+TmqHn5HRMz6f\/0g6jxhOFGeweiB8kKYBHObkIOvw1kUt7BEw1EVsWcAOeOkN7koJLo3URjj1eqYdJ52DQiR1pCoRRAQ4ejA2wd3aAgbwn0wGe\/p56Vi\/i+uAKi65YwI+pWpbykSWflwC+F1oDGunmkQVw6ke+FZ\/+qQ8L2E2XMfvJpBiEfusm2heBHedwnq5nUDgIzpF3N\/n3aoKz2hfwbXIguNHsOU\/2GhO8ebj\/wo0PKPSl55uBCr10NMZXInBjMug9aNuRZCSgif0ls0Hwd+ORMwts5ee7MBWOaLgsOccYvsPRoWcfvI4DcoQi7vFs2LJKLk6aTbLO+7PpHNISb20BFVz9E+eROE0pnOND4OSiM46UL6nnSOwBHfBNS5Z+CbiA7z3fdDzYP3d9y+wk5zHe5cvTb38YXfg=",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"What factors influence inter-coder agreement in manual annotations?",
+        "contexts":[
+            "Bayerl PS, Paul KI (2011) What determines inter-coder agreement in man- ual annotations? a meta-analytic investigation. Computational Linguistics 37(4):699\u2013725\n\nBolanos F, Salatino A, Osborne F, Motta E (2024) Artificial intelligence for lit- erature reviews: Opportunities and challenges. Artificial Intelligence Review 57(10):259"
+        ],
+        "ground_truth":"Inter-coder agreement in manual annotations is determined by factors investigated in the study by Bayerl PS and Paul KI (2011), as mentioned in the context.",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":39,
+                "orig_elements":"eJy1Uk1r3DAQ\/SuDT1lYL\/7+2EtJSwuhCVmaQw\/bsIzlsVeglYwkJ1lK\/3tHTgOhzamQ47yZJ7038\/Y\/I1J0Iu0Pso+2ELVVL3KBeVwnaR8XQ5rEmNRtXJViKPMmHZIui9YQnchjjx6Z8zMSxtheavTkllrh2cz+cCQ5Hj0jWZ63zPkDP8reHxlNq7JgdDJS+8Db79O22TDUNMWmuV\/DS93WzaZd6jQv3wSeGYxE7uw8nYKTnXwidTehoOgXN3ryJLw0+iAUOneYrOl4LNk0TbuoG6Qif55o4e5ugknpDvTkLQpPy3K8nSlajOhxxnFxu49Ij1H4emLkoOdTR5bxvA2\/euYH5kc8k1Wwu1vDDmcFX6\/gIkvSdAXfj+ghiLMnqckBL4NsLExPFnC0tByHUTihjmFGBai18RisuA+AEC4Ro0Z19lLw4AM5L8elv4FP5jTNz8PMvJasW3JbOMjri2K1rdr2x8xC8jorg7OXBVzz1FVYJJv4OyJd1jVtmw\/xgFUWF3kpYuySNu6bLhmSpqzSvnrXiGScAD548RIRrtOEI1G+jsS\/yDPnP0NSV0Xx7iExzDEOvqzhDhUfTRu4XMOt64zVFOAb4z3C55CdrFjBpfVykELyaUNslJIjaUEwGAtK+hjIop8tgaUHSY9uC7fTZKyftfSSs4a6B3FEpVgduc3r965ev\/dtoUNZX6TJapuV7dtRuf8NS1xTCQ==",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"What is the role of the ASRD dataset in evaluating the effectiveness of automated security requirements classification methods?",
+        "contexts":[
+            "This work examined the feasibility of automated security requirements classi- fication under realistic conditions, where requirements are implicit, unevenly distributed across categories, and drawn from industrial settings rather than curated benchmarks. By introducing ASRD and evaluating supervised and prompt-based methods on a shared benchmark, this work enables direct com- parison across approaches. The results show that few-shot prompting is suit- able when labeled data is limited, while fine-tuned",
+            "The remainder of this paper is organized as follows. Section 2 reviews re- lated work on NLP-based requirements classification, security frameworks, and existing security datasets. Section 3 describes the curation and expert anno- tation of the ASRD and summarizes its key characteristics. Section 4 outlines the experimental setup and classification methods, including fine-tuned BERT models and prompt-based approaches. Section 5 reports the experimental re- sults. Section 6 discusses the findings and their"
+        ],
+        "ground_truth":"The answer to given question is not present in context",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":36,
+                "orig_elements":"eJxtU8Fu2zAM\/RXC5ziYkziNd9uw64Zi7S0oAlpiYqKy5ElU0qDov49yu2IFetQjH8n3SO2fK3I0kpcD2+orVP2m2Zi+vamPXUf1psOmxqYx9W63Irs9ble466sFVCMJWhRUznNlQoiWPQql+e3wGrIcBuLTIIqs1utOOW\/wha0MijbbdqPoFNhL4e33TbdbamKzajfLm4cFvANt0y6bGWjW7bL9FHklKVSlaxIai5pbfiJ3N6Gh6kUDloSMcPAH4zClwxRDr2lflt2ua2404ciO5DrRzL39WYRyOtCTRDRCs0ESM1WzGH\/KeJoV7yvyp6q0nhQ5+Dz2FBVfb0tXUX5h3g+c4BLiI9ATjuzJggwER8LEPTuWK4QjYJYwqpMWEpkcCxrpT+Y4bynBPDnXcGSDRQpkbylqDjpOwgZM8JZLJC3gMlCkj3xUgMfJsWFZKJnO5N0VrJIj97k0RhND0k46xSlEJi2E3oKNePFwjGEE9jaXfHQ6pQj7U4KIqiaqJPSgg88SevJmGDE+piV8vypNYrDZaD58u\/v9Yy5LZ3QZSw1IeaJ45lRm0IiuZ5yk7rEAenBDsAlUMUIaVMZ\/5Rfa9t1cj72jpIqiLlvtGGuYMHIqzFdlOGlpNAPpWPdDMShlp96kIVyKANGlXGp9ydsMZTitnzJLDaV8cdaDw15\/jzqjH6HEHY+ssovveki6Ik+15LLoMVhyr+b3apj6pE3UqRqsK8VjiXy68GU5tn83+QujGstnui839fLwF4XtRuE=",
+                "filename":"template.pdf"
+            },
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":4,
+                "orig_elements":"eJxtUl1v2zAM\/CuEn+OgtvPlvW3Y3rYiaPsWFIEi0zZRWfIkumlW9L+PUrI2A\/pk66Qj747cvWZocEDLe2qyL5CVuLlBXRzyer1c5YuqanO1Ktq8VKWu2rpetYc6m0E2IKtGsRLOa6ad8w1ZxRjS2aiTm3jfI3U9C1JWVS2cC3ykhntBi9VyIejoyHLk7XZFvZ5vZlAsy2JePc7gHVhvynmZgKJazhefImeSQFk4BcYhutnSC5r7UWnM3uSiQUbN5OxeGxXCfvTuIM9u5vWm3kQtLRnk04iJu\/0VjVLY4wt7pRlTQOwnzJIZ202qS453Gdoui61HQfZ2Gg7oBV\/Epiz0SHzoETwOimyDHlwL3FOAUY1ykh\/nO2XpDzagArTOGHcMc7g\/64VSqM+ExyDfHIwk3cDR+SeQu9uf2\/yggiAef0\/k0zgDJIvUklaxwgwC6skTn6D1asBIDjNQtgF8ocBku48XcbAB+ap\/BQ0G7emAQXQjyMNU9lJAPLD8WpcDn\/HkD+Hr\/d339CZMw6C8+AtAIu4JT6B7lWL1sb2+arYAWRND9tIrladoShnRyNOYKv7vD2Qhe9eIJbLaTE3000qJnCcryXz7cfcAg2vQhESWyQ8jX2JToxyV7vFKw1LCHJ3nTyTECYTJXMezgoaCnkK4SJbOUcG5lwAkIx5Gc9EqIo\/EPSjQbshlBWKWzyiPlTmFuAvtu\/bo40NwmpIsI2NH12rXolANMbG4mv82+Fb5c+WHuIJvj38B75hUpQ==",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"What requirements are related to ensuring data integrity during transmission?",
+        "contexts":[
+            "- Covers requirements related to secure communication protocols, protecting against network attacks, and ensuring data integrity during transmission (e.g., ASVS 9.0). V10, Zararh Kod (Malicious Code) - Covers requirements related to preventing and mitigating the risk of malicious code injection, such as cross-site scripting (XSS) and SQL injection (e.g., ASVS 10.0). V12, Dosya ve Kaynaklar (Files and Resources) - Covers requirements related to secure file handling, access control to files and resources, and"
+        ],
+        "ground_truth":"Requirements related to ensuring data integrity during transmission are covered under secure communication protocols, as mentioned in ASVS 9.0.",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":48,
+                "orig_elements":"eJyNlW1v2zYQgP\/KQZ8cQDbkt8TZtyDpsCLtkNVFNiwtDJo6S5wlUiMpp2rR\/747SlbkdBv8yeaJ9\/LcG5++RVhgidpvVBr9BNEC0wSnl\/PxNp1fjhfJbDne7nY4TuSW5LNEXifbKIaoRC9S4QXpfIukMTZVWnh04VyIxtR+k6PKck+S2Xx+TTqd+FmlPifp9HK5IGlllPas9\/Q0vZ5NLmOY0c\/0cwzH8zRJlpMkCBbJapL8m6TVIUnkGuexZJYH9QWLdSUkRt\/pQ4oepVdGb2QhnNtU1mzpWjJZXS0XU7qwUwX6psKg+\/CeMZXb4BdvhfQY0uNtjVFA0VktssD7FKHOInZdkWSj63KLluSLFXv1pM+aj8T6xipVwr3R3pqiQKtgdCMlOge3rcxdwJj+H9A6sPh3rWyoDR8Kym4K3oCofW6s+ioYJQbSQiiFJtd8NQahU6gsHuigdAa1PiqQumi9kRWLztSWTjDCSTaJ4Wb9uIbFJLmYwOMyhk\/RnclsXYhSxPARS\/WV2wQOCGu1s6FnPkUweiSInZJdLLcFCk1O2yDeaGmbir+cQaV0VXs4iEKlnTFqFRahliYNNrndwJED38Ozm+CEYhVVriSRm67KYHbgUDu6TlEH5SHqskWl9rrDylA9S+Xg3qrW1o5Ks\/bGUnC3L\/ab\/wLZGdt7ppwHZ8Jzkj3UjkWDKJuYaGVRMxXssRlULwA5lLVFcOSexIyBfSb5\/mnJLluOqxh+Ya83jdpz0bhS96JRHkZ3uK2zjJ2x9Xcm\/D+jJF0cRatAfDQFijomBrSWgHMyV\/TVHrSc0pSPMpQIqCP2TOFza+osh5SDObkxhLlqYVYxcGPRpNiaUEZ3TPbQV\/aM2E8qwOEpDTTG3A2DFhkW4iXHMWyF3NeVa8GCKUu7Q4dwqVeUVK\/mZtXGTUvuLa0Q5WjKR7emLGvdzcb56ZZDtRCrkbQY4mF\/iUwoTWAa\/bOxewL1FHEXL7V8bfsupN2KmVW+gbSVhixQr7vXub9uGaa0TP8UVtic0p\/C6L1gXlPzjkrxDI5BI3A4Jc1fJsLR5whWuT23dNmbpfFGCvOvY0lcLXMQJLfGuTEVjEZB8lyyidEf6\/VFsLv+7d2L1gnINOlIZjTbxjXHWdCCJsPC6Gda8y7Y+HBcgueXh9+IYee3C1W265vv7Xrr\/Yr9YUBSciBpvBuuBnsVxbGGpySzjmROgoe3zPE7bmGN9qBc936QmK338v+hcRVK3tY9DsfyTIquUwxeunBLxQXoP7wMCj8nzHFc+q\/eox8XeWjKk41xCjlnSH5Uj2\/vr8JawVv7I7+d3z\/\/A00g9XA=",
+                "is_continuation":true,
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How were annotation decisions reviewed after the initial annotation process?",
+        "contexts":[
+            "(1) original text and annotations were recoverable, (2) clear documenta- tion was maintained, (3) annotation quality was consistently high. The annotation template included fields for the software requirement text, se- lected OWASP labels, and annotator comments or questions. All versions of the guideline and annotation documents were preserved to track revi- sions based on annotator feedback. For the annotation process, a sample corpus from the requirement set has been selected by inter agreement of SMEs."
+        ],
+        "ground_truth":"The answer to given question is not present in context",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":16,
+                "orig_elements":"eJx1VMGO2zYQ\/ZWBTlnANmJrdxP3toe0KNCgC2zRHhaBQZEjiyhFKiRlrxHk3\/uGktfOIj3IsEbDmXlv3uPzt4od9+zzzprqF6rqtdKbmrfLdl3z8nZbq+WWtVo2d7xptd7y5rauFlT1nJVRWeHMt0qHEI31KnMq706dwph3Hdt9lxHZ1PUWZ+bw0ZrcIbq+v7tFdAjWZzn3\/Lypt6sPC9rc1avbLws6v3\/8sF3V8r5e13er+58EphOIVOmUMveC5NG+sHsalObqOz4YzqyzDX6nnUppN8TQIO39alvff7xDQmsd59PA5ezjZwFp045fclQ6cyEnx5GrAsTvR7UvaJ8r9vtKWg+I7PzYNxwLOumacV5OvlvfUIh2D5IcSZCUN3h8yEqGSnTkyBRZhwNH1The0LvNDWnHKpIJepQdqSVJMh1Vol6BNjxskFnfXNWir6NyNp9KmkZtC0p8difqsI8V\/dXxdTboGhxWR9ZrNxo21Fp2JlEbImXkptDmoyrTfR1tLGopGBaUeEmOhR7685+Hp0dyqmGXFtfoUEWHXg4lUIDhOBXEK3pwjoA2FfyhLc32ozXsAOsNQa8czEwNkRPHAxrnQLKifzHewS5pqtaohE84dhmiZTYN8lb06wzsqjrUoDnJ4JQU+GDMHIcRJMTQl+Rr8IkzdSC3YfZ4mRloTqAwcyS1jzwlAtTT509p4ry1MeUz4DPeh8sMv71Cf51+IvXh6e8ntNFjlK0W+XK6DGD4wC4MIoRjJ9yw0t0VcEm0fknGHqyBNNxcw2LPZtrwD5CB48yM35PNdLS5wzQs6+sDGkxbhkCcC0dJkiLWJ\/hDT2oGn2iG8taXjxP2t2AhHsCFEFqhbSpis4VFLqtZlLiwSLhzaPRmThWlKK\/5zGRibzEgMoWHQDaRcimUb01EZgfPeHg0LkQzohY+FpUZm\/SY0ltNGNY2TUr9JIzOfer3P3VEKnbjF9WLJwHkQvdkBzChlSxuWlIuv0XLxrYtR+ExDCBA+FN9mGl93SPEyS08eXZArwwLkAGCGuW\/NIHdD7aQIvXLLqdVLEnq8wus7ucbR\/IjqyT\/Z69beLULFla4LAVahghwKeWzT2e+XouIaptzglioHeHsiwuEmCiilLsFjf6PwZXcrecr+A\/cWr\/LVf79y3+RJVLf",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How did few-shot prompting affect the performance of the Gemma 4b and Gemma 27b models?",
+        "contexts":[
+            "Contrary to expectations, larger models did not consistently gain more from few-shot prompting. In fact, the smaller Gemma 4b model saw its F1- score on class V5 jump from 0.709 to 0.814. By contrast, the larger Gemma 27b model\u2019s performance on the same task decreased from 0.946 to 0.903. This shows that for this task, a larger model did not guarantee a greater benefit from few-shot examples."
+        ],
+        "ground_truth":"Few-shot prompting improved the performance of the Gemma 4b model, increasing its F1-score on class V5 from 0.709 to 0.814. However, it decreased the performance of the Gemma 27b model, reducing its F1-score on the same task from 0.946 to 0.903.",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":27,
+                "orig_elements":"eJxtUU2PmzAQ\/SsjnwkCQkLosZVa9dBqpa56SVdogAlxi21kD03Qav97xyS7Uqve4Hne18zxWdFIhiw3ulfvQOVFm1XVLtuURdluyh3ipq3KYnPYt\/uSqMhLylUCyhBjj4zCeVadc77XFpnC+j\/i4mZuzqSHMwtSbLe1cO7wRfd8FjTf70pBJ6ctR97xmNd1uk0gzw9VWjwl8AZsD1lar0C+3aX7\/yI3kkAqLIHJxDYP+krjtwk7Ui\/y0BNTx9rZphsxhGbyrpUxUTrUhWiokx6Jl4lW7sOXWFSHhq7ssWNaF8R+JrWWscOMw9r4qMgOKlpPgjR2Ni352LuKriz8yPzgrOj4BdgBXSdJgjFLSGBEP5AH43oaA\/S6B+sYOnnT0sTyuMCA2sqAJzh5Z+BEl004y5BUMBNrO6Tw2cJJYibAZ4JgcBxF8xMZg1C2N3EIeAHNAT7mGwhdlHMW1mXA9x38nM1008\/SKqtj0Cw95GUK75cYR+KHu\/498k2+qO76P+Yiy+sAE\/mT8wZttxqsgdAQMIZf0FPnCQP1r1Z1ub9Z1dk2hcezDiDdLkF4yCBC8iFYJCeAf23rbVlyC4+WiWRgEHmWiZYsnTT\/szG6oplGCmm84uuxv6L3co3f9BiP9fL0B6GT\/UQ=",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"What is the purpose of the Shift-Left security paradigm in the Software Development Life Cycle (SDLC)?",
+        "contexts":[
+            "central to the \u201dShift- Left\u201d security paradigm, which advocates for the identification and mitigation of vulnerabilities as early as possible in the Software Development Life Cycle (SDLC)."
+        ],
+        "ground_truth":"The purpose of the Shift-Left security paradigm in the Software Development Life Cycle (SDLC) is to identify and mitigate vulnerabilities as early as possible.",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":2,
+                "orig_elements":"eJxtU8Fu2zAM\/RXCpxRIjMaJ03jXtocB3VA0xS5ZESgSbROzJU+Sk3rF\/n2k3XYb0JOtZz6+xyd6\/5Jggy3aeCCTfIIkK4o8K7ZXC8wRF+syv1qojSkWS2NWeb7JjmZbJHNIWozKqKiY85Jo57whqyKG8dyowfXxUCNVdWQkW60K5rzCZzKxZnS5ydeMdo5sFN5+vyy2aT6HIlul+dMc3s7LLL9MNyOwXOXp+iNk4jCShCFEbGWWe3rGZtcpjclv\/mAwoo7k7EE3KoRD592Ryy7TYrvOxF9JDcahw5F7\/0XGpHDA5+iVjjjGE32PyTiKrXpVjfPuE7RVItIdIwfbt0f0MrWIRqYL8QF\/9uTHpAPc2oosoidbwezh9gK0sxq9DRBrBDJcRCVpJWbnYJzuhfd6VNZAqyxLCQiuhODKeFYewf8rMtu5tkV\/oqbBkbRT5wE9h1cUVxcpPIqU1R5VEB98CejZh5WMThQH6Uy2dL4dhWHKNQAjGgM4XylLv8Zv7NsBx3li6xBQ914eLC2FZEEPnEiQi0jhM+tUnmmsOZaKlOn95IEiqeb\/OXjUZgjEjQJgCJINl0yCSrxiM0DLxIr3DzyFH2HOHUyvEU59Y9EvQB2p4QoMU3yvXyXsmleU4w8iFILTxE0MnCnWnPvZhsj5tCBeDE05zL5xoqrl0T1gBNWkc8gul9sxUvb4bgtUN77X4lyzbz\/5FtnvPVPMrqYyLuAOyzgBfxPplFeGqnYO55q4hTInp+UHk\/w\/WJNpLaYU5MiXNw3\/PjrPB6g8h8UvnQuBjo1swNhs97ZCN8h5um5crTsqEa4HzWWz3c3d9UUqq\/\/2h3xVXq7xhI+y4r+f\/gDEiHfZ",
+                "is_continuation":true,
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"Why are high-quality benchmark datasets important for research reproducibility?",
+        "contexts":[
+            "High-quality benchmark datasets are essential for developing automated clas- sification models, ensuring research reproducibility, and assessing model gen- eralizability. In response to this need, the research community has developed a limited number of foundational datasets for security requirements analysis, each offering distinct advantages and limitations. The three most represen- tative datasets are briefly described below, and their key characteristics are summarized in Table 1.\n\n2.3.1 PROMISE Exp"
+        ],
+        "ground_truth":"High-quality benchmark datasets are essential for developing automated classification models, ensuring research reproducibility, and assessing model generalizability.",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":7,
+                "orig_elements":"eJy1U8tu2zAQ\/JWFzpagly2r9wDNIW3Q+GYExopcWUQkUiGpJE7Qf++SbpK2yKlALoI02uHODHf3LwmNNJH2ByWTL5BgXa\/znPq0Lao6rStRpNuqqtK2oQJFReV20yQrSCbyKNEjc14SYYyVSqMnF79HPJnFHwZSx8EzUlZVy5zf8KOSfmC02KxrRmejtA+8\/b5o2yxfQZE3m6y5XcEbUOV1lkegqNZZ\/SFyJjGUuJPzNAU31+qJxpsZBSU\/+YckT8Irow9iROcOszUdl+VZu22LoLBXI\/nTTJF7fRWMKnegJ29ReIoBebtQEs3o44LH6HifkD4mofXMyEEvU0eW8SY09UwPxK8cRnq\/4Kj8CTrSYpjQ3kEI0ZF3gJaAnOOrUDhCbyxIeqDRzEofARdvJs5XQlCeglO9EhiswGQkjW4FpN1iQ60lR2jFwC9sUC5CdSo0XQFqCeybu4S6SIQj6RTIsqxnPNdlcKnDIbPRjsAb8INyoInkil\/p\/XxhpmnRwc6A7lUtS0QY1aSC2HMSYHr2s2gZBbO5N8\/BpSPBuvkQS\/eLsnEYOQ2uOzkVfCG3Mn1P0ZxUzistPKB8QO3DBURbsWM832WwY5V+sETs0fmYA2tmn6Higf7OvLOK+vHE+p2wqmPVHft4PKfFfpWFOzqBGDAOgQ0CxJnqlonvUD0zR2nYYTcSFFmYjtch+obWxp67MAU8Dv\/uW1HXVSs6ma67cpvWRVem2PBjW3RyS1WZ9w192r6VeX5er3qTbcIyvQFNnVUBqNd1tv4QiJT\/3LZ8XW4\/edvKrMoKuP7x\/ery5gIunuY\/b2Wn\/Mgab38BcLmcAQ==",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How is data integrity ensured during transmission according to secure communication protocols?",
+        "contexts":[
+            "(Communication) - Covers requirements related to secure communication protocols, protecting against network attacks, and ensuring data integrity during transmission (e.g., ASVS 9.0). V10, Zararh Kod (Malicious Code) - Covers requirements related to preventing and mitigating the risk of malicious code injection, such as cross-site scripting (XSS) and SQL injection (e.g., ASVS 10.0). V12, Dosya ve Kaynaklar (Files and Resources) - Covers requirements related to secure file handling, access control to files"
+        ],
+        "ground_truth":"Data integrity during transmission is ensured by secure communication protocols as mentioned in the context (e.g., ASVS 9.0).",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":45,
+                "orig_elements":"eJyNVVFv2zYQ\/isHPTmAbCi2Y8d7C5IOK9IOWV1kw9LCoKmzxFkiNZJyqhb977ujZEVOt8Fv4ol393333R2fvkVYYInab1Qa\/QTR1fV0sVhgMp5Od2I8327leLXc4XixXM6T5RSX210SxRCV6EUqvCCfb5E0xqZKC48unAvRmNpvclRZ7skync1W5NOZn1Xqc7JeLq7mZK2M0p79np4uV9PJNIbpajaZfY7heL5M5skkCYZ5cj1J\/s3S+pAlco3zWDKXB\/UFi3UlJEbf6UeKHqVXRm9kIZzbVNZs6VoyuV4l0xld2KkCfVNh8H14zzSV2+AXb4X0GMrjbY1RoKKzWmSB71OEOos4dUWWja7LLVqyz684qyd\/9pxNkosJPBLjN1apEu6N9tYUBVoFoxsp0Tm4bW3uAsb0fUDrwOLftbJBIT4UVOMUvAFR+9xY9VUwoRjIC6EUmgDw1RiETqGyeKCD0hnU+uhA7qLNRlEsOlNbOsEIJ9kkhpv14xrmLdSrGD5FdyazdSFKEcNHLNVXbhY4IKzVzobO+RTB6JFI7JTssNwWKDQlbUG80dI2Ff85g5XSVe3hIAqVdsGoYdiEWpo0xOSmA0cJfE+e04QkhFVUuZLE3HRag9mBQ+3oOqEOzkOqVy3VRQx3WBlStVQO7q1qY+1ImrU3lsDdvsRv\/ovIztg+M9U8JBOei+yhdmwaoGxiYiuLmlnBHpuBeoGQQ1lbBEfpycw0sK8k3z+VbNHyWMbwC2e9adSeRWOl7kWjPIzucFtnGSfj6O9M+D5Dkg5H0ToQP5oFRR0TA1pLhHMKV\/RqD1pOaapHGSQC6og9s\/C5NXWWQ8pgTm4MySxbMtcxcGPRpNiaqIzumNlDr+wZ2E8UYHhKAw0zd8OgRYZCvNQ4hq2Q+7pyLbEQytIG0QEu9YqS6tXcXLe4adW9pUWiHE356NaUZa272Ti\/3HLoFrAaSYshHvaXyITSREyjfzZ2T0Q9Ie7wUsvXtu9C2rCYWeUbSFtrqAL1untd+1XL4ZJW6p\/CCptT+VMYvRfM19S8o1I8g8egERhOSfOXiXD0OYJVbs8tXfZhabyRYP51lMTVMgdBdmucG5NgNAqS55JDjP5Yry9C3PVv7168TohcJh0TekDujGuOs6AFTYaF0c+07F2I8eG4BM+Xh1+KYee3C1W265vv7fro\/Yr9YUBSSiBpvBtWg7OK4qjhKZNpx4TeqJuHt8zjd9zCGu1Bue79IDNH7+3\/w8ZVKHlb93QYyzM5us4xZOnglooF6H+8DAo\/J8zjuPRfvUc\/LvLQlCcb45RkeB\/5aT2+wL8KawVv7Y\/8gn7\/\/A93gvYG",
+                "is_continuation":true,
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"Why is defining security requirements considered subjective and complex?",
+        "contexts":[
+            "The subjective nature of defining security requirements further complicates reliable classification (Riaz and Williams, 2012). Security Requirement Elic- itation highly depends on domain-relevant expertise which includes various costly manual steps such as creating security requirement templates, deter- mining security classification levels according to natural language artifacts, and mapping the class labels to related requirement templates by identifying entities.\n\n6\n\nYusuf G\u00a8ur et al."
+        ],
+        "ground_truth":"Defining security requirements is considered subjective and complex because it highly depends on domain-relevant expertise, which includes various costly manual steps such as creating security requirement templates, determining security classification levels according to natural language artifacts, and mapping the class labels to related requirement templates by identifying entities.",
+        "evolution_type":"simple",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":5,
+                "orig_elements":"eJy1VNtu00AQ\/ZWRn0CKLdvxlXcEL6CqrYRQqKLx7jhe5Bt7aRsq\/p1Zp4GohBdQlId4j+d2ztnx5imgngYa7VbJ4A0ElJayrWMMq7qswqyWMmwoK0PCtpUJ5VIUcbCCYCCLEi1yzlMgpklLNaIls5x73E\/ObjtSu84ykq7XNec8ww9K2o7RpMgzRudJjdbnbTZJXUccmOR5FuV3K\/gFlFUSVQuQrPOoPIsckhgKzN5YGjybK\/VI\/c2MgoIf\/EKSJWHVNG5Fj8ZsZz01HBZHdVXFXCNoVU92P9OSe\/XBE1VmS49Wo7C0CGS1o2AhM+4c7hbGm4DGXeBbz4xsRzc0pBnPfVPL6T7xtiMwrvnqJ7gnYLWcJphakNSqUY07MCScVnYPmr45pRdbDLRO2440iGmYeyW8yBzQK2x6goWHaj3MtODVtcLvgKOET6rnkMGsII2T9HUEN8fi17+Lw1suGIKyh+yO7er3PM9MozTAiJwGVGPI7egeOZ4eZ9JWGYKHTokO1Ch6J3mge9RqcoaHNJZLDDg67IFtmA2T5kjkd5q4z194Ajs2957cCrxNOoThhSovuPJI1BtAIZbLtwM7HUTlxkdzAHnalr3jql6VAed5Ce2epePIxlfhXCbJ7eX5oaDZg5IMqXbvC\/gnq8hE\/iocb8xH1Bq9ubfecvb+5XIVIsUyj2WYx0kZZmukEGldh7JKcypEnQgSF12umPekKqPyuFt8TpMkWvuzf6j+PB\/i\/22tqjQpL7BWxelaFacOvCeUHHJG+roo2qrAPMxkIcOsEnXY1BWFTVrzf5Un7bq5mPR1UUbFifTP5zSuT75h2Rngf8SvE\/5dWPzPzrgW3n1xcYyV00AWsI\/OOXL3EzsYCYw=",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How do LLMs (Macro-F1: 0.941) vs fine-tuned transformers (Macro-F1: 0.942) compare in efficiency for ASRD multi-label tasks?",
+        "contexts":[
+            "tional fine-tuned transformer models and contemporary Large Language Mod- els (LLMs) employing few-shot and zero-shot prompt engineering strategies. The results show that a few-shot prompting with Gemini 2.0 achieves a macro- average F1 score of 0.941, directly comparable to the fine-tuned BERT model\u2019s 0.942. This study culminates in two primary findings: first, the validation and publication of the ASRD, a high-granularity, multi-label dataset for implicit security requirements based on OWASP ASVS V2-V13;",
+            "and second, the di- rect comparison demonstrating that few-shot Large Language Models (LLMs) achieve competitive multi-label classification performance (Macro-F1 0.941) nearly equal to resource-intensive fine-tuned transformer models (Macro-F1 0.942). This confirms that LLMs represent a highly practical and resource- saving strategy for automating the identification of embedded (implicit) secu- rity requirements for software security in industrial SRS documents"
+        ],
+        "ground_truth":"LLMs (Macro-F1: 0.941) achieve competitive multi-label classification performance nearly equal to fine-tuned transformer models (Macro-F1: 0.942), representing a highly practical and resource-saving strategy for automating the identification of embedded security requirements.",
+        "evolution_type":"reasoning",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":2,
+                "orig_elements":"eJx9VF1v2zgQ\/CsLPSWAZUiy44t6Tz3cx0tyF8RB7iFXGJS4lghQpI6k7PqK\/vcOKTtN0eJeDJPenZ2dGfrlU8aaBzZhp2T2jrKy3Fe8adZ5IUqZr0VR501dlXnT\/lS3opBVsWmyBWUDByFFEOj5lLXWOqmMCOzTWYuTncKuZ9X1ATfValWj53x9VDL0uC03N2vcjlaZEPteXsr6dnmzoOpmtbz9sKDLeXNbLDfpXK5ulusfXMwduMn8yQce4iYP6iPr7Shazj7jB8mB26Cs2bVaeL8bnW1QVizruqgju73SHE4jp96H+7ik8jv+GJxoAydxgps4S4uYbhJd2vYlY9NlcfSIm52ZhoZd3DkODWhPjZgrNO2V4TxMhiUB1fi9dQM7Gqxk7UkYSa01oD9aJ9yJ7oTrGJ\/zMLq3MqdYeHV3d++vCXXanpTpaM\/H3Pc2JIj\/2Nn5hBWHMRD4YS67WOkxN3Cn2C\/pqWdy7CcdPKH+SKEXgPiKNvfHtqMKPf3BgzKKqmVBou0VHxicaRAt5pE4sIskfy\/Jt9Yx2X3Udl0uSCoH5fUJyw2jcKLRTMFiGr8V5JffHp9mJf6ZqqKsfWqvIk0FfmGSAJj0MMeMlKFwtKCohigVgBDAzr\/DN+fDIqEfhFbIKLRPwoxTo1U7n8EuVrzfPv66wBI9gpp3sGTSwqlwWtAAWVSuRcOaYs49B4JdpCC6alUgz+0USyHhvxM2jG\/IU4NCSRjw19\/vtw\/Af97Sc5U\/l6ufEwd0WSNnelLlFJU566I82iQP1iSTouzJkFc7vo\/DmzCcHUlYHFRQ+P52hxR6tb\/sP7KL4ROmZbq6TxbCuWTYNRkWDnZhL2QWTiEkdnIt53iobHyE\/v8kf4tYXZ9NxOpwZ\/DzXpE3oEegQ7qzCRg7xvcGnjoJ9jqbvDi8SfApuSGmYIeLVkxKAunrkjCZ8RqlBMuri3HXyTko\/513EdDbfTgKxPfVXgQN2ZowVoHS9nFL0rZT6oh\/BZd\/jD+Fi6Yd+Ck++c8fvgDhL9Lb",
+                "filename":"template.pdf"
+            },
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":2,
+                "orig_elements":"eJx9VNtu2zgQ\/ZWBnhLAMiz5Urv71MVeXpI2iIP0IVsYtDiSCFCkSlJ23aD\/3kPKTrNo0RfDpGfOzLnQT88Za+7YhJ2S2VvKVovyTVWU83yzFEW+4NUsF0t8cL16M5PrulwU62xCWcdBSBEEep6zylonlRGBfTprcbJD2LWsmjbgppzPN+g5Xx+VDC1ui9VygdveKhNi39NTsVlPlxMql\/Pp+tOELufVejZdpXMxX04Xv7gYO3CT+ZMP3EUmd+oL620vKs6+4QfJgaugrNlVWni\/653do2w23Wxmm7hdrTSHU8+p9+42klR+x1+CE1XgJE5wA2eJiGkG0SS2TxmbJouje9zszNDt2UXOcWhAe2rEXKGpVobzMBiWBFTja+s6dtRZydqTMJIqa7B+b51wJ7oRrmF8jsPo1sqcYuHVzc2tvybUaXtSpqGaj7lvbUgQX9nZ8QSKXR8I+2Euu1jpMTdwo9hP6aFlcuwHHTyh\/kihFYD4gTb2x7ajCi39y50yisrpjETVKj4wdqZOVJhH4sAuLvlPQb6yjsnWUdtFMSGpHJTXJ5DreuHEXjMFi2n8WpA\/\/75\/GJX4byhnxcan9jKuqbBfGCQABt2NMSNlKBwtVlRdlApACGDj3+Kb82GS0A9CK2QU2idh+mGvVTWesV2seLe9\/2sCEi2CmjewZNDCqXCaUAdZVK7FnjXFnHsOBLtIQXRVqUCeqyGWQsLPAxjGN+Rpj0JJGPDh47vtHfAft\/RY5o\/F\/I+0A7qskeN6UuUUlTnrojzaJHfWJJOi7MmQFzt+jsOrMJwdSVgcVFD4\/ppDCr2qL\/x7djF8wlRMV7fJQjiXDLsmw8LBLvBCZuEUQmIHV3GOh8rGR+jfJ\/n\/iOX12URQhzudH3nFvQHdAx3SnU3A2D6+N+ypk2Avs8mLw6sEn5IbYgi2u2jFpCSQfpCEyYzXKCW2vLoYd52cg\/I\/eRcBva3DUSC+L\/YiaMjWgLEKK23vtyRtNaSO+Fdw+cd4L1w07cAP8cl\/+\/Qdjn7SBw==",
+                "is_continuation":true,
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How does benchmarking models show challenges in rapid LLM iteration?",
+        "contexts":[
+            "A significant challenge in evaluating Large Language Models (LLMs) is the rapid pace of model iteration. In this study, we deliberately selected several \u201cexperimental\u201d and \u201cpreview\u201d models (specifically gemini-2.0-flash-thinking- exp-01-21, gemini-2.0-pro-exp-02-05, and gemini-2.5-flash-preview-04-17) along- side stable releases. The rationale for including these unversioned, experi- mental models was to benchmark the absolute state-of-the-art capabilities in \u201creasoning\u201d (Chain-of-Thought) and architectural"
+        ],
+        "ground_truth":"The context explains that the rapid pace of model iteration is a significant challenge in evaluating Large Language Models (LLMs). Benchmarking models, including experimental and preview versions, helps to assess the absolute state-of-the-art capabilities in reasoning and architecture, highlighting the challenges posed by rapid iteration.",
+        "evolution_type":"reasoning",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":33,
+                "orig_elements":"eJxtVE1v40YM\/SuETgngESzZTuy9BQt0USApFmiAHtKFQUmURWQ0o86HHXWx\/72csbxogd6sR3LI9\/jot+8FaRrJhCN3xSco6KF\/xL7eq329rtW22VeqqZqdOrS03dDDvul3dbGCYqSAHQaUmu9Fa63r2GAgn781zjaG40B8GoIg9WZzkJoFvnAXBkGrh91W0MmyCanu7a06HMpqBbvdtjx8W8Ht+7Ddl+v8XW0P5eP\/ANcKQQo\/+0BjYvKVP0j\/PmFLxQ8JdBSoDWzNsdXo\/XFytpG0dXnYP8gLRc+awjxRLv36kjiyP9JHcNgGytoEF6nIPMwp4imTfSvInIrUeRLkaOLYkBN8s0lNg9SnyifwfDLcc4smQDug1lJGwAbojDpiYHOCZ3SCPS+vw4vtSHu4e35+8ffAHsJA4HDiDhIrsD2MKQU4kMNErYRfjWRJqg+xm1dwIZAEblKc9Axelp3YyI+zYBr+jPW6auljIsfJBagz0gGabglOjs5MlwUfl6H8RG3mo+XZE41sWNXlWvUi7qBkBvMulBTI02pdqVrW+K8sEV\/lSK3Wu1Vu9jO6W95Y+qr1VlWP94Dapvc8dyTssNGihbBBT76E16xMkgAF760TZVsdu6SqqOYJohHCXhKoW8GVr4Ir4xunC4rEFhoy7TCie896Y+OtjiH3DKRsL9xIoZMt4oQNaw5MPi3yqpaTiayRvoted58HZJPqXgcb5RzuM1t07cDJkDFtgXpRkqXvLD0xSJTA2AAzBRAZvIyZOnwhk5f2dEbW194z3H15uoeFmwcpTlMHWWbyR\/qdrVDCHwTDPNmkBv8tDsiNUpxH2cZZkJ+j\/5fazWYeNL8T\/JKXI4pfNwwXG3UnooknXeA2anTiCOzO4nRxsY3+uo9OSHA\/pxLpqIVvEBe20SUSjv6K7PL\/kBfXDtwO0jeQuUVgjDqwktuexNFdzJecVj6QS1SMGENeTVMEBXIPBkYMorE5lelkb5f9G7rkkzO9psv88e0fDDSzcg==",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"Which hybrid SRE strategy helps underrepresented classes via retrieval + data augmentation?",
+        "contexts":[
+            "As a future work, we plan to explore hybrid SRE approaches that combine LLMs with retrieval and agent-based components. In particular, improving performance on underrepresented classes remains an open problem and may benefit from targeted data augmentation, retrieval-augmented methods (RAG) such as those proposed by Liu et al. (Liu et al., 2025), or agent-based strategies. For instance, instead of relying on learned patterns from non-existent training examples, a RAG-enabled system can dynamically retrieve"
+        ],
+        "ground_truth":"The context mentions that underrepresented classes may benefit from targeted data augmentation and retrieval-augmented methods (RAG), such as those proposed by Liu et al. (2025).",
+        "evolution_type":"reasoning",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":36,
+                "orig_elements":"eJx9VE1v2zAM\/SuETx1gG4mTtM1uO2zDgG4o2t2KIqAl2iYmS5oktzGK\/vdRXr+GDbtJj3wk3xPtm4eCDI1k04F18R6KVq9ot+901axaqrZ7ravzfbut6HTTqI3aqb1eFSUUIyXUmFA4D4VyLmi2mCgud4Ozm9JhIO6HJEiz2eyF8wTfs06DoOvT3VZQ79imzLu5We\/Pa0lc75p1vbkt4QU4O2\/q0wVYb3b17p\/Ib5JARZxjojGrueQjmWuPiopHCWhKpBI7e1AGYzz44FpJW9X78\/1ZIwkdG0qzp4V7+TUL5XigYwqoEi0GpTBRsYix\/YT9ovimINsXubVh+2NBHoqYMIirVtNRgE2THUhSKhe54AkoARqoy1xsCibDihPVhqdm1ewC9nnmv+ps12\/q5MT\/8fNIXoY82GlsKWT+6eMb\/ocICN2UpkBw78KPEu4JvEiD5ICO3jgJDHMbWMP11UdAL5ahGihCGjCBcmPLluDi4muEe04DBEqB6U6UodUgrW2qWoykc653Vu6xhi8WvKhiNRkMJfAoZe\/Y9uApdC6MaBWBszCJ6hDIB4pCzEXyu0n3QCOylektOE9STV5S9nhpOuIMLVnqOEEX3AhiYE+ZnRcWcOrzvmPeg\/J13uoJlzTZ7cHpCCdXHz6\/gzipATALdpFyI++ynHaGl1es4eT1XEK2\/10JLvyhP8oSJeqZRP8nicn4KesslxOhBtfJOGbOPoh2Qxis8DymREG0LlqssxUdWQg2gVRkm9PpiKM3FEt5Thm6Iotih\/RcvgRQYpOeLY6s0Jj5WTSJJoLoSXHHCu4ocAVyWqyRpJ8Th+XfEBdftThqOcey\/0ZMyyO4pQhbP8lF1gpkLdh2FEi05d18\/p6+YRAD+I6+5+V7vP0FkXJ81w==",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"Which OWASP ASVS framework checks web app vulnerabilities?",
+        "contexts":[
+            "Wen SF, Katt B (2023) A quantitative security evaluation and analysis model for web applications based on owasp application security verification stan- dard. Computers & Security 135:103532, DOI 10.1016\/j.cose.2023.103532\n\nWhite J, Hays S, Fu Q, Spencer-Smith J, Schmidt DC (2024) Chatgpt prompt patterns for improving code quality, refactoring, requirements elicitation, and software design. In: Generative AI for Effective Software Development, Springer, pp 71\u2013108"
+        ],
+        "ground_truth":"The answer to given question is not present in context",
+        "evolution_type":"reasoning",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":43,
+                "orig_elements":"eJy1kk1v2zAMhv8K4cOwArZn2Y7j9Na165Z9YB182CErAlmiEw227Ep00qDYf5\/kLFux9TSgB8PgS76iSD2rhwBb7FDTWsngHIKsyXJR5DxKUpZFuZwnEZdpHgmRlFlZiqKpZRBC0CFxyYk7z0Mg+t5IpTmhneKWH\/qR1ltUmy05Jc2yhfP8kvdK0taprJjlTh16pcn7Viu2KOMyhLQs4uI2hFOclWk8m2KWzeL8CeHocEpgD5aw85PcqHtsq4ELDH64hERCQarXa9Fya9eD6WtXlsSLPMlSV9CoFukw4OS9+eSHVHaN92S4IJyWQ2bEYBpEb0a+maZdBag3gW89OGWtx65G4\/Q8813J+b3zK2qorkP4wIngNbxMkzQ7gwu4G7kmRZzUDsGiGI2iA+COtyP3lwWupft4e7DKQtdLbKHpDeyxBj4MrRJTmYWaW5TgDP2e2+Fx7s+xOzSq+a0S1xFIbmQMl303jITGwguoTtVutecsyWZ+OVefl8CSmCWsePU9Fr3F2E8QH\/N+JafNfVSWlv4F3PR\/s5WmIq2TYh6ls6yO8iZNonLeNBFnUnD3hMhz8YxsLeK5R6eIkyNbUzxjs5g9Rukf4ej4T7YYK4pnZ2urCOF9CO\/4wUIVwvUIX0KoBtQCTVR1irY+XYlt59YDV5cTf\/kZXG45bQYCd9\/O\/xycaBxMnjDVOXWn9AaEo86D2joqQjDYuDv3xmV8cDcqM72xBXTETSj3Opy4tX1De24QJFq10TEs9Tm8RY3myPvFcur0pmn89pxQnQxXuMO2H\/y5fhDfDE0IwwBz9m1ME5axpHwau9ufZ8l\/vg==",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"What trait clusters security failures in underrepresented areas like cryptographic storage or file handling in SRE?",
+        "contexts":[
+            "This study highlights class imbalance as a persistent challenge in SRE. The issue is not specific to ASRD but reflects the nature of the domain itself. In typical specifications, references to architectural security concerns such as cryptographic storage or low-level file handling, occur far less often than user- facing controls like authentication (V2) or access control (V4). This creates a \u201clong-tail\u201d distribution where the most important security failures often reside in the least represented classes."
+        ],
+        "ground_truth":"The trait that clusters security failures in underrepresented areas like cryptographic storage or file handling in SRE is the 'long-tail' distribution, where the most important security failures often reside in the least represented classes.",
+        "evolution_type":"reasoning",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":36,
+                "orig_elements":"eJyFVMtuGzkQ\/JXGnGJAGkiyHtbeFkgOAZKsYRm5eAOBIntmCHPICR+WtYb\/PdUjOQmwC+xFELub1dVVzXl4qdhxzz7vran+oEotZquVUdvpXC3X06VZ3kwP3GynmxnzbNMs9GK9qSZU9ZyVUVnhzkulQ4jGepU5jWenTqHkfce27TIii+vrLe5cwkdrcofofL1aIjoE67Pce3iYb7f1bEKrxaxefpvQ2\/lmuanX43l+vaqX\/xE430CkSqeUuZdJbu0zu92gNFevSBjOrLMNfq+dSmk\/xHBA2azerm+2KxQ01nE+DTzevf0sQ9q05+cclc48ipNj4WocxLdFteO0DxX7tpLWzvrHMfJSpawiFPWGnxHYzOdIZ0AJyCfbK+JMylE9EbQSncS1zVw7JBez+TaFJh9VHKn\/C26x\/A1Oqv8fRfgNYLz3pT9wROX1+vU3lPvOJkq5mBN1MM2JcYlGpcj2B4WJNZNKpGjgmCxE9pl0p5zD+EzW0+7uQ033Hf6nVOSXfMiUBta2sZpyoD93d+\/pUDJFbhzMSJRRjrUpkSk048mEXgHM5sSuqemjJ3hiNcR6Q1JiYpoICEcGrSTYKurOisMlSi3rEm0+kQ4oiB6zFd0Jfx1PQw5tVEMHUimHCFUoRHLhOHX8xI5kEahT3sDQdkJBA4sahRKGGpCUQQp5KonjFBmNOumUY3CJnH2EUgXD+HxhS+++Lq6kidJaMC61CC+vRDMrvFieD\/T9u8A67YJvp1lZNx4NGUgeLcQTuGOHyUe5+pAyDBpCzAqG\/Jy7wU2o+kYX\/6wZXZJLjlUSEwaEQZLN2WhONe0AY1Q00As+P9mEJMqjlxGRIijkqeHjNHVwF4+oH7LkwK60LYSDFy17hgv2H6YGBWftsZNWWvGz6gcnvca5rYx8ZOemJujSn+lcNkh4fy82jt+nRPK5SZxhvfXaFSNtD1iArlfx8aL77d1fnz\/uPqDLQO9+vbR6QvIeriaQzsoiuBRAq8EGpTPHn0v+Swx5VW8fhC8qRlj5xPfyYF6\/\/QC0rMJf",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How do file restrictions & upload checks prevent unauthorized transfers?",
+        "contexts":[
+            "Implement robust file upload controls, including file type validation, size limits, and virus scanning. Ensure proper access control to prevent unauthorized uploads or downloads."
+        ],
+        "ground_truth":"The answer to given question is not present in context",
+        "evolution_type":"reasoning",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":51,
+                "orig_elements":"eJxtU1Fv2jAQ\/iunPEytFCJCCJS+Vd0mVVonNKbuAVXIsY9wwrEj26HNRv\/7ziHd9jCBCPd9vs933122vxLU2KAJO1LJLSTzxWpfTGeziSiKm8k835eTap5XEywXZbXAqlRlmaSQNBiEEkFwzq9EWusUGRHQD7EWve3C7oBUHwIjs6JYcc4Iv5AKB0bzRTlntLVkQszbbvPVLMtTKKer7OY5hfd4WS6y6RAXyzIr\/gNcMhhJfO8DNrGTNb2i3rRCYvLGhMKAMpA1O6mF97vW2YqPTbPlfF6WfGBPGkPf4pC7foxNkt\/ha3BCBhzMCa7DZGjE1J2oh263CZo6iVe3jOxM11ToGC\/zeGvg\/JiZF+cNxcpSOHZai0aSIZOCFz15wYAP5HQDNRrUcERPeyAjh9lodATKHokaYagBPwgh9ETHyHuWYqGa7RVSHFkoO+fnnL\/P0\/iTny8feFA8Zwo9PLHinqSIdsDV0+w6hQ16H6NHYbiNuBBMFEzcSckU3FsTnNWe0Tmj\/yqkcK+RKzN1CsIo+GSk69tRu+TDH7Hq6pr5gf5iL\/+vnpaR4x2CtbPjcBi9YfTeNk1n\/la4YuxRaJJku1iLQgbzKaOfeWp+0P2G3naOi41UbOlu\/TAQP7Di9tyJRq64voVNYEY4BR5l56InbRzzcGRvHcTVBofBEZ6EBuHhBfXwlA4vVfGpxqo\/LmRwZ4TueTjwgWuR3AHyFZHyt\/DQtJfXDHjtOh8gbht0rbZCgRy9TePIdaeiOwMf1xH4flKj0Z5+ImhqKPiL1ydybIiXwkT\/M\/bedw65GduiA3GZ3agPwTKBp1hFZ0QXDtaxnhrL8LEjZV\/MEGRxz99fh6\/COa7ghN\/jOr89\/wZUF2am",
+                "is_continuation":true,
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How did CNNs w\/ Word2Vec beat manual features vs SVMs\/DTs?",
+        "contexts":[
+            "Early studies applied supervised learning techniques, including Bayesian classifiers(Knauss et al., 2011), decision trees (Jindal et al., 2016), and Sup- port Vector Machines (SVMs) (Dalpiaz et al., 2019), but these approaches depended heavily on manual feature engineering and rigid linguistic patterns. To address these limitations, later work adopted neural models such as convo- lutional neural networks (CNN) combined with Word2Vec embeddings (Dekht- yar and Fong, 2017). The adoption of transformer-based"
+        ],
+        "ground_truth":"The answer to given question is not present in context",
+        "evolution_type":"reasoning",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":5,
+                "orig_elements":"eJx1VNtuGzcQ\/ZXBPtmAVrAutqz2qWlcBC1sBLaRPhiBMMud3R2YItckV44a5N97uJINNUBfBGk0wzk38ul7IVa24tJG6+IXKgyv6vpqvSyrxVzK5TVLWV1dr8rFrKpETHNRVetiQsVWEtecGDPfC+N9qNVxkjj+trz3Q9p0om2XUJkvFmvMHMuvWqcO1dnV5RLV3qtLee7pabZeTVcTml3MF9PZ1wm9Fy6X6+lqLMwW1\/9TOQyhVMR9TLLNbD7rN7EPPRspfuCPWpKYpN5tjOUYN33wFdoupuvr62VG2KiVtO9lnP18m4lq3Mi3FNgkGQVKYZBiJOPagduR8VMhri3y6h6VjRu2lQTUL\/PShPE8eMPB7immoVaJxH1vVWqKQy9hpxFfrXBw6loCyM7pyyBxQuqMxQSqH3gvUdnRiF0blRDP\/nI8xEiSiO10QvOL2ex8QrUYjaBJKQh2nf2prmZ72nWFLnY1PQx9Sb0Pib5AGR\/olk2nLg89fLmN53T2kW2v\/M\/p8BrD1ZAodRIlMwkeU5ippRdXg0onvFOwBYQtuwG7G+E0BCEIheMlZEYZQNBWQR0\/B41JDfWckgQXp\/Toies6CPgdNlndauLsH4SxSFugVx+e0eV7uENOhoBVW1+LjVDWdMSRjHc7X5Id8iD+PnY5SXkYRH+\/uztH17YCsJpeNXX0N\/I8hyIkcLLO8qPvozx3qaQ9hxH5H961oxyrc2Dt5AAjq+4bCM8uNj5sJZQVZ3d\/QvXh5v4RYnBl8Z9uIeEOX96sNSNLYmOA1ezBP\/ih7Y7Hgvd7VjKSBsBLSkMuTEiyTLiLY5IAC2qjBdZ26DWBmyzV0Y6R1Q7q\/8feXxGLqiTuNP+eL8Dv1sO7IAYPxUFz+dZbnw+o\/ZbVlXgMRg9OiB8pT9453\/n7kfbZJ9mfLJxfnB+yKGArh47f2o5FT5vmCF3yVEmOBxlsy3E6bo89Eg\/ZKAryhhjF8UTERVvkhCBuaDRlTUavEKajHx3vhGLnX92JC9xzpVbTHtePtAZpbfZZT7RYNZrIeVc2gzPHTAV5GTSM7yj4MkIcAGKw45U3HVs75h6GcHzOh8bMFQtKg0\/YbVEZ4cGROzElYfaU\/RIefPKvAh4TaoYAYwMBbjteDxz4cH9DGg9XBBSq\/eg971jtGxfEEoBamVCHd7l8wbVE+fAO\/KwjO+dx1XBSfuSBLU7zo\/f2Nt5xCEjYTh7z4\/bj678ffyJa",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"What's the NSA framework for IT security standards?",
+        "contexts":[
+            "Hey T, Keim J, Koziolek A, Tichy WF (2020) Norbert: Transfer learning for requirements classification. In: 2020 IEEE 28th international requirements engineering conference (RE), IEEE, pp 169\u2013179\n\nHopkins P, Unger M (2017) What is a subject-matter expert? Journal of Pipeline Engineering 16(4)\n\nInfrastructure PK, Profile TP (2002) Common criteria for information tech- nology security evaluation. National Security Agency"
+        ],
+        "ground_truth":"The answer to given question is not present in context",
+        "evolution_type":"reasoning",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":40,
+                "orig_elements":"eJy1VF1r2zAU\/SsXPzUQB0v+iNyXUUbG0q4lrBl9yEpQ5OtEqy15srw1K\/vvu3Yb6NY+jEJebO6RjuRzz\/FdPQRYYY3Gr3URnEKAPI8KJlWYMybDRJWbUCY8CbmK0yQXKUuKJBhDUKOXhfSSOA+BstYV2kiP7VBXcm87v96h3u48ITyOc+I8wT914XeEsixNCG2sNr7nrVYsFxOCBKPX7RgOdc7iCR9qFqevAo8MQoJ233qseyULfY\/VdSMVBr9poUCPymtr1qqSbbtunN3QtmgiMpFntKHUFfp9gwN3cdmL1O0a772TyuPQHO86DAYhZtvJ7aB2FaDZBv3VDSFr09UbdIQnUX+rJ37P\/Ih7WI7hAnUN5\/S2v7St8A7OxrDUareHmw9wwiMejeDKOjrBn8LSSdOW6KBC6Yw2WyitA4ffO+0Gy1oYpOhSK9krm8DcULPpFJjPZjPgwu+AmovODOuy+ptNH64NouuPVtbQVWgUwsnn2Wg8nDCGpiGb8q8dj1jMpnkv\/tCjT7r1877XpPPfFLHpNCqxjEMeKxUmMZahQL4Jy1hkBaYqTthxU5T1IRGT6JCivp6KSf4UmmxI0QtgYLw1RTyfHj1FtrnTpoXFGL6YLSXjsg8Nm47gZic96BYktN3mG31iWEtPxgPeNxSmd3BuO9cHwJaw0A1WZDzMnvnPspNk9L\/25kWSckyjkAvFwoQpEQoWq5AjjQpWpiJW\/Kj2UqdzEU\/EwV6qWZRkk+z5UHiJPHLeaHAqWH5sg+emdLIlvvKdQ1hcjGHhbH8lLBe91xEfwXtb19aAcpoM1nKYCtrQsx7+ciABuxCMrex2Dy2qjjbuAX\/IqnsaE1eHcXB9WD3b0q+\/f93\/2z\/G5N9\/",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"Which ASVS standards cover API auth, input checks, & error handling?",
+        "contexts":[
+            "preventing directory traversal attacks (e.g., ASVS 12.0). V13, API ve Web Servisleri (API and Web Services) - Covers requirements specific to securing web services, APIs, and microservices, including authentication, authorization, input validation, and error handling (e.g., ASVS 13.0)."
+        ],
+        "ground_truth":"ASVS 13.0 covers requirements specific to securing web services, APIs, and microservices, including authentication, authorization, input validation, and error handling.",
+        "evolution_type":"reasoning",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":48,
+                "orig_elements":"eJyNlW1v2zYQgP\/KQZ8cQDZkx07sfQuSDivSDlldZMPSwqCps8RZIjWScqoW\/e+7o2RFTrfB38QT7+W5Nz59i7DAErXfqDT6CSJ5PV+mV9v5OFns0vFcprPxdrHdjlerRM5Ws8VqJ0UUQ1SiF6nwgnS+RdIYmyotPLpwLkRjar\/JUWW5J8ns8nJFOp34WaU+J+n0ajEnaWWU9qz39DRdzSZXMZCfyfRzDMfzNEkWkyQI5slykvybpNUhSeQa57Fklgf1BYt1JSRG3+lHih6lV0ZvZCGc21TWbOlaMlleL+ZTurBTBfqmwqD78J4xldvgF2+F9BjS422NUUDRWS2ywPsUoc4idl2RZKPrcouW5PMle\/Wkz5qPxPrGKlXCvdHemqJAq2B0IyU6B7etzF3AmL4PaB1Y\/LtWNtSGDwVlNwVvQNQ+N1Z9FYwSA2khlEKTa74ag9ApVBYPdFA6g1ofFUhdtN7IikVnaksnGOEkm8Rws35cw3ySXEzgcRHDp+jOZLYuRCli+Iil+sptAgeEtdrZ0DOfIhg9EsROyS6W2wKFJqdtEG+0tE3Ff86gUrqqPRxEodLOGLUKi1BLkwab3G7gyIHv4dlNcEKxiipXkshNV2UwO3CoHV2nqIPyEHXRolJ73WFlqJ6lcnBvVWtrR6VZe2MpuNsX+81\/geyM7T1TzoMz4TnJHmrHokGUTUy0sqiZCvbYDKoXgBzK2iI4ck9ixsA+k3z\/tGRXLcd1DL+w15tG7bloXKl70SgPozvc1lnGztj6OxO+zyhJF0fRKhAfTYGijokBrSXgnMwVfbUHLac05aMMJQLqiD1T+NyaOssh5WBObgxhrluYZQzcWDQptiaU0R2TPfSVPSP2kwpweEoDjTF3w6BFhoV4yXEMWyH3deVasGDK0u7QIVzqFSXVq7lZtnHTkntLK0Q5mvLRrSnLWnezcX665VAtxGokLYZ42F8iE0oTmEb\/bOyeQD1F3MVLLV\/bvgtpt2JmlW8gbaUhC9Tr7nXuVy3DlJbpn8IKm1P6Uxi9F8xrat5RKZ7BMWgEDqek+ctEOPocwSq355Yue7M03khh\/nUsiatlDoLk1jg3poLRKEieSzYx+mO9vgh217+9e9E6AZkmHcmMZtu45jgLWtBkWBj9TGveBRsfjkvw\/PLwGzHs\/HahynZ9871db71fsT8MSEoOJI13w9Vgr6I41vCUZNaRXJLg4S1z\/I5bWKM9KNe9HyRm6738f2hchZK3dY\/DsTyTousUg5cu3FJxAfofL4PCzwlzHJf+q\/fox0UemvJkY5xCXjIkP6rHt\/dXYa3grf2R387vn\/8BdlL1kw==",
+                "is_continuation":true,
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"Which pub has issue 13(18):3758 on AI tools & productivity by Necula SC et al?",
+        "contexts":[
+            "Muresan S, Nakov P, Villavicencio A (2022) Proceedings of the 60th annual meeting of the association for computational linguistics (volume 1: Long papers). In: Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) Necula SC, Fotache D, Rieder E (2024) Assessing the impact of artificial in- telligence tools on employee productivity: insights from a comprehensive survey analysis. Electronics 13(18):3758"
+        ],
+        "ground_truth":"The publication with issue 13(18):3758 on AI tools and productivity by Necula SC et al is 'Electronics'.",
+        "evolution_type":"reasoning",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":41,
+                "orig_elements":"eJx1ktuK2zAQhl9l0FUCTojsnO\/CdguFzRKadm\/CEhR5bIvKkpHG7rrLvnslp1uawl7qm8M\/82tOrww11mjorHK2BVakYrUo0mKyvKz5ZC7FZnIpMJ+kYoEC56vLesNZAqxGErkgEWpembTW5coIQj+8tehtS+cKVVlRIGmWbULNH\/xT5VQFypeLeaCNVYZi3emUzvh0lgCfr7Pp7DmBv2DF+RVwni0+INeigJjvPWEdtzmoF9THRkhkbyFQKI3UNziEDns2zGTKVpTD4CeGpmSxQxPI2bT1BV3gcx6LCV\/iLmzfOvTCwDGBR\/HDdnBI4ElpLTol0UhlYQejdJamYzg4KxGDM6UHWwBVCMsZVSCMaYWGGpFC7D0kvLdSCVLWQGEdSFs3LQ3vkKxDZqs8Kelh1Fnd1gh8Cw82NGhEg86Pp\/DFbD8U3V1F97eiu\/9E725EH\/4VfboVPVxF4RFlqwUc7xL4bEnI0PRTAl8V5ujgfrBiPo466H0UjqqqDn9CcQbhSBUqTKBBmQkQaq3KYCMCWavDBgawbrTtEaFxNm8lqU5Rvw3pPp6Xh8LZGsRgl8MKA+4QfOs67IPTQvde+Snca5TkrImr8GzE1+Nttlqs4w28n8R3I8MJl9apX5h\/i9\/99vwb2csEeQ==",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How does joint tuning of LMs and prompts affect optimization, esp. balancing expressiveness vs. overfitting?",
+        "contexts":[
+            "\u2013 Prompt + LLM tuning: Jointly tunes both model and prompts; highly expressive but prone to overfitting on small datasets.\n\nIn this study, we evaluated the first two of these strategies, as they do not require modification of the base LLM\u2019s weights. For our zero-shot experi- ments, we implemented tuning-free prompting, relying on carefully engineered prompts to guide the models. For our few-shot analysis, our approach aligns\n\n12 https:\/\/wandb.ai\/site\n\nImplicit Security Requirements Classification\n\n23"
+        ],
+        "ground_truth":"The context mentions that joint tuning of models and prompts is highly expressive but prone to overfitting on small datasets.",
+        "evolution_type":"reasoning",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":22,
+                "orig_elements":"eJy1VcFu2zgQ\/ZWBrjUVkZIoKT0WKLaLdBG0vWULg6JGNgFZ1JJUHLfYf9+h7HqTjU9Z+GTzkU+cmfc48\/AzwQF3OIa16ZJbSGRX9nnFS6Y61bBCdsjqPOcsk9h2ui51VrbJCpIdBjoRFHF+Jtpa15lRBfTLelAHO4f1Fs1mGwgRed4Q5wTvTRe2hHJZFoRO1owh8h4eBM9SuQJe8jIV31fwL1DJtI4A53mZFpeRhURQ4g8+4C5mc2+ecPg6KY3J37TRYUAdjB3XelDerydnWzqWpY1slgh7M2A4TLhw7z\/HRI1f41NwSgdcChTcjMmSzLiZ1WbJ+CHBcZPEqydC1uO8a9HFvEW8NRA\/Mv+cRcZzuHd2NwV4B3d3nyHMoxk3t\/B7LMJwiGv00NqwhZ3tcAA1djAtDP8etlRPOoRPk0PvzSNCO4e4PSIEC\/YRXW9CoC+CHcHv1DBAFMlj8GkM+ldud8aHT7FGFN9\/HaBEo3qBmrWl6llRNzX9yysmZdGRE0QjZHE1B\/CmSUUUk36rRd4TUIkqlWe9m4vIkfRGB9QF59d2wKcRwtZ48GHuDivYI+CjGmaqWkcbCL1xPkDYk5R9BDzSUUfbG4N+BcpH8ACdhdEGcPjXbBxGo5jeaBXTOhGhJc2jwRbPNZ6uikL4FD5aB3Z28AOdZX5LnyE3oTMMogX8EpTZTUdHxLAWg7LeIZ58SMsV3T0cTjbTymE\/D9GX48aMiA7Plo2u3MymwyWoxdHPYuhxfwxBjWo4eEO3R1hNxFZ6C2owm9E\/9+0fylE5yPjfYkUvmJdnUkQlWSM0Z0WbtaxRvGNaFDpruZaY99drX1l19GqZH817Bmp+7GeFzI\/efQUslDdaV9SiuLZ1uYBtCJO\/vbnZU09qU2VuvAn4XJ2P1gaiXpAFUSCXmWK8V5oVJTasVk3GsowGjCrbOmu7K\/aUehkidfWrpSxrkTVpE9fU2NLs9fp4\/o2S5A2XV5Akf9FN6JkabQJ8RT07Ew7w5dgRlpcMH2JI58bwXKffUHWXdZLUSivdl6yvM3o+vSyo95NYopdVxnVRIb\/e9Of8NO3PQp2AqMyLWf8K+D9a1VVRXWP2v9BK5JcE+P4PsP3qJA==",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"Why is validating security reqs still challenging despite SRE's maturity and practitioners' understanding?",
+        "contexts":[
+            "Although Security Requirements Engineering (SRE) has matured as a dis- cipline, its effective application in practice remains challenging. The issue is not the absence of security considerations, but the difficulty of ensuring that security requirements are properly validated and verified. An empirical investi- gation that combines a systematic literature review with a survey of 58 indus- try professionals highlights this gap (Alam et al., 2025). While practitioners reported a moderate understanding of SRE",
+            "practices, Security Requirements Assurance (SRA) was found to be poorly understood and rarely applied in industrial contexts. The study concludes that validating and ensuring security requirements remains a major and unresolved challenge in practice."
+        ],
+        "ground_truth":"Validating security requirements remains challenging despite SRE's maturity and practitioners' understanding because ensuring that security requirements are properly validated and verified is difficult. Additionally, Security Requirements Assurance (SRA) is poorly understood and rarely applied in industrial contexts.",
+        "evolution_type":"multi_context",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":2,
+                "orig_elements":"eJxtU8tu4zAM\/BXCpxZIjLycJnvLocddFG2BPQRFwMi0rYUseSUqaVD035eS024PvRj2WENyZqj9W0GGerJ80HXxA4rZclbPq7tmWi0UTle4Xk3xbrWabvE4m21nVFW4LCZQ9MRYI6Nw3grlnK+1RaaQvw1eXORDR7rtWJDFcrkVzhU+65o7QefraiXo4LTlxNvv59tNuZnAfFFV5fplAp9AtVmUqwzMl1W5+hYZSQIV4RKY+qTmQb+SeRpQUfEuP2piUqydPSiDIRwG745ybFZuN+tNmrDRhvgyUOY+\/ExCdTjQK3tUTNkg9pGKLMa2EduseF+QbYvUehDkYGN\/JJ90p6Ys9ETcGe5cbDt4IhW95gs80t+ofXY\/wL1ttSXy2rZw8\/R4fwsdBuiRo6ca5BWh1mEKSg9GDk5AC4maJgk6EeAgsMIkDrSFIQ2sFYGUR20DqA6NodSjLeG5I9AhxPQE6xhYADwGssJwDYSPCZWzQdfkc90wgWMcz9a6abSKRo7IcbIh5rm5Q\/5P9l\/loScZyg3kzQVOaLQsT9JlaziJ6EZTXcLOAvWD9iLEiIoTBdZTaEdVubhy\/VHUJzfGlOWfAqM5zShOSdOTpjOcNXfpTPQnyjNWGylYRzGQ\/SVN0lAIUhZNgE7W1KRVDdJEHGlxgJudwR6IAU05gcVsUd2W8LuT\/bh6m2YiH6Th4HyWAr3LVhFEKy+BRVxyRbpLnp+RiI3fb8BOEvGYIpD8d7dwltAbJ7WAHRylr9wyMe9a3LnRPS\/OCprzlym0HXWy1+Kh5JfWL4yRB451zlSZWFMYHb1mkQZN5T6z\/D7Gj3USsfjH+UyJ1lNw5iTdP7aMvu5gma7Lx636hT5t04me07V4f\/kHL52Lkg==",
+                "filename":"template.pdf"
+            },
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":2,
+                "orig_elements":"eJxtU8tu2zAQ\/JWFTglgC\/Ezcm8+5NgiSAL0YAQGRa4kFhSpkks5RpB\/75Ky0xxyEaQRZ3dnZnl4L9Bgj5aOWhU\/oKgaedfIlZiLalfP1+r+fl5LVc+3QtaqXq4Wd4ummEHRIwklSDDnvZDOeaWtIAz524izi3TsULcdMbJcrXbMucAnrahjdLHdrBkdnLaUeIfDYleV1QwWy82m3L7O4BPYVMtynYHFalOuv0UmEkNFOAfCPql51G9ongchsfjgHwoJJWlnj9KIEI6DdzUfuyt31bZKEzbaIJ0HzNzHn0moDkd8Iy8kYTaIfMQii7FtFG1WfCjQtkVqPTBytLGv0SfdqSkxPRH3hjoX2w6eUUav6QxP+Ddqn90P8GBbbRG9ti3cPD893EInAvSCokcF\/CpA6TAHqQfDB2egmYRNkwSNCGJgWIokDrSFIQ2sJQKXF9oGkJ0wBlOPtoSXDkGHENMTrCMgBkQd0DLDNRCuE0png1boc90wgzpOZ5VuGi2j4SN8HG2IeW7qBP0n+6\/yhEceyg3ozRlGYTQvT9JlFYwsutGoSthbwH7QnoUYVjFiID2HdlKVi0vX16w+uTGlzP8kGE1pRnaKm44aT3DS1KUz0Y+YZ9xUXFBFNpD8OU3SYAhcVpgAHa+pSasauAk70ooBbvZG9IAEwpQzWN4tN7cl\/O54Py7eppnQB244OJ+lQO+yVQjR8ksgFpdc4e6c52ckbOP3G7DnRLxIEXD++1s4ceiN41pADmruy7eMzbsUd25yz7OzjOb8eQptJ53kNXvI+aX1C1PkgaLKmUoTFYbJ0UsWadBU7jPL72O8rhOLFX+cz5RoPQZnRu5+3TL8uoNlui7XW\/VL+LRNI76ka\/Hx+g\/cL40Y",
+                "is_continuation":true,
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How to secure APIs\/microservices from traversal exploits with strong auth, input checks, and error handling?",
+        "contexts":[
+            "preventing directory traversal attacks (e.g., ASVS 12.0). V13, API ve Web Servisleri (API and Web Services) - Covers requirements specific to securing web services, APIs, and microservices, including authentication, authorization, input validation, and error handling (e.g., ASVS 13.0).",
+            "and resources, and preventing directory traversal attacks (e.g., ASVS 12.0). V13, API ve Web Servisleri (API and Web Services) - Covers requirements specific to securing web services, APIs, and microservices, including authentication, authorization, input validation, and error handling (e.g., ASVS 13.0)."
+        ],
+        "ground_truth":"The context mentions securing APIs and microservices, including authentication, authorization, input validation, and error handling, but does not specifically address securing them from traversal exploits with strong authentication, input checks, and error handling.",
+        "evolution_type":"multi_context",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":48,
+                "orig_elements":"eJyNlW1v2zYQgP\/KQZ8cQDZkx07sfQuSDivSDlldZMPSwqCps8RZIjWScqoW\/e+7o2RFTrfB38QT7+W5Nz59i7DAErXfqDT6CSJ5PV+mV9v5OFns0vFcprPxdrHdjlerRM5Ws8VqJ0UUQ1SiF6nwgnS+RdIYmyotPLpwLkRjar\/JUWW5J8ns8nJFOp34WaU+J+n0ajEnaWWU9qz39DRdzSZXMZCfyfRzDMfzNEkWkyQI5slykvybpNUhSeQa57Fklgf1BYt1JSRG3+lHih6lV0ZvZCGc21TWbOlaMlleL+ZTurBTBfqmwqD78J4xldvgF2+F9BjS422NUUDRWS2ywPsUoc4idl2RZKPrcouW5PMle\/Wkz5qPxPrGKlXCvdHemqJAq2B0IyU6B7etzF3AmL4PaB1Y\/LtWNtSGDwVlNwVvQNQ+N1Z9FYwSA2khlEKTa74ag9ApVBYPdFA6g1ofFUhdtN7IikVnaksnGOEkm8Rws35cw3ySXEzgcRHDp+jOZLYuRCli+Iil+sptAgeEtdrZ0DOfIhg9EsROyS6W2wKFJqdtEG+0tE3Ff86gUrqqPRxEodLOGLUKi1BLkwab3G7gyIHv4dlNcEKxiipXkshNV2UwO3CoHV2nqIPyEHXRolJ73WFlqJ6lcnBvVWtrR6VZe2MpuNsX+81\/geyM7T1TzoMz4TnJHmrHokGUTUy0sqiZCvbYDKoXgBzK2iI4ck9ixsA+k3z\/tGRXLcd1DL+w15tG7bloXKl70SgPozvc1lnGztj6OxO+zyhJF0fRKhAfTYGijokBrSXgnMwVfbUHLac05aMMJQLqiD1T+NyaOssh5WBObgxhrluYZQzcWDQptiaU0R2TPfSVPSP2kwpweEoDjTF3w6BFhoV4yXEMWyH3deVasGDK0u7QIVzqFSXVq7lZtnHTkntLK0Q5mvLRrSnLWnezcX665VAtxGokLYZ42F8iE0oTmEb\/bOyeQD1F3MVLLV\/bvgtpt2JmlW8gbaUhC9Tr7nXuVy3DlJbpn8IKm1P6Uxi9F8xrat5RKZ7BMWgEDqek+ctEOPocwSq355Yue7M03khh\/nUsiatlDoLk1jg3poLRKEieSzYx+mO9vgh217+9e9E6AZkmHcmMZtu45jgLWtBkWBj9TGveBRsfjkvw\/PLwGzHs\/HahynZ9871db71fsT8MSEoOJI13w9Vgr6I41vCUZNaRXJLg4S1z\/I5bWKM9KNe9HyRm6738f2hchZK3dY\/DsTyTousUg5cu3FJxAfofL4PCzwlzHJf+q\/fox0UemvJkY5xCXjIkP6rHt\/dXYa3grf2R387vn\/8BdlL1kw==",
+                "is_continuation":true,
+                "filename":"template.pdf"
+            },
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":45,
+                "orig_elements":"eJyNVW1v2zYQ\/isHfXIA2ZDfEnvfgqTDirRDVhfZsLQwaOoscZZIjaSSqkX\/++4oWZHTbfA38cS7e5577o6P3yIssETttyqNfoJohji7mieX42Q\/vxov0svlWIiFGF\/t1rPVfjVN0t0yiiEq0YtUeEE+3yJpjE2VFh5dOBeiMbXf5qiy3JNlNp+vyaczP6vU52SdXi4XZK2M0p79Hh+n69lkFsNsPZ\/MP8dwPE+TRTJJgmGRrCbJv1laH7JErnEeS+Zyr75gsamExOg7\/UjRo\/TK6K0shHPbypodXUsmq3Uym9OFvSrQNxUG3\/v3TFO5LX7xVkiPoTze1hgFKjqrRRb4Pkaos4hTV2TZ6rrcoSX7YslZPfmz53ySXEzggRi\/sUqVcGe0t6Yo0CoYXUuJzsFNa3MXMKbvJ7QOLP5dKxsU4kNBNU7BGxC1z41VXwUTioG8EEqhCQBfjUHoFCqLT3RQOoNaHx3IXbTZKIpFZ2pLJxjhJJvEcL152MCihbqM4VN0azJbF6IUMXzEUn3lZoEnhI3a29A5nyIYPRCJvZIdlpsChaakLYg3Wtqm4j9nsFK6qj08iUKlXTBqGDahliYNMbnpwFEC35PnNCEJYRVVriQxN53WYPbgUDu6TqiD85DqsqV6GcMtVoZULZWDO6vaWHuSZuONJXA3L\/Gb\/yKyN7bPTDUPyYTnInuoHZsGKJuY2MqiZlZwwGagXiDkUNYWwVF6MjMN7CvJ908lu2x5XMXwC2e9btSBRWOl7kSjPIxucVdnGSfj6O9M+D5Dkg5H0ToQP5oFRR0TA1pLhHMKV\/RqD1pOaapHGSQC6ogDs\/C5NXWWQ8pgTm4MyVy1ZFYxcGPRpNiaqIxumdl9r+wZ2E8UYHhKAw0zd8OgRYZCvNQ4hp2Qh7pyLbEQytIG0QEu9YqS6tXcrFrctOre0iJRjqZ8dGPKstbdbJxfbjl0C1iNpMUQD\/tLZEJpIqbRPxt7IKKeEHd4qeVr23chbVjMrPINpK01VIF63b2u\/brlMKWV+qewwuZU\/hRG7wXzNTXvqBTP4DFoBIZT0vxlIhx9jmCVO3BLl31YGm8kmH8dJXG1zEGQ3RrnxiQYjYLkueQQoz82m4sQd\/PbuxevEyLTpGNCD8itcc1xFrSgybAw+pmWvQsxPhyX4Pny8Esx7Px2ocp2ffO9fR+9X7E\/DEhKCSSNd8NqcFZRHDU8ZTLrmNAbdX3\/lnn8jjvYoH1Srns\/yMzRe\/v\/sHEVSt7WPR3G8kyOrnMMWTq4pWIB+h8vg8LPCfM4Lv1X79GPizw05cnGOCUZ3kd+Wo8v8K\/CWsFb+yO\/oN8\/\/wMBVvX4",
+                "is_continuation":true,
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"What security measures ensure safe data access and handling in systems with file uploads, access controls, and protection protocols?",
+        "contexts":[
+            "Implement robust file upload controls, including file type validation, size limits, and virus scanning. Ensure proper access control to prevent unauthorized uploads or downloads.",
+            "13|Sistem, kullamcinin, sayisallastirlm genel kesif incelemeleri dokiimanim sisteme yiiklemesini saglayacaktir.|1|11|1]01|1]1|1|1|1| Identity Verification (V2), Session Management (V3), Access Controls (V4), Verification, Cleaning, and Encryption (V5), Debugging and Logging (V7), Data Protection (V8), Communication (V9), Malicious Code (V10), Files and Resources (V12), API and Web Services (V13): Standard security practices for data retrieval as well as creation or modification. Analysis & Recommendations:"
+        ],
+        "ground_truth":"The security measures include implementing robust file upload controls such as file type validation, size limits, and virus scanning. Additionally, ensuring proper access control to prevent unauthorized uploads or downloads is crucial. Standard security practices for data retrieval, creation, or modification include Identity Verification (V2), Session Management (V3), Access Controls (V4), Verification, Cleaning, and Encryption (V5), Debugging and Logging (V7), Data Protection (V8), Communication (V9), Malicious Code (V10), Files and Resources (V12), and API and Web Services (V13).",
+        "evolution_type":"multi_context",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":51,
+                "orig_elements":"eJxtU1Fv2jAQ\/iunPEytFCJCCJS+Vd0mVVonNKbuAVXIsY9wwrEj26HNRv\/7ziHd9jCBCPd9vs933122vxLU2KAJO1LJLSTzxWpfTGeziSiKm8k835eTap5XEywXZbXAqlRlmaSQNBiEEkFwzq9EWusUGRHQD7EWve3C7oBUHwIjs6JYcc4Iv5AKB0bzRTlntLVkQszbbvPVLMtTKKer7OY5hfd4WS6y6RAXyzIr\/gNcMhhJfO8DNrGTNb2i3rRCYvLGhMKAMpA1O6mF97vW2YqPTbPlfF6WfGBPGkPf4pC7foxNkt\/ha3BCBhzMCa7DZGjE1J2oh263CZo6iVe3jOxM11ToGC\/zeGvg\/JiZF+cNxcpSOHZai0aSIZOCFz15wYAP5HQDNRrUcERPeyAjh9lodATKHokaYagBPwgh9ETHyHuWYqGa7RVSHFkoO+fnnL\/P0\/iTny8feFA8Zwo9PLHinqSIdsDV0+w6hQ16H6NHYbiNuBBMFEzcSckU3FsTnNWe0Tmj\/yqkcK+RKzN1CsIo+GSk69tRu+TDH7Hq6pr5gf5iL\/+vnpaR4x2CtbPjcBi9YfTeNk1n\/la4YuxRaJJku1iLQgbzKaOfeWp+0P2G3naOi41UbOlu\/TAQP7Di9tyJRq64voVNYEY4BR5l56InbRzzcGRvHcTVBofBEZ6EBuHhBfXwlA4vVfGpxqo\/LmRwZ4TueTjwgWuR3AHyFZHyt\/DQtJfXDHjtOh8gbht0rbZCgRy9TePIdaeiOwMf1xH4flKj0Z5+ImhqKPiL1ydybIiXwkT\/M\/bedw65GduiA3GZ3agPwTKBp1hFZ0QXDtaxnhrL8LEjZV\/MEGRxz99fh6\/COa7ghN\/jOr89\/wZUF2am",
+                "is_continuation":true,
+                "filename":"template.pdf"
+            },
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":51,
+                "orig_elements":"eJxtU1Fv2jAQ\/iunPEytFCJCSCF9q7pNqrROaEzdA6qQsY9wwrEj26HNRv\/7ziHd9jCBCPd9vs933102vxLU2KAJW1LJLSSLaoqiWqjJcrZcTOYzrCa72XQ+ETjD8mY5V1WxT1JIGgxCiSA451cirXWKjAjoh1iL3nZhe0CqD4GRWVFUnDPCL6TCgdH8ppwz2loyIeZtNnk1y\/IUymmVLZ9TeI8X5U02HeJiUWbFf4BLBiOJ733AJnayolfU61ZITN6YUBhQBrJmK7Xwfts6u+Nj02wxn5clH9iTxtC3OOSuHmOT5Lf4GpyQAQdzguswGRoxdSfqodtNgqZO4tUtI1vTNTt0jJd5vDVwfszMi\/OaYmUpHDutRSPJkEnBi568YMAHcrqBGg1qOKKnPZCRw2w0OgJlj0SNMNSAH4QQeqJj5D1LsVDN9gopjiyUnfNzzt\/nafzJz5cPPCieM4UenlhxT1JEO+DqaXadwhq9j9GjMNxGXAgmCibupGQK7q0JzmrP6JzRfxVSuNfIlZk6BWEUfDLS9e2oXfLhj7jr6pr5gf5iL\/+vnhaR4x2ClbPjcBhdMnpvm6YzfyusGHsUmiTZLtaikMF8yuhnnpofdL+ht53jYiMVW7pbPQzED9xxe+5EI1dc38I6MCOcAo+yc9GTNo55OLK3DuJqg8PgCE9Cg\/Dwgnp4SoeXqvhUY9UfFzK4M0L3PBz4wLVI7gD5ikj5W3ho2strBrx2nQ8Qtw26VluhQI7epnHkulPRnYGP6wh8P6nRaE8\/ETQ1FPzF6xM5NsRLYaL\/GXvvO4fcjG3RgbjMbtSHYJnAU6yiM6ILB+tYT41l+NiRsi9mCLK45++vw1fhHFdwwu9xnd+efwPC0GbA",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How can gen AI + OWASP ASVS improve security patterns in software dev?",
+        "contexts":[
+            "Rajbhoj A, Somase A, Kulkarni P, Kulkarni V (2024) Accelerating software development using generative ai: Chatgpt case study. In: Proceedings of the 17th innovations in software engineering conference, pp 1\u201311\n\nReqview (2016) Owasp application security verification standard (asvs) tem- plate. https:\/\/www.reqview.com\/doc\/asvs-template\/, accessed 2025-12- 08",
+            "Rajbhoj A, Somase A, Kulkarni P, Kulkarni V (2024) Accelerating software development using generative ai: Chatgpt case study. In: Proceedings of the 17th innovations in software engineering conference, pp 1\u201311\n\nReqview (2016) Owasp application security verification standard (asvs) tem- plate. https:\/\/www.reqview.com\/doc\/asvs-template\/, accessed 2025-12- 08"
+        ],
+        "ground_truth":"The answer to given question is not present in context",
+        "evolution_type":"multi_context",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":42,
+                "orig_elements":"eJy1Ustu2zAQ\/JWFTglgyaJepn0LegraokYD9OIGBk2uJKYyyZKUFSPov5eUmz5zKpDb7nCHi5md3VOCAx5R+b0UyQYSykUj1hRTxgVNK1E26aHlbdquSEMoPdRltU4WkBzRM8E8C5ynhGtthVTMo5v7gZ316Pc9yq73ASnKch04P+BJCt8HlDR1FVCjpfKRt9uRNc0CVNI6o\/cLeO4rSrJq7klZvwhcGAFJ3Nl5PEYlW\/mIw51hHJNv4UGgR+6lVns+MOf2xupDGMuzdUlzEgZaOaA\/G5y52\/dRpHR7fPSWcY+zOd6OmMxCVDeybla7S1B1SVxtArJX4\/GANuBVEbf6wI\/Mj+zh0OsHuFnAnT4yh7F6Ow5fmFUStr\/Vn+CqyIvqGm44D6exzEvVgdOtn5hFEHjCQZt4MRhdfOpQzVMnBCY38KZnvjMeeFzi\/CjOGdyqDWyt5ojhSp0D3YLvEcjK9yCV0icWjXGh\/rUoqJIK0cYVXKsWLSqOCzAGyOexyElJSPTi2bJ30vnbaH2Q\/Xeo6lUrVm1epWXZkrQqDk1KVzVJV6JqkDSM0IK9aqhIzEyTlc+hCn1N8z8z9A9wYfxnqHJCilcPFX49SZxiYEhzDR8m5gwwYwbJ54OCQz5a6c9wCndsf6KeKcGsgCvmTu4agrQUzBCMzqD33rjNcjlNU2Yv32dcH5dC82WcTsPwPLpcAAsBdQ4FhLzWKSlSyOnLibj\/Dt7vXY4=",
+                "filename":"template.pdf"
+            },
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":42,
+                "orig_elements":"eJy1Ustu2zAQ\/JWFTglgyaJepn0LegraokYD9OIGBk2uJKYyyZKUFSPov5eUmz5zKpDb7nCHi5md3VOCAx5R+b0UyQYSykUj1hRTxgVNK1E26aHlbdquSEMoPdRltU4WkBzRM8E8C5ynhGtthVTMo5v7gZ316Pc9yq73ASnKch04P+BJCt8HlDR1FVCjpfKRt9uRNc0CVNI6o\/cLeO4rSrJq7klZvwhcGAFJ3Nl5PEYlW\/mIw51hHJNv4UGgR+6lVns+MOf2xupDGMuzdUlzEgZaOaA\/G5y52\/dRpHR7fPSWcY+zOd6OmMxCVDeybla7S1B1SVxtArJX4\/GANuBVEbf6wI\/Mj+zh0OsHuFnAnT4yh7F6Ow5fmFUStr\/Vn+CqyIvqGm44D6exzEvVgdOtn5hFEHjCQZt4MRhdfOpQzVMnBCY38KZnvjMeeFzi\/CjOGdyqDWyt5ojhSp0D3YLvEcjK9yCV0icWjXGh\/rUoqJIK0cYVXKsWLSqOCzAGyOexyElJSPTi2bJ30vnbaH2Q\/Xeo6lUrVm1epWXZkrQqDk1KVzVJV6JqkDSM0IK9aqhIzEyTlc+hCn1N8z8z9A9wYfxnqHJCilcPFX49SZxiYEhzDR8m5gwwYwbJ54OCQz5a6c9wCndsf6KeKcGsgCvmTu4agrQUzBCMzqD33rjNcjlNU2Yv32dcH5dC82WcTsPwPLpcAAsBdQ4FhLzWKSlSyOnLibj\/Dt7vXY4=",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"Which non-parametric method by Dem\u0161ar replaced the paired t-test for ranking classifiers?",
+        "contexts":[
+            "Following the rejection of the null hypothesis, we proceeded to identify the specific pairs of models that differ significantly. For these pairwise compar- isons, we employed the Wilcoxon Signed-Rank Test. Dem\u02c7sar recommends the Wilcoxon test as a \u201csafe and robust\u201d non-parametric alternative to the paired t-test for comparing two classifiers. Unlike the t-test, which assumes commen- surability of differences and normality, the Wilcoxon test compares the ranks of the differences. This ensures that outliers",
+            "Following the rejection of the null hypothesis, we proceeded to identify the specific pairs of models that differ significantly. For these pairwise compar- isons, we employed the Wilcoxon Signed-Rank Test. Dem\u02c7sar recommends the Wilcoxon test as a \u201csafe and robust\u201d non-parametric alternative to the paired t-test for comparing two classifiers. Unlike the t-test, which assumes commen- surability of differences and normality, the Wilcoxon test compares the ranks of the differences. This ensures that outliers"
+        ],
+        "ground_truth":"The Wilcoxon Signed-Rank Test is the non-parametric method recommended by Dem\u0161ar as a 'safe and robust' alternative to the paired t-test for comparing two classifiers.",
+        "evolution_type":"multi_context",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":28,
+                "orig_elements":"eJxtU8Fu2zAM\/RXCpw2IjThJ22TnobcNxdp1h7QIZImOucqSIcpNjaL\/PkpOhw3oydaTHvke9bR\/LdBijy4eyBRfoGh2ardVNZZb1WK5WS+XZWP0qmzUpTK1Mmq9bYoFFD1GWUQlnNdCex8MORWR89qqyY\/x0CEduyjIar3eCecMn8jETtD68mIj6ODJxcTb7+vdtqoXUG+28n1cwF\/galtXmwzU64tq8yEykwQqeOKIfXJzQy9obwelsXiTDYMRdSTvDtoq5sMQfCPHltVut6ylT9GSxTgNmLk335JR4gO+xKB0xDygGEYsshl3HNUxO94X6I5Faj0IcnBj32BIvrepaxR+Yl57a\/2J3BFihxDw96wFfJsBN1oL3TR4WTDxAk4IIlAjGjQQPZCRa6J2yqd5QE0taRgUBU41em\/QsmyqCIbaFgMwHV06pFy0UwXXPiQuYyadSH607wcVSiD2bm6J\/WD9lDpKl19ktX8RjbdSCU35Q7knuEOOFXzF\/mFcrvQVqyBmpJCkyPD\/NAlEBMWg4GFcLWvNEipQzoAMfuSYQQPOu1JUKMlUEEfKRgwSJnrGZDsVTHqTpDIXbMXHLDwP8+QhX6c4xcAV\/HSWnjDzZoL46kh3IoTHHhlmrSXwGFRDluKU5jfPDJ2WE0mi86FXaXPxgae5Pc52g0yF36\/xnzIV3HXEgE4a4flm5AHYJBM+8ZglZVJKmLxCGDC0qa2wwQQ\/SNWGMTyLd3LQk2hKarNdqZh93l9muff16jMYL7LT9bMkZ\/Ah5UtepZ2An\/B0zh2PNnKVMvwe9e8qhDzvuxTVt8c\/xnVkCg==",
+                "filename":"template.pdf"
+            },
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":28,
+                "orig_elements":"eJxtU8Fu2zAM\/RXCpw2IjThJ22TnobcNxdp1h7QIZImOucqSIcpNjaL\/PkpOhw3oydaTHvke9bR\/LdBijy4eyBRfoGh2ardVNZZb1WK5WS+XZWP0qmzUpTK1Mmq9bYoFFD1GWUQlnNdCex8MORWR89qqyY\/x0CEduyjIar3eCecMn8jETtD68mIj6ODJxcTb7+vdtqoXUG+28n1cwF\/galtXmwzU64tq8yEykwQqeOKIfXJzQy9obwelsXiTDYMRdSTvDtoq5sMQfCPHltVut6ylT9GSxTgNmLk335JR4gO+xKB0xDygGEYsshl3HNUxO94X6I5Faj0IcnBj32BIvrepaxR+Yl57a\/2J3BFihxDw96wFfJsBN1oL3TR4WTDxAk4IIlAjGjQQPZCRa6J2yqd5QE0taRgUBU41em\/QsmyqCIbaFgMwHV06pFy0UwXXPiQuYyadSH607wcVSiD2bm6J\/WD9lDpKl19ktX8RjbdSCU35Q7knuEOOFXzF\/mFcrvQVqyBmpJCkyPD\/NAlEBMWg4GFcLWvNEipQzoAMfuSYQQPOu1JUKMlUEEfKRgwSJnrGZDsVTHqTpDIXbMXHLDwP8+QhX6c4xcAV\/HSWnjDzZoL46kh3IoTHHhlmrSXwGFRDluKU5jfPDJ2WE0mi86FXaXPxgae5Pc52g0yF36\/xnzIV3HXEgE4a4flm5AHYJBM+8ZglZVJKmLxCGDC0qa2wwQQ\/SNWGMTyLd3LQk2hKarNdqZh93l9muff16jMYL7LT9bMkZ\/Ah5UtepZ2An\/B0zh2PNnKVMvwe9e8qhDzvuxTVt8c\/xnVkCg==",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How do reviews of security req. eng. aid in analyzing software security needs?",
+        "contexts":[
+            "Anwar Mohammad MN, Nazir M, Mustafa K (2019) A systematic review and analytical evaluation of security requirements engineering approaches. Arabian Journal for Science and Engineering 44(11):8963\u20138987\n\nBatool R, Naseer A, Maqbool A, Kayani M (2025) Automated categorization of software security requirements: an nlp and ml based approach. Requirements Engineering pp 1\u201313",
+            "Alam JA, Ayman M, Rehman GA, Sarlan AB, et al. (2025) Security require- ments engineering: A review and analysis. Computers 14(10):429\n\nAndrade R, Torres J, Ortiz-Garc\u00b4es I, Mi\u02dcno J, Almeida L (2023) An exploratory study gathering security requirements for the software development process. Electronics 12(17):3594"
+        ],
+        "ground_truth":"The answer to given question is not present in context",
+        "evolution_type":"multi_context",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":39,
+                "orig_elements":"eJy1kk9P3DAQxb\/KKCeQNlG8+WtuW6mHli5CcFzQauJMdi0ldnAcYEH97p1koV21nCpxSJR58fP4jX+b14Ba6sj4ra6DCwhIVXGcFXkYS5RhWpMKy0YVYZPHlC6rXNFSBAsIOvJYo0f2vAbKWldrg56GuW7xYEe\/3ZPe7T0ryySR7HmTn3Tt96yKPEtZ7a02fvJtNkKWkVhAXmZRfr+A97ooZFTOtUiyqPhAODpYCYbD4KmbklzrZ2pve1QU\/OQfNXlSXluzVS0Ow7Z3tuJlcVSmokh4QaNb8oeeZu\/1egqphy09e4fK0zwc70YK5iBmN+JuTrsJyOyCqXXPytaMXUWO9UROXT37J+fKPKGDtd1j12EN66sFXOGLZmkB63Hw2CBcwtkyFvIcVnBMgV4rcPSo6QnQ1Pxge2ANW6BHbEec4oBtYCA1Ou0PvPhh1G6+zwH4XNoQOW12gD3nRbWnIYKVw0qjge92dLwjNNbBrdJkFM1tvp740vRMiPOLUubJ3cinS0pZFtMI3if1Qw\/+2zRxTvs3S1iVRDKnUKHEMM2EDFkpwybLkriWjYpr+lSWWCqYjOU7S1yXZfxWiySf0PlHODr+k6U8l\/KzWfqC3toWbiaEBr4nWDFD+FBNIn9e4gGNhvVE0zJjmkZvGSWqQfF7Z51++QOObTyDSR8TdME4gGn7mYquhYrb1b9RiuDmlLZTavoexBEXkXwMy\/0ved9keQ==",
+                "filename":"template.pdf"
+            },
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":39,
+                "orig_elements":"eJy1k8FunDAQhl9lxCkrAcKAWdgbraooUaJGSW\/baOW1Z3ctgU1tk4RWffcOpK2iNKdKOSAx\/8zPeMYf2x8RdtijCTutog1EsqplU3CRsFKqpMwPMtln2T5ZC8GrgimuDlkUQ9RjEEoEQZ4fkbTWKW1EQL\/EnZjsGHYn1MdTICUvioY8v+VHrcKJVFbxktTBahNm33bLmjrNY+CsTuv7GP7GNUv5ErOCp+VbwuIgJfKTD9jPk9zoJ+zuBiEx+kkJhQFl0NbsZCe83w3O7qksS2teFhUVHHSHYRpw8d5cz0Nqv8On4IQMuCwnuBGjZRBzHMVxmXYboTlGc+uBlJ0Z+z060otm7hrIPzvbTvRw2cbQTr0wcB3DLZ7mt3PS7oSjL0L7IQYMILoUzvIs5yu4Qzk6HSZw+G3UDhOYb8oDddQG0Wlz3EBL2QeNjyCMokd0k9c+hY+2H8aAzgMrz1i22pR5M5\/9z4hX2oeLeVV0zNcQMLEuUa1ZkjclQSA4QcAJglpUrEGZV6x+fwhqnjYvIKjqLM1e3vk\/wrPjfyHg\/P0hMMoJhXAbwxfrHHq4jOGzC\/p7ci6c\/DrSj1aSehHDtaYoV9LYuabtetRKwNUCRrGC1gA+DZ11Ilg3gQ+jmuAowmlhAvwrbp6pOVgHVAHeHsKjcAgKH7Czw5wF2oRET9x86mhDzhotiZz8jK1Xm4I35dvo3P8CraVLkQ==",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How were 30 software reqs refined via classification, SME review, & detailed checks to align with OWASP ASVS?",
+        "contexts":[
+            "The first version of the Annotation Guideline based on OWASP ASVS security classes has been developed, where each annotator has in- dividually classified the sample corpus by annotating it with one or more labels following the instructions provided in the first Annotation Guide- line. After the initial annotation, the SMEs met under the guidance of the senior SME, who is also the branch manager, to review and discuss the annotation decisions. Each of the 30 software requirements was examined individually,",
+            "The first version of the Annotation Guideline based on OWASP ASVS security classes has been developed, where each annotator has in- dividually classified the sample corpus by annotating it with one or more labels following the instructions provided in the first Annotation Guide- line. After the initial annotation, the SMEs met under the guidance of the senior SME, who is also the branch manager, to review and discuss the annotation decisions. Each of the 30 software requirements was examined individually,"
+        ],
+        "ground_truth":"The 30 software requirements were refined by initially being classified by annotators using the first version of the Annotation Guideline based on OWASP ASVS security classes. After this initial annotation, the SMEs, under the guidance of the senior SME (also the branch manager), reviewed and discussed the annotation decisions. Each requirement was examined individually.",
+        "evolution_type":"multi_context",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":16,
+                "orig_elements":"eJx1VE2P2zYQ\/SsDnbKAbcSWdzfubQ9JUaBBF3DRHhaBQZEjiwglKiRlrxHkv\/cNJX9kkR5kWKPhzLw37\/Hle8GOW+7SzpriNyr0er3SRj\/ON8uNmq\/NQznf1Jv1vFovH2ullquHclnMqGg5KaOSwpnvhfY+GNupxDG\/O3XyQ9o1bPdNQmRVlhucmcJHa1KD6PLhfo1o722X5NzLy6rcLB5ntLovF+svMzq\/f3jcLEp5Xy7L+8XDLwLjCUSKeIqJW0HybF\/ZbXulufiBD4YT62R9t9NOxbjrg6+Q9n6xKR8+3COhto7Tqed89vmzgLRxx68pKJ04k5PCwEUG0u0Htc9oXwru9oW07hHZdUNbccjopGvCeTn5bnlHPtg9SHIkQVKdwdP5pGSoSEcOTIG1P3BQleMZvVvdkXasAhmvB9mRmpMk01FFahVow8MGmeXdTS36Nihn0ymnadS2oKRL7kQN9rGgvxu+zQZdvcPqyHbaDYYN1ZadiVT7QAm50dfpqPJ03wYbsloyhhlFnpNjoYf++vdp+0xOVezi7BYdqmjfyqEICjAcx4x4QU\/OEdDGjN\/Xudl+sIYdYL0h6MLBxFQfOHI4oHHyJCv6ivEOdk5jtUpFfMKx6xA1s6mQt6BPE7Cb6lCD5iiDU1TggzFz6AeQEHybk2\/BR07UgNyKucPLxEB1AoWJA6l94DERoLafP8aR89qGmM6Az3ifrjP8foF+mX4k9Wn7zxZt9BBkq1m+HK8DGD6w870I4dgIN6x0cwNcEm03J2MP1kAabqphsWczbvgnyMBxZqbbk010tKnBNCzraz0ajFuGQJzzR0mSIraL8Ice1Qw+0QzlbZc\/jtjfgoV4ABdCqIW2sYhNFha5rmaW48Ii4c6hoTNTqihFdZrPTEbuLAZEpvDgyUZSLvr8rQrIbOCZDh4NM9GMqIWPWWXGRj3E+FYThrWNo1I\/CqNTn\/L9Lx0Rs934VbXiSQC50j3aAUxoJYsbl5Tyb9aysXXNQXj0PQgQ\/lTrJ1ove4Q4uYYnzw5olWEB0kNQg\/yXJrD7wWZSpH7e5biKOUl9foXVu+nGkfzAKsr\/yesWXm28hRWuS4GWIQJcSuns04mvSxFRbXVOEAvVA5x9dYEQE0SUcreg0f8xuJC79XwF\/4lb6w+5yn98+Q\/RGVIj",
+                "is_continuation":true,
+                "filename":"template.pdf"
+            },
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":16,
+                "orig_elements":"eJx1VE2P2zYQ\/SsDnbKAbcSWdzfubQ9JUaBBF3DRHhaBQZEjiwglKiRlrxHkv\/cNJX9kkR5kWKPhzLw37\/Hle8GOW+7SzpriNyr0er3SRj\/ON8uNmq\/NQznf1Jv1vFovH2ullquHclnMqGg5KaOSwpnvhfY+GNupxDG\/O3XyQ9o1bPdNQmRVlhucmcJHa1KD6PLhfo1o722X5NzLy6rcLB5ntLovF+svMzq\/f3jcLEp5Xy7L+8XDLwLjCUSKeIqJW0HybF\/ZbXulufiBD4YT62R9t9NOxbjrg6+Q9n6xKR8+3COhto7Tqed89vmzgLRxx68pKJ04k5PCwEUG0u0Htc9oXwru9oW07hHZdUNbccjopGvCeTn5bnlHPtg9SHIkQVKdwdP5pGSoSEcOTIG1P3BQleMZvVvdkXasAhmvB9mRmpMk01FFahVow8MGmeXdTS36Nihn0ymnadS2oKRL7kQN9rGgvxu+zQZdvcPqyHbaDYYN1ZadiVT7QAm50dfpqPJ03wYbsloyhhlFnpNjoYf++vdp+0xOVezi7BYdqmjfyqEICjAcx4x4QU\/OEdDGjN\/Xudl+sIYdYL0h6MLBxFQfOHI4oHHyJCv6ivEOdk5jtUpFfMKx6xA1s6mQt6BPE7Cb6lCD5iiDU1TggzFz6AeQEHybk2\/BR07UgNyKucPLxEB1AoWJA6l94DERoLafP8aR89qGmM6Az3ifrjP8foF+mX4k9Wn7zxZt9BBkq1m+HK8DGD6w870I4dgIN6x0cwNcEm03J2MP1kAabqphsWczbvgnyMBxZqbbk010tKnBNCzraz0ajFuGQJzzR0mSIraL8Ice1Qw+0QzlbZc\/jtjfgoV4ABdCqIW2sYhNFha5rmaW48Ii4c6hoTNTqihFdZrPTEbuLAZEpvDgyUZSLvr8rQrIbOCZDh4NM9GMqIWPWWXGRj3E+FYThrWNo1I\/CqNTn\/L9Lx0Rs934VbXiSQC50j3aAUxoJYsbl5Tyb9aysXXNQXj0PQgQ\/lTrJ1ove4Q4uYYnzw5olWEB0kNQg\/yXJrD7wWZSpH7e5biKOUl9foXVu+nGkfzAKsr\/yesWXm28hRWuS4GWIQJcSuns04mvSxFRbXVOEAvVA5x9dYEQE0SUcreg0f8xuJC79XwF\/4lb6w+5yn98+Q\/RGVIj",
+                "is_continuation":true,
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"What ensures secure comms in APIs\/web services?",
+        "contexts":[
+            "Debugging and Logging (V7), Data Protection (V8), Communication (V9): Standard practices for data retrieval as well as creation or modification. Files and Resources (V12): Administering user accounts involves managing files and resources. API and Web Services (V13): Account creation may involve API calls. Analysis & Recommendations: Implement strong password policies and account lockout mechanisms. Ensure proper segregation of duties for managing accounts. 23|Sistem, yneticinin, kullanicinin aktif dizinde"
+        ],
+        "ground_truth":"The answer to given question is not present in context",
+        "evolution_type":"multi_context",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":52,
+                "orig_elements":"eJzdV9tuGzcQ\/ZWBHhoHkFRdHMf2W5C0QICmNeLUfXANg9odrQhxyS0vdtZx\/r1nuCvJsR0XKdKXAmtLGpLDuZwzM3v+acCGa7bxUpeDYxrMprNDLuY8OlocvhztTw4OR2r+cjGazsuyWEwLVgeLwZAGNUdVqqhw5tOgcM6X2qrIIf82qnUpXq5YV6sIyWw+P8KZXnyty7iCdHrwYh\/Sxmkb5dz5+fRoOj4c0uxoNp5cDGn7ezI\/7AX7k5fj2aOSfAaSQWhD5Fp8OdEf2Zw2quDBZyyUHLmI2tnLwqgQLhvvFtg2GR\/MZnOoGCy14dg2nM+evBM3dbjkj9GrInIOT\/SJB9kVWyVVZX\/PB2yrgVzdQHJpU71gD\/mLmdwacV5OTo9uT7VYNqTUVsmoWlGrbrTRtbbaDum08dpWtPSq5mvn1wRr6N3Za9p750o2ozPN16PXzkbvjGH\/nGpdK68pqoCPmoJaGGeTVVm\/pYoN7tMeahba1BxwDTZVyIIq1Bor49vJxQQP\/t1Ouu+\/3dKHlQ6ERxHCtbK6UIY8\/5W0zzihuFKRSsfBPsMnpEU0LXYYpJ+io1enZ6dU4EflvOYwptOa1skgYroQT+mKYXUFwwLs0V7BsFINyUVXq6jX5Izyak21CuuMTSoZcaseGD+9neK5uJ3I\/8mP2YdbelvCSB1bOsM1S1gvGae9s9lzhJhDkF\/vlEWmsjd7Z3MsvCoKLFEf3QDpPqR3NQzptWG4YKshKVvST7bwbdPrfoHNb3iRqkoyKMu\/uO773tlLWQNR6MS7Hn+QHkL62tV1sjsLj54f02nEaeVLagRzGlbR0nkSppG2TYpZe7NVNaZXVpk2IF8\/0HsuoJKhQJbCMYwMybNsb9jngIpNXVr\/StCtsJoCl5K3XikFtkFHfcX51rEEJegS51OQ06VeLtlL6B7Rl23dbshWC6EAgtl0C\/+I9LbAAml9gwjbkqlyWBKkWgIJdeUR6eEWNaRKgIbenhCAXAlsKr3QpLAIqFiAaAn4sRWMZ9Y4k6qY\/A4pE2AE1UFwjucJjBwD\/kzXQK8HudbCA6PtuotQXOVo+WfgR69h\/C0gOd4KJGpf3JNDxTldUB7xZwF5LzaKosLZZXelMvnWxxB1vBU8UK8tMlN3bgq768Z5IC0+DZ\/fA1MAIaCOd54oI8SOq7pL90M\/xhvcxfuhDFxAjmpRsWWPlTJ7V+rQgNgbGPJVLjOqbgQdFbAz22KntRy7MjKk6s80mfAR9htN2BucZUMavNshZ8Uoi8cCiCCA+GohzLUko2Say8j0uxaS\/742eI4otlco1SrQNZv8WXjuzmNX7cqtE2P6GSwJ2Zj3HFzyomvvbCr4f1VKP8p0hI0Cd1JF4ZLNoLxy5gp7a\/E7d6utIr9RBEydvM2iP3iBSPkr3aufi\/pO1862WrUbvfkg2o0JT+Pybd10M8sGnQ3aOVomIuMM0NFb1JtNxhVrzB1Uo04BFKEO43uVMYBqXPWxWlKZou6Du3V0EwOgcf4oGr9ocYIq6NE3ubpp3UpNEvRxIY2s0iiv1qDXVT4B+rl9c\/X1Pt3B82KHz+\/b6L4Vn3ewmCktVuxAqZrGtE9n8D3LBOTz3HCFuSbfm5pSRoitxsq71CBrMk6FlW6ClIeuRmZcBlopgAbXIYtey1mV3RvnygVSOMOjhZL+1i1IHRW\/hQ0oFVCX88tSPWqdQxaI0b4K6X\/ixGx\/k2vkzGi96TV+V2QM+qCmG+eTNYnW2uymq4lMV309kQEL+RB8uiQZADDAiUnuCoBaISG\/h2d4yAZ+b2riwqfII9nMfeHMOVEeXSJGVaz\/gThveKmtRKZAm\/L3aNPSNar63VGvowAaaxVXQ8ROaPcRmRn2hM857NMWHgwKaqe\/i7KXgItDffY2TSBrC9F5fuA\/EvBiy7Ytw4Qw9k4mNLVdKxA6bjiUGWcxRz6kUiZTz6j\/0cj476h4p5jm7rzLGio6xz7VhcPU3n5RQh+fDgQxksuNV3h3sqHWMQ8ld\/J6Dyx1MlGPlrAb51XC5ICM9G6KSlWWvPMQsDh4gAqpu9MJlWtauDbZAgNzgGd4yWpqvGzB1TL5hPCVCu8a3dck73KbV75flQccQfwP8sr2+eJvROlaBw==",
+                "is_continuation":true,
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How can annotated functional reqs aid in finding hidden security dependencies in SRE?",
+        "contexts":[
+            "This challenge is especially evident in SRE. Identifying implicit security requirements relies on large collections of functional requirements annotated by security experts to reflect underlying security concerns. Current datasets do not meet this need. For instance, PROMISE exp (Lima et al., 2019) includes only a single, high-level security category; DOSSPRE (Kadebu et al., 2023) is based on student projects and lacks industry realism; and the Healthcare dataset (Riaz et al., 2014) is limited to a narrow",
+            "Beyond the dataset construction, this study highlights the complexity of implicit security requirement elicitation. A significant portion of security vul- nerabilities stems not from missing explicit security constraints (e.g., \u201cThe system shall encrypt passwords\u201d), but from functional requirements that im- plicitly demand robust security controls. Our analysis of the ASRD reveals that functional descriptions of business logic often conceal a dense network of security dependencies. A representative example"
+        ],
+        "ground_truth":"Annotated functional requirements, as highlighted in the context, can aid in finding hidden security dependencies in SRE by reflecting underlying security concerns. They help identify implicit security requirements that are often concealed within functional descriptions of business logic, which may demand robust security controls.",
+        "evolution_type":"multi_context",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":3,
+                "orig_elements":"eJx9U11v00AQ\/CsrP7VSYtVxGhL6hKCICgpR0reoitZ36\/jgfGfuI62p+t\/ZO2gpEuJxxzs7O3Pr3UNBmnoyYa9k8RoKbM8bIZv5tFnM2umciykuFmLatK+qWdOKZdPUxQSKngJKDMich0JY66QyGMjnWuNoY9h3pA5dYGRW1yvm\/IbvlAwdo9XifM7oYJUJibfbVatVuZhAVZ3V5fJ2As\/AvJ6V5xmo6vNy\/k\/kF4mhwo8+UJ\/crNU96e2AgopH\/iApkAjKmr3Q6P1+cLbhtrNytVxWM25olaYwDpS56+tkVPk93QeHIlAOKLhIRTZjDhEP2fGuIHMokvTAyN7EviHHeJ1EA9MT8aZTHkSHWnMzARfkBxKKgRHoqCQ\/AigD281lCVepUu2ozAFUP2glVABPIjoVRnD0PSqXn81zoRV5sAY0Oh4sLCtklwy20EaTC9R\/09AYG\/jFJDTjn8l0P5Djr8Fyd5vmQDSSnM6bPLcJawQ540t4G51Li6db8MRMaYEHQ08UICTLhkiW8N46NucDMnEC682X66vtZZKDk0+qR+Bu1OUEZmfV6pQ7hY4yu+JwEDyra+Z1fFBTTUfSL3ZhEwfrxgt492W7XW8u4eQjSmrii5mz+jQF3vCKMiXlQ8xx8wF8ZY8pDcnxiW+epWX0waWQUSvfX+RvoSP4wEDoBDp6cgsnG4U\/Xu4+zzpa9SolyykiGHTO3nEuPfLrpmHRszNh0XmawsExTEm9Ic2BvuFlWNtHHSacj\/IhJc+AjU6kRNqW3LOCj8NgXYCW45UplynYIRGSDh1RR8x8\/l07K3m06pmF6VWFPZL7731NIZ9Kmc796a\/4zG545JFu0lk\/3v4E5eJvpw==",
+                "filename":"template.pdf"
+            },
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":34,
+                "orig_elements":"eJxtUsFu2zAM\/RXCpw6IjdhOvXi3DruuK9oCO2RFoEiMTUyWPElOYhT991FKVrTbjnrUI9975OY5Q40DmrAllX2CDNe1VAKbvGlkm6\/qXZmvy\/V1rlBWy2qlmrJdZQvIBgxCiSCY85xJa50iIwL69NZitlPY9khdHxip6rplzgU+kgo9o2VzvWJ0tGRC5G02ZdsW1QLK66os6qcFvAIf11WxSkBZN0X9X+RMYijzsw84RDd3dEL9MAqJ2QsXFAaUgazZSi28347O7vjbsmjb5brhD3vSGOYRE\/fuazRKfoun4IQMmAIKbsIsmTHdJLrkeJOh6bI4emRka6Zhh47xehWnBuZH5mecrVEQeoSYnMcA0hrPDZOmBVfIgw+TmqHn5HRMz6f\/0g6jxhOFGeweiB8kKYBHObkIOvw1kUt7BEw1EVsWcAOeOkN7koJLo3URjj1eqYdJ52DQiR1pCoRRAQ4ejA2wd3aAgbwn0wGe\/p56Vi\/i+uAKi65YwI+pWpbykSWflwC+F1oDGunmkQVw6ke+FZ\/+qQ8L2E2XMfvJpBiEfusm2heBHedwnq5nUDgIzpF3N\/n3aoKz2hfwbXIguNHsOU\/2GhO8ebj\/wo0PKPSl55uBCr10NMZXInBjMug9aNuRZCSgif0ls0Hwd+ORMwts5ee7MBWOaLgsOccYvsPRoWcfvI4DcoQi7vFs2LJKLk6aTbLO+7PpHNISb20BFVz9E+eROE0pnOND4OSiM46UL6nnSOwBHfBNS5Z+CbiA7z3fdDzYP3d9y+wk5zHe5cvTb38YXfg=",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How does CD (10.46, Nemenyi test, p<0.05) affect eval of 20 classifiers across 11 OWASP ASVS security classes?",
+        "contexts":[
+            "Fig. 2: Critical Difference (CD) diagram visualizing the statistical comparison of classifiers. The horizontal axis represents the average rank of each model across all 11 OWASP ASVS classes (lower ranks indicate better performance). The Critical Difference (CD = 10.46) represents the minimum difference in average rank required for two models to be considered statistically significantly different at p < 0.05.",
+            "We also examined whether the observed models\u2019 performance differences were statistically significant. Following the comparison framework of (Dem\u02c7sar, 2006), we compared the distributions of classifier performance scores. The 11 OWASP ASVS security classes were treated as independent domains (stratified subsam- ples from the main data set). The performance of the 20 evaluated classifiers was assessed using the Friedman test, followed by pairwise Wilcoxon signed- rank tests."
+        ],
+        "ground_truth":"The Critical Difference (CD = 10.46) represents the minimum difference in average rank required for two models to be considered statistically significantly different at p < 0.05. This is used to evaluate the performance of the 20 classifiers across the 11 OWASP ASVS security classes.",
+        "evolution_type":"multi_context",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":30,
+                "orig_elements":"eJx1UsFu2zAM\/RXCpxZoDDt2srjYDkWL3YYFyLAdgiJgJNohZkueRDdNi\/77aKcdtmE78uk98j1S2+eEWurIyY5tcg3JYo92j5mZzZdFNiuzspxVGZkZFnaVl7i3dYnJFSQdCVoUVM1zYrwPlh0Kxalu8eQH2R2Im4MoMi+KSjWv8JGtHBTNl4tS0d6zk1G33ebVKi2u4F1Zpqv7K3irq6JK51OdF4u0\/AdwViiSxFMU6sYka36kdtOjoeRFHywJGWHvdqbFGHd98HulZWm1zMqlEmpuSU49Tdr1pzEkxx09SkAjNC1HwkDJFMQ1AzZT2m1CrknG0b0iOzd0ewqKF9k4VVQ\/Kj9yk8L8Gm4DCxts4Y7rmgI5Q3Bxe3cJlrEJ2MEDxwFbfmLXgBwIoqBwPGuM73oMHL0DX8MUg2umEFP4otSDD\/zknSgTHzlCoD5Q1NPGqRM+UFCHENB9H\/WE5gCdt6R0E3yMgG0LeQ6fv91s1nCz+bo5z6AIF60\/UpikEdhZtSMEexJRtKdQ+9ChZrk8O\/lPSvgAeZaWy8u\/rXXsuBs6XcIvOrs\/DQf6MXAgCzoK5OjPzlXu1YZuxkW2NL7\/trD2BJEbpzsy6ESrt\/4CKNDDe71+tkjHi74dXu80BLrFfvwpycv9T+W0BWY=",
+                "filename":"template.pdf"
+            },
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":28,
+                "orig_elements":"eJyNU8lu2zAQ\/ZWBTglgC5Isx1JvAYrc2gZw0BycwKDEkU2Ei0COvCDIv3fIJK2B9tCLQD3OW2ZIbl4z1GjQ0lbJ7AtkxbJZtksU86EuVvO6Xsq56IbVfNHeNMNiKMuqbrIZZAZJSEGCOa9Z75yXygrCkP61OLuJtntUuz0xUi0WLXM+4KOStGe0vFnWjI5OWYq8zaZsm7ycQVk0TV48z+A3sCjrvE1AWVd580\/kncRQFs6B0MRu7tUJ9XoUPWZvvCGRsCfl7LbXIoTt6F3HZUXeNvWq4oJBaaTziIl7\/y02qsIWT+RFT5gGRH7CLDVjd5PYpY43GdpdFq21si8Jec0CCc9TtRJPsdk0AWKpKPIVzdNUVP0qCB\/FJq8j3CvCXKI5MFwVxQ1LkAqkeqFj\/r806+ZCMxL+VytGHTn81k6mQx+PqHm70HpEEDo4wJMwyqKE4x5pjx74A64L6A8MGidRh6epKsoWRvSD80bYHkGqYUCPvAxw5AVcmOszBLWzauAfSzncOa3dUdld0u6dGYVXwVkYvDB4dP4F3ABXlxObQWzoesbaHwQOE9mSPbzqpnjEIdLSMbMVJ7\/MF3rnMeTwwJyyhB+Pt+t7uF3\/XEPAfvKKzu\/Mz\/jkke+2BBEgzn5E\/lgC6YxQbHTFrtwf20gIUxeEmcOomTx4Z1KwWAfxubABXb8bXwbiqLGsKgAPQk\/J7E92TsHOKU\/gjSl8TuvOsyUrAD88msGQRskV3RlGofxRBYRHpXt34nnGqaOcgxf2JRFCHq\/L53X\/Lnxs4oAP8Q68Pf8CfWBZZg==",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How does ASVS aid early dev stages with 'security by design' for mapping controls to requirements?",
+        "contexts":[
+            "In contrast, the Open Web Application Security Project OA pli- cation Security Verification Standard (ASVS is well suited to the objectives of this study. ASVS provides a detailed, verifiable, and eveloper-oriented axonomy explicitly intended for requirement-level security analysis. Its orga- nization into distinct, actionable security categories supports direct mapping o functional and non-functional security controls. Previous studies have suc- cessfully applied ASVS in requirements and design contexts",
+            "The OWASP Application Security Verification Standard (ASVS) 1 offers a standardized, systematic, and verifiable framework for defining and evaluating application security controls. ASVS emphasizes the principle of \u201csecurity by design\u201d by facilitating the integration of security considerations early in the software development lifecycle. Its comprehensive set of requirements can be directly mapped to verifiable test cases and secure coding practices, ensuring traceability throughout the development process."
+        ],
+        "ground_truth":"ASVS aids early development stages with 'security by design' by facilitating the integration of security considerations early in the software development lifecycle. It provides a comprehensive set of requirements that can be directly mapped to verifiable test cases and secure coding practices, ensuring traceability throughout the development process.",
+        "evolution_type":"multi_context",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":7,
+                "orig_elements":"eJxtUstu20AM\/BVCpxwsQbIdxe4tvQVoEwMO0oMRGJSWltmud9V92FaC\/nu5ctMERQ86aLjD4Qy5ec1I04FM2LLKPkE2r8t6Vqs2VzSv8vmcmnxZLihvCKumVDusq0U2gexAARUGFM5r1lrrFBsM5Md\/jYONYbsn7vZBkOlsthTOH\/jEKuwFrerruaC9ZRMSb7OpljeFQHV1XZTPE3j7X87rYjr+V\/OqKP8DXBiCZH7wgQ7JyYrPpNc9tpT9koKiQG1ga7atRu+3vbONPCuL5WIxm8qDHWsKQ08jd\/U1mWS\/pXNw2AYawwkuUjYaMV3EbnS7ych0WZLuBdmaeGjICX6TRIPQE\/HOQGuNdPJhAmFP8NCTgW\/UwG3fa24xDQZraqPjMMDK2e8yLDzcglRz+Lf+RI53f1kBjUKn4Op2\/bQG9nAircFHlqkh2FHPNqkhH8mD3Qkir3yIaihgJEkYR1ZSRJCcUJJQEziOKthomoBIAB1J255cbh3LwUhzPFtjDwPQOZngoAeQXZJRUttZB45+RnbjeeU60cG\/WUCDevDsC7gLMpPrMAfDLxdL0sSCYh\/YtBIYjntLg7zzxTx1aRAxEvveOumiREtSO2Dfs+nAwi6aC1WPBow1+QfovVdajdUyy8rRkW28hJN67\/EoorGVHZD3u6jFIqaVicNL3OajSz\/qSJDcXTYu+\/dw9SX+QM904vYlPXiGaTmtRuPyRkKQyNoBThz2InzZppT2gB7u79aPsCjLvJ59fnfK8kVPSb2xwsIWFR24lVk8oUtUmYONij44Hr0GCbPzRTrftyu\/R+cwHcVjOtNfz78BziBhMg==",
+                "filename":"template.pdf"
+            },
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":3,
+                "orig_elements":"eJxtUj1v2zAQ\/SsHTS1gG5blxFa3jB3aBnCQDm5gUORROpQiVZKyowb57z3SieOhI5\/ufZ1u\/1KgwR5tPJAqvkCha6yXWq\/mulZivq5Wm3ktNtV8u93ebjZ6vdLbsphB0WMUSkTBnJdCOucVWREx5LcRkxvjoUNqu8jIqqpq5rzBJ1KxY7S8vVkzOjiyMfH2+7KuFzxYrqt6UT7N4AJsltVinYGyulnc\/hc5kxgqwhQi9qnNPT2j2Q1CYvHKHxRGlJGcPUgjQjgM3jU8tlzU9XJ5wwOaDMZpwMy9\/5aKUjjgc\/RCRswLin7EIpex7Sja3HhfoG2LZD0wcrBj36BnvEqmkemJ+NAh\/Ph5t7uHu2EwJEUKAjuUo6c4wSN60hc0CquEV\/Dpbve4+wwlOK3RBxAQ3j7RX1QzOFdlkpwB43DMKqIxCNqLHk\/O\/wbtPCjUZMm2eQqPwoxMSs+rLOE9i3Q2emfCApI9YD90IrBhgMglBk9W0sAWTsOvcbUs5YXZTOwUqLUZV+mthSRD8WyX+Py7sfVnS1a4dg2k8PwlAApvJh7OnOB0PAmPrH5E44Z0sWBIo5ykwQV8jYH5\/eCxQ1Y5MgNjUvf4ZySfL5wnhIWGNRiQkcV7bo8KorveGx9x5MnAbdOucjxkcZXyD+kQSGKYAftw7tSJMRRNKjlxWO\/GtuM7z7mv4\/K1MZGX+tBRSIv3TsiOdZLtebVvnRWPfxxDSpEaKLrs7Dgay4vKnpTCnDpiKZZtXOygd5wYtaZ5utT3g\/4ufNrtER\/SRb4+\/QPnmVyI",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"What challenges come with using NLP methods for classifying uneven security reqs from industrial data?",
+        "contexts":[
+            "This work examined the feasibility of automated security requirements classi- fication under realistic conditions, where requirements are implicit, unevenly distributed across categories, and drawn from industrial settings rather than curated benchmarks. By introducing ASRD and evaluating supervised and prompt-based methods on a shared benchmark, this work enables direct com- parison across approaches. The results show that few-shot prompting is suit- able when labeled data is limited, while fine-tuned"
+        ],
+        "ground_truth":"The answer to given question is not present in context",
+        "evolution_type":"multi_context",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":36,
+                "orig_elements":"eJxtU8Fu2zAM\/RXC5ziYkziNd9uw64Zi7S0oAlpiYqKy5ElU0qDov49yu2IFetQjH8n3SO2fK3I0kpcD2+orVP2m2Zi+vamPXUf1psOmxqYx9W63Irs9ble466sFVCMJWhRUznNlQoiWPQql+e3wGrIcBuLTIIqs1utOOW\/wha0MijbbdqPoFNhL4e33TbdbamKzajfLm4cFvANt0y6bGWjW7bL9FHklKVSlaxIai5pbfiJ3N6Gh6kUDloSMcPAH4zClwxRDr2lflt2ua2404ciO5DrRzL39WYRyOtCTRDRCs0ESM1WzGH\/KeJoV7yvyp6q0nhQ5+Dz2FBVfb0tXUX5h3g+c4BLiI9ATjuzJggwER8LEPTuWK4QjYJYwqpMWEpkcCxrpT+Y4bynBPDnXcGSDRQpkbylqDjpOwgZM8JZLJC3gMlCkj3xUgMfJsWFZKJnO5N0VrJIj97k0RhND0k46xSlEJi2E3oKNePFwjGEE9jaXfHQ6pQj7U4KIqiaqJPSgg88SevJmGDE+piV8vypNYrDZaD58u\/v9Yy5LZ3QZSw1IeaJ45lRm0IiuZ5yk7rEAenBDsAlUMUIaVMZ\/5Rfa9t1cj72jpIqiLlvtGGuYMHIqzFdlOGlpNAPpWPdDMShlp96kIVyKANGlXGp9ydsMZTitnzJLDaV8cdaDw15\/jzqjH6HEHY+ssovveki6Ik+15LLoMVhyr+b3apj6pE3UqRqsK8VjiXy68GU5tn83+QujGstnui839fLwF4XtRuE=",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    },
+    {
+        "question":"How do benchmarks & datasets aid accurate security classification?",
+        "contexts":[
+            "While these models provide powerful automation, they can also introduce new risks and errors if applied without careful oversight. This underscores the need for realistic, high-quality datasets and standardized evaluation frame- works to reliably assess automated security requirement classification, ensuring both effectiveness and safety in practice.",
+            "The use of automated models in security highlights both their potential and the risks they can introduce. Ensuring accurate and reliable classification of security requirements requires evaluation against high-quality, domain-specific benchmarks (Jeong, 2024). This underscores the need for realistic datasets and standardized evaluation frameworks tailored to SRE."
+        ],
+        "ground_truth":"Benchmarks and datasets aid accurate security classification by providing high-quality, domain-specific benchmarks and realistic datasets. These are essential for ensuring accurate and reliable classification of security requirements and for evaluating automated models effectively.",
+        "evolution_type":"reasoning",
+        "metadata":[
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":6,
+                "orig_elements":"eJxtUstu3DAM\/BXC57UR7Svr\/kOLAAmQwyIwaIleC5UlR6J24wb591JO0lMvBjzmDDkzPr9X5Ggiz5011Q+oDooO1N4PtcJdW+97reoe+1NtjFFm0Pf7nnS1gWoiRoOMwnmvdAjRWI9MaX13uITM3Uj2MrIg292uFc4XfLOGR0HV8bAXdA7Wc+Gdz6ptm8MGlDreNeplA\/+A3VY12xVQu0Nz+i\/ySRKoSktimoqbB\/tG7nFGTdWHfDDEpNkG32mHKXVzDL2M3TXt6ajKhYN1xMtMK\/fhZzFqU0dvHFEzrQFxzFStZvwl42V1fK7IX6qyehak83nqKQp+LEtZ6IX4PIo48EiJYAqGXALZf7WGYA43ikN2gJnDhOXCTZlcQKMHdCmAZBSDyZrA0w2iTb8ToDdAMYaYwA6A8+wsGbhZHiVmoUYqmuFKMZUiGngabYLsjQA6REplh+gJaQgRIqGzia3ewCjz9WuWd16g1JyIP\/cllidK23+ERVd0eT0XhogT1XALUQ7jIGLOYu8WkJwppW9nQkqkcyy6kV6zjevPB2sfdrD6yzz5JEP+An3gEWgYSm9X8qtUOQMHKUpSkQylGqupKaV8d\/cLY8RCeCrhf7z8BQv6+QU=",
+                "filename":"template.pdf"
+            },
+            {
+                "filetype":"application\/pdf",
+                "languages":[
+                    "eng"
+                ],
+                "page_number":6,
+                "orig_elements":"eJxtUstu3DAM\/BXCpxbYNdaPuOvecynQImj2tggMWqJtobLkSHSSbZB\/L+U8kEMvhjXiDDlDnZ8zsjST487o7Dtk1aEp2hLrfUHHal83mvbHQ9Xv674v1XGoazoW2Q6ymRg1MgrnOVPeB20cMsXtbPHiV+4mMuPEgpRV1QrnDX40midBi+aqFnTxxnHinc9F2+ZXOyiqss3rux18AHV7eAOKqsmr\/yKvJIGyeIlMc3JzY57I3i6oKHuRC01Mio13nbIYY7cE30vZIW+P39pGCgZjiS8Lbdybn8moiR09cUDFtAXEYaVsM+PGFcfN8TkjN2ap9SJI59a5pyB4k5qy0BPxNBGskcAPgCv7WdLSMHtNNoJxEEmtwfAFJgnNpuAi9J4nYIkxwOJZlmTQAjqdMAgm\/onp7wIKnUhw8HpVlMO1iyLlRkAlmtJn4wSyBntLsHk3g1GYokjzfPQOdL+asL2H+H6IQA9o19diHNG4yNuQ+\/sVrbB2oMWNcfu4kEq60JNT04xB5vvyg7wbd1AeyvprDqfJRFidphCVT9rJiSNJYvBBOopgZFFITyuSDJEmjyxflBf2V+o+DTMEnOnRpzaMxoqeJOPh9vd1njb0vshfGCQE80CntImXu3\/I9\/pE",
+                "filename":"template.pdf"
+            }
+        ],
+        "episode_done":true
+    }
+]

@@ -1,0 +1,838 @@
+[
+    {
+        "user_input":"What is the main focus of the paper Implicit Security Requirments Clasification with Large Languge Models Using the OWASP Aplication Security Verifcation Standrd?",
+        "reference_contexts":[
+            "Noname manuscript No. (will be inserted by the editor)\n\nImplicit Security Requirements Classification with Large Language Models Using the OWASP Application Security Verification Standard: A Shift-Left Approach.\n\nYusuf G\u00a8ur \u00b7 Tu\u02d8gba Ta\u00b8skaya Temizel \u00b7 Banu G\u00a8unel K\u0131l\u0131\u00b8c\n\nReceived: date \/ Accepted: date"
+        ],
+        "reference":"The paper focuses on implicit security requirements classification using large language models, guided by the OWASP Application Security Verification Standard, and emphasizes a shift-left approach.",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"Why is the classification of security requirements important in the SDLC?",
+        "reference_contexts":[
+            "Abstract Cybersecurity threats require early integration of security, starting from the requirements analysis phase of the Software Development Life Cycle (SDLC). However, security requirements in Software Requirements Specifica- tion (SRS) documents are often implicitly embedded, making their manual identification time-consuming, error-prone, and reliant on specialized exper- tise. The accurate classification of security requirements (SR) is important for effective resource allocation and risk management"
+        ],
+        "reference":"The accurate classification of security requirements is important for effective resource allocation and risk management in the Software Development Life Cycle (SDLC).",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is discussed in the 1 Introduction section?",
+        "reference_contexts":[
+            "Keywords Cybersecurity requirement elicitation \u00b7 OWASP based security requirement classification \u00b7 OWASP ASVS-based Requirement Labeling \u00b7 LLM based classification\n\n1 Introduction"
+        ],
+        "reference":"The 1 Introduction section includes keywords such as Cybersecurity requirement elicitation, OWASP-based security requirement classification, OWASP ASVS-based Requirement Labeling, and LLM-based classification.",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What RE do?",
+        "reference_contexts":[
+            "Requirements Engineering (RE) concerns the identification, documentation, and management of software requirements (Sommerville and Sawyer, 1997). The increasing interconnectivity of information systems forces organizations to provide secure services in cyberspace. Integrating security during initial requirements analysis is essential to proactively mitigate risks, reduce vulner- abilities, and reduce the high costs associated with downstream remediation (Villamizar et al., 2018). This proactive approach is"
+        ],
+        "reference":"Requirements Engineering (RE) involves the identification, documentation, and management of software requirements.",
+        "persona_name":"Reade",
+        "query_style":"POOR_GRAMMAR",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is the meaning of Implicit Security Requirements Classification and how it works?",
+        "reference_contexts":[
+            "Implicit Security Requirements Classification\n\n3"
+        ],
+        "reference":"The context provided does not contain sufficient information to explain the meaning or workings of Implicit Security Requirements Classification.",
+        "persona_name":"Reade",
+        "query_style":"POOR_GRAMMAR",
+        "query_length":"LONG",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"Wht is the signifcance of the Real-World Data: 2,652 Software Requirments Specification (SRS) sentnces extracted frm six diverse, real-world indstry projects in the context of this research?",
+        "reference_contexts":[
+            "This paper proposes a machine learning-based system to automatically an- alyze SRS documents and classify security requirements according to OWASP ASVS. Its main contribution is the Agency Security Requirements Dataset (ASRD), a publicly available corpus created to support research in automated SRA. The ASRD comprises:\n\n\u2013 Real-World Data: 2,652 Software Requirements Specification (SRS) sen- tences extracted from six diverse, real-world industry projects,"
+        ],
+        "reference":"The Real-World Data, consisting of 2,652 Software Requirements Specification (SRS) sentences extracted from six diverse, real-world industry projects, is a key component of the Agency Security Requirements Dataset (ASRD). This dataset supports research in automated Security Requirements Analysis (SRA) by providing a publicly available corpus for machine learning-based systems to analyze and classify security requirements according to OWASP ASVS.",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"LONG",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is expert annotation and how is it developed?",
+        "reference_contexts":[
+            "\u2013 Expert Annotation: Meticulously annotated by three cybersecurity experts, each with over 15 years of industry experience,\n\n\u2013 Rigorous Methodology: Developed using the iterative MATTER cycle an- notation framework (Pustejovsky and Stubbs, 2012),"
+        ],
+        "reference":"Expert annotation refers to meticulous annotations made by three cybersecurity experts, each with over 15 years of industry experience. It is developed using the iterative MATTER cycle annotation framework as described by Pustejovsky and Stubbs in 2012.",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is the significance of high granularity and multi-label structure in the ASRD dataset?",
+        "reference_contexts":[
+            "\u2013 High Granularity and Multi-label Structure: Mapped to 11 distinct, action- able security categories from the industry-standard OWASP Application Security Verification Standard (ASVS, V 2\u2013V 13), allowing each require- ment to be associated with multiple categories.\n\nThe ASRD is intended as a shared research resource and benchmark. Using this dataset, the study conducts an empirical analysis of automated classifica- tion approaches and addresses the following research questions:"
+        ],
+        "reference":"High granularity and multi-label structure in the ASRD dataset are significant because they are mapped to 11 distinct, actionable security categories from the industry-standard OWASP Application Security Verification Standard (ASVS, V2\u2013V13). This allows each requirement to be associated with multiple categories, enhancing its utility as a shared research resource and benchmark.",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"How do promt-based aproaches compare to fine-tuned BERT models?",
+        "reference_contexts":[
+            "1. To what extent can fine-tuned transformer models accurately perform multi-label classification of implicit security requirements into OWASP ASVS categories using the ASRD?\n\n2. How does the performance of prompt-based approaches (zero-shot and few- shot) using modern LLMs compare to fine-tuned BERT-based models and naive baselines for this task?"
+        ],
+        "reference":"Prompt-based approaches (zero-shot and few-shot) using modern LLMs are compared to fine-tuned BERT-based models and naive baselines for the task of multi-label classification of implicit security requirements into OWASP ASVS categories using the ASRD.",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What experimental setup and classification methods are described in Section 4, and how do fine-tuned BERT models and prompt-based approaches contribute to the process?",
+        "reference_contexts":[
+            "The remainder of this paper is organized as follows. Section 2 reviews re- lated work on NLP-based requirements classification, security frameworks, and existing security datasets. Section 3 describes the curation and expert anno- tation of the ASRD and summarizes its key characteristics. Section 4 outlines the experimental setup and classification methods, including fine-tuned BERT models and prompt-based approaches. Section 5 reports the experimental re- sults. Section 6 discusses the findings and their"
+        ],
+        "reference":"Section 4 outlines the experimental setup and classification methods, which include the use of fine-tuned BERT models and prompt-based approaches. These methods are integral to the classification process described in the paper.",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"LONG",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"Wht is Implicit Securty Requirments Clasification?",
+        "reference_contexts":[
+            "Implicit Security Requirements Classification\n\nthreats to validity, and Section 8 concludes with a summary of contributions and directions for future work.\n\n5\n\n2 Background\n\nThis section reviews prior work on NLP-based techniques for requirements classification, followed by an overview of relevant security frameworks. It con- cludes with a discussion of existing datasets used in security requirements research.\n\n2.1 Related Work on Requirements Classification using NLP Techniques"
+        ],
+        "reference":"Implicit Security Requirements Classification involves the use of NLP-based techniques for requirements classification, as well as an overview of relevant security frameworks and datasets used in security requirements research.",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is implicit security requirements classification?",
+        "reference_contexts":[
+            "2.2 Related Work on Security Frameworks\n\nAn appropriate security framework is necessary to ensure systematic and con- sistent identification and classification of security requirements, particularly in automated settings. This section reviews widely adopted security frameworks and evaluates their suitability for requirement analysis.\n\nImplicit Security Requirements Classification\n\n7"
+        ],
+        "reference":"Implicit security requirements classification refers to the systematic and consistent identification and classification of security requirements, particularly in automated settings, as part of a security framework.",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is the focus of the section titled 'Related Work on Security Related Requirement Datasets'?",
+        "reference_contexts":[
+            "2.3 Related Work on Security Related Requirement Datasets"
+        ],
+        "reference":"The section titled 'Related Work on Security Related Requirement Datasets' focuses on discussing related work in the area of datasets specifically designed for security-related requirements.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is the significance of the PROMISE Exp dataset in security requirements analysis?",
+        "reference_contexts":[
+            "High-quality benchmark datasets are essential for developing automated clas- sification models, ensuring research reproducibility, and assessing model gen- eralizability. In response to this need, the research community has developed a limited number of foundational datasets for security requirements analysis, each offering distinct advantages and limitations. The three most represen- tative datasets are briefly described below, and their key characteristics are summarized in Table 1.\n\n2.3.1 PROMISE Exp"
+        ],
+        "reference":"The PROMISE Exp dataset is one of the foundational datasets developed by the research community to address the need for high-quality benchmark datasets in security requirements analysis. These datasets are essential for developing automated classification models, ensuring research reproducibility, and assessing model generalizability.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What Table 1 say about security requirement datasets?",
+        "reference_contexts":[
+            "2 https:\/\/attack.mitre.org\/\n\n3 https:\/\/www.commoncriteriaportal.org\/cc\/\n\n4 https:\/\/owasp.org\/\n\n5 https:\/\/owasp.org\/www-project-application-security-verification-standard\/\n\n8\n\nYusuf G\u00a8ur et al.\n\nTable 1: Comparative Analysis of Security Requirement Datasets"
+        ],
+        "reference":"The context mentions 'Table 1: Comparative Analysis of Security Requirement Datasets,' but no specific details or analysis from the table are provided in the given context.",
+        "persona_name":"Reade",
+        "query_style":"POOR_GRAMMAR",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is DOSSPRE and its purpose?",
+        "reference_contexts":[
+            "2.3.2 DOSSPRE\n\nThe Dataset of Students\u2019 Software Projects Requirements (DOSSPRE) was compiled by Kadebu et al. from documentation within academic curricula (Kadebu et al., 2023), likely from the Harare Institute of Technology. It pro- vides a fine-grained classification through a detailed taxonomy for both se- curity and non-security requirements. However, as the requirements were au- thored by students, they may not fully reflect the realism and complexity of industry-grade requirements."
+        ],
+        "reference":"DOSSPRE, the Dataset of Students\u2019 Software Projects Requirements, was compiled by Kadebu et al. from documentation within academic curricula, likely from the Harare Institute of Technology. It provides a fine-grained classification through a detailed taxonomy for both security and non-security requirements. However, since the requirements were authored by students, they may not fully reflect the realism and complexity of industry-grade requirements.",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is the significance of Implicit Security Requirements Classification in the context of the Electronic Health Domain Dataset?",
+        "reference_contexts":[
+            "Implicit Security Requirements Classification\n\n2.3.3 Electronic Health Domain Dataset"
+        ],
+        "reference":"The context mentions 'Implicit Security Requirements Classification' and 'Electronic Health Domain Dataset,' but it does not provide specific details about their significance or relationship. Additional information would be required to elaborate further.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"LONG",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"Wht is the smmary of datasets?",
+        "reference_contexts":[
+            "2.3.4 Summary of Datasets"
+        ],
+        "reference":"2.3.4 Summary of Datasets",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is involved in data collection and preprocessing?",
+        "reference_contexts":[
+            "3 Dataset Curation, Annotation, and Evaluation\n\n3.1 Data Collection and Preprocessing"
+        ],
+        "reference":"Data collection and preprocessing are part of dataset curation, annotation, and evaluation processes.",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"How is sentence segmentation and extraction performed in the context of processing SRS documents, and what methods are used to ensure the structural integrity of the original specification?",
+        "reference_contexts":[
+            "1. Sentence Segmentation and Extraction: As the source SRS documents uti- lized standard itemization for requirements, we employed a rule-based ex- traction method. We utilized pattern matching to identify requirement blocks based on hierarchical numbering schemes and line breaks. Each iden- tified requirement was extracted and treated as a single processing unit, preserving the structural integrity of the original specification."
+        ],
+        "reference":"Sentence segmentation and extraction in the context of processing SRS documents is performed using a rule-based extraction method. This involves utilizing pattern matching to identify requirement blocks based on hierarchical numbering schemes and line breaks. Each identified requirement is then extracted and treated as a single processing unit, ensuring the structural integrity of the original specification is preserved.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"LONG",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is the purpose of anonymization in data protection?",
+        "reference_contexts":[
+            "2. Anonymization: To protect sensitive data, a semi-automated anonymiza- tion process was implemented. Custom scripts replaced entities such as project names, specific URLs, and IP addresses with generic placeholders. This was followed by a manual review by domain experts to ensure that the removal of personally identifiable information (PII) did not compromise the semantic meaning or contextual integrity of the requirements.\n\n10\n\nYusuf G\u00a8ur et al."
+        ],
+        "reference":"Anonymization is implemented to protect sensitive data by replacing entities such as project names, specific URLs, and IP addresses with generic placeholders, followed by a manual review to ensure the removal of personally identifiable information (PII) does not compromise semantic meaning or contextual integrity.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is the purpose of filtering in the dataset extraction process?",
+        "reference_contexts":[
+            "3. Filtering: The initial extraction yielded 3,264 items. To ensure the qual- ity of the dataset, domain experts conducted a rigorous manual filtering pass to remove 612 items. This exclusion process went beyond simple for- matting artifacts (such as headers or tables of contents). We specifically removed non-functional administrative clauses that addressed the vendor rather than the system (e.g., \u201cThe contractor must provide training man- uals\u201d), project management constraints (e.g., \u201cThe project must be"
+        ],
+        "reference":"Filtering was conducted to ensure the quality of the dataset by performing a rigorous manual pass, which removed 612 items, including non-functional administrative clauses and project management constraints.",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"Why randomization used?",
+        "reference_contexts":[
+            "4. Randomization: The remaining requirements were randomized and masked to mitigate potential annotation bias related to the document source or the sequence of requirements."
+        ],
+        "reference":"Randomization was used to mitigate potential annotation bias related to the document source or the sequence of requirements by randomizing and masking the remaining requirements.",
+        "persona_name":"Reade",
+        "query_style":"POOR_GRAMMAR",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is Table 2: Sample Requirements from ASRD and why is it important in the study?",
+        "reference_contexts":[
+            "It is important to note that the ASRD is a Turkish-language corpus; all experi- ments detailed in this study, including BERT fine-tuning and LLM prompting, were conducted exclusively on the original text. English translations are pro- vided only for readability.\n\nTable 2: Sample Requirements from ASRD"
+        ],
+        "reference":"Table 2: Sample Requirements from ASRD is a part of the Turkish-language corpus used in the study. All experiments, including BERT fine-tuning and LLM prompting, were conducted exclusively on the original Turkish text, with English translations provided only for readability.",
+        "persona_name":"Reade",
+        "query_style":"POOR_GRAMMAR",
+        "query_length":"LONG",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is Implicit Securty Requirmnts Clasification?",
+        "reference_contexts":[
+            "Implicit Security Requirements Classification\n\nTable 2 \u2013 continued from previous page"
+        ],
+        "reference":"The context provided does not contain sufficient information to explain 'Implicit Security Requirements Classification.'",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What are the considerations and steps involved in the selection of a framework and OWASP classes as outlined in section 3.2?",
+        "reference_contexts":[
+            "3.2 Framework and OWASP Classes Selection"
+        ],
+        "reference":"The context provided only specifies the title '3.2 Framework and OWASP Classes Selection' without further details. Therefore, no specific considerations or steps can be outlined based on the given information.",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"LONG",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What are the TRM Guidelines in the context of healthcare and mobile health applications?",
+        "reference_contexts":[
+            "Implicit Security Requirements Classification\n\n13\n\n(TRM) Guidelines. In the healthcare domain, Schmeelk and Tao (Schmeelk and Tao, 2022) conducted a case study on mobile health applications."
+        ],
+        "reference":"The TRM Guidelines refer to Implicit Security Requirements Classification. In the healthcare domain, Schmeelk and Tao conducted a case study in 2022 on mobile health applications.",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"Wht are the OWASP ASVS 4.0.3 clsses in Tble 3?",
+        "reference_contexts":[
+            "The standard includes 14 main security classes given in Table 3. For this study, only 11 classes (V2\u2013V10, V12-V13) were used. V1, V11, and V14 were excluded as they are not inferable from functional or non-functional require- ments. Each requirement can be mapped to more than one classes.\n\nTable 3: OWASP ASVS 4.0.3 Classes"
+        ],
+        "reference":"The OWASP ASVS 4.0.3 Classes in Table 3 include 14 main security classes. However, for this study, only 11 classes (V2\u2013V10, V12-V13) were used, while V1, V11, and V14 were excluded as they are not inferable from functional or non-functional requirements.",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is Implicit Security Requirements Classification?",
+        "reference_contexts":[
+            "Implicit Security Requirements Classification\n\n15"
+        ],
+        "reference":"Implicit Security Requirements Classification\n\n15",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is the MATTER Cycle in annotaion methdology and how is it used in dataset curtion?",
+        "reference_contexts":[
+            "3.3 Annotation Methodology (MATTER Cycle) & Dataset Curation\n\nThe annotation process followed the MATTER development cycle, an estab- lished iterative framework for corpus annotation (Pustejovsky and Stubbs, 2012). Crucially, the annotation task was defined as a multi-label text classifi- cation problem. It consists of the phases Model, Annotate, Train, Test, Eval- uate, and Revise. The annotation guidelines were developed and iteratively refined to ensure consistency and clarity."
+        ],
+        "reference":"The MATTER Cycle is an established iterative framework for corpus annotation, consisting of the phases Model, Annotate, Train, Test, Evaluate, and Revise. It was used in the annotation process as a multi-label text classification problem, with annotation guidelines developed and iteratively refined to ensure consistency and clarity.",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"Whatt is the importnce of annotator selecction in cybersecurity reserch?",
+        "reference_contexts":[
+            "\u2013 Annotator Selection: Following Bayerl and Paul\u2019s recommendation to use domain-aligned annotators (Bayerl and Paul, 2011), three cybersecurity subject matter experts (SME) from the agency, each with over 15 years of experience in designing security architectures, analyzing threat models, and identifying security requirements, performed the annotations. Their deep practical experience ensured accurate and context-aware interpreta- tion which aligned with the requirement \u201cexperts must demonstrate signif-"
+        ],
+        "reference":"Annotator selection is crucial in cybersecurity research as it involves using domain-aligned annotators, such as cybersecurity subject matter experts (SMEs) with extensive experience. In this context, three SMEs, each with over 15 years of experience in designing security architectures, analyzing threat models, and identifying security requirements, performed the annotations. Their deep practical experience ensured accurate and context-aware interpretation, aligning with the requirement that experts must demonstrate significant expertise.",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"LONG",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"Wht is corpus selction and prepration?",
+        "reference_contexts":[
+            "\u2013 Corpus Selection and Preparation: Cohen (Cohen et al., 2005) recommends that during corpus design, balance and representativeness of the corpus is important. In line with his recommendation, of the 19 initial project documents, six were chosen for their domain diversity and potential for effective anonymization by the SMEs. These documents underwent a semi- automated anonymization process to remove all project-specific and per- sonally identifiable information (PII). The process targeted entities such as"
+        ],
+        "reference":"Corpus Selection and Preparation involves ensuring the balance and representativeness of the corpus. For example, Cohen et al. (2005) recommend selecting documents based on domain diversity and anonymization potential. In this case, six out of 19 project documents were chosen and underwent a semi-automated anonymization process to remove project-specific and personally identifiable information (PII).",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is Annotatoin Guideline Develpment?",
+        "reference_contexts":[
+            "\u2013 Annotation Guideline Development: The Annotation Guidelines\u2019 develop- ment involved an initial iterative process, refining the guidelines three times to resolve ambiguities before the formal assessment phase. Annotation rules were based on OWASP ASVS categories V2\u2013V13 and refined iteratively using example annotations. Following best practices suggested by Cohen (Cohen et al., 2005), the guidelines and annotation documents ensured:\n\n16\n\nYusuf G\u00a8ur et al."
+        ],
+        "reference":"Annotation Guideline Development involved an initial iterative process, refining the guidelines three times to resolve ambiguities before the formal assessment phase. Annotation rules were based on OWASP ASVS categories V2\u2013V13 and refined iteratively using example annotations.",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is the purpose and process of pilot annotation in research studies?",
+        "reference_contexts":[
+            "\u2013 Pilot Annotation: An initial batch of 30 software requirements was anno- tated early in the study, prompting multiple discussion rounds and three updates to the guidelines. Adjudication meetings enabled the resolution of non-consensus requirements through SME-led discussions, during which the rationale for classification was articulated. Discrepancies arising from quality issues, such as guideline violations, were addressed by implement- ing corrections to ensure conformity with established criteria. Each"
+        ],
+        "reference":"Pilot annotation involves annotating an initial batch of 30 software requirements early in the study, which prompts multiple discussion rounds and three updates to the guidelines. Adjudication meetings are held to resolve non-consensus requirements through SME-led discussions, where the rationale for classification is articulated. Discrepancies caused by quality issues, such as guideline violations, are addressed by implementing corrections to ensure conformity with established criteria.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What does a Fleiss\u2019s Kappa score of 0.82 indicate in Inter-Annotator Agreement?",
+        "reference_contexts":[
+            "\u2013 Agreement Metrics: Inter-Annotator Agreement (IAA) was calculated us- ing Fleiss\u2019s Kappa and pairwise Cohen\u2019s Kappa to assess consistency. IAA scores were instrumental in identifying instances of disagreement among annotators, thereby highlighting areas where the guidelines might require further clarification or where ambiguous requirement phrasings contributed to annotation discrepancies. Fleiss\u2019s Kappa coefficient of 0.82 was obtained across the three annotators, indicating strong agreement that"
+        ],
+        "reference":"A Fleiss\u2019s Kappa score of 0.82 indicates strong agreement among the three annotators.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"How were disagreements resolved in the classification of implicit security requirements?",
+        "reference_contexts":[
+            "Implicit Security Requirements Classification\n\n17\n\n0.71 to 0.79, further confirmed substantial agreement between individual annotator pairs.\n\n\u2013 Adjudication: Disagreements were resolved through structured expert dis- cussions led by the senior SME. When the two annotators disagreed on a requirement, it was resolved through a structured process:\n\n\u2013 Both annotators presented their choice and their reasons.\n\n\u2013 The senior expert reviewed both positions against the guideline."
+        ],
+        "reference":"Disagreements were resolved through structured expert discussions led by the senior SME. Both annotators presented their choices and reasons, and the senior expert reviewed both positions against the guideline.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"Wht does Fig. 1: Distrbution of Clsses show?",
+        "reference_contexts":[
+            "1 8 Y u s u f G \u00a8u r e t a l .\n\nFig. 1: Distribution of Classes\n\nTable 4: Sample Requirement Classifications"
+        ],
+        "reference":"Fig. 1 illustrates the distribution of classes as referenced in the provided context.",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is the methodology for Implicit Security Requirements Classification?",
+        "reference_contexts":[
+            "I m p l i c i t S e c u r i t y R e q u i r e m e n t s C l a s s i fi c a t i o n\n\n1 9\n\n20\n\nYusuf G\u00a8ur et al.\n\n4 Implicit Security Requirements Classification Methodology\n\nThis section presents the experiment protocol used to assess the two research questions regarding the performance of fine-tuned BERT variant models in classification of requirements statements and LLM models with zero and few- shot prompting.\n\n4.1 Evaluation Protocol and Data Usage"
+        ],
+        "reference":"The methodology for Implicit Security Requirements Classification involves an experiment protocol to assess the performance of fine-tuned BERT variant models in classifying requirements statements, as well as the use of LLM models with zero and few-shot prompting.",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"Wht is Implicit Securty Requirments Clasification?",
+        "reference_contexts":[
+            "Noname manuscript No. (will be inserted by the editor)\n\nImplicit Security Requirements Classification with Large Language Models Using the OWASP Application Security Verification Standard: A Shift-Left Approach.\n\nYusuf G\u00a8ur \u00b7 Tu\u02d8gba Ta\u00b8skaya Temizel \u00b7 Banu G\u00a8unel K\u0131l\u0131\u00b8c\n\nReceived: date \/ Accepted: date"
+        ],
+        "reference":"Implicit Security Requirements Classification involves using large language models and the OWASP Application Security Verification Standard to identify and classify security requirements early in the development process, following a shift-left approach.",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"Why risk management important for security requirements?",
+        "reference_contexts":[
+            "Abstract Cybersecurity threats require early integration of security, starting from the requirements analysis phase of the Software Development Life Cycle (SDLC). However, security requirements in Software Requirements Specifica- tion (SRS) documents are often implicitly embedded, making their manual identification time-consuming, error-prone, and reliant on specialized exper- tise. The accurate classification of security requirements (SR) is important for effective resource allocation and risk management"
+        ],
+        "reference":"Risk management is important for security requirements because it helps in effective resource allocation and ensures accurate classification of security requirements, which is crucial for addressing cybersecurity threats early in the Software Development Life Cycle (SDLC).",
+        "persona_name":"Reade",
+        "query_style":"POOR_GRAMMAR",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is the purpose of the Agency Security Requirements Dataset in Security Requirements Engineering?",
+        "reference_contexts":[
+            "in software development. Automated tools to extract implicit security requirements are lacking, largely due to the scarcity of large, annotated datasets in Security Requirements En- gineering (SRE). This paper proposes a data-driven methodology to automate the classification of implicit security requirements in SRS documents, sup- porting the early and systematic integration of security into software systems. We introduce a novel multi-label corpus, the Agency Security Requirements Dataset (ASRD), derived"
+        ],
+        "reference":"The Agency Security Requirements Dataset (ASRD) is a novel multi-label corpus introduced to support the automation of classifying implicit security requirements in SRS documents, enabling the early and systematic integration of security into software systems.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"How were real-world requirement statements analyzed and evaluated in the context of cybersecurity and machine learning models?",
+        "reference_contexts":[
+            "from 2,652 real-world requirement statements from six diverse documents and annotated using a high-granularity taxonomy based on the OWASP Application Security Verification Standard (ASVS) V2-V13 and the MATTER cycle annotation framework by three cybersecurity experts. Using this dataset, we evaluate both supervised fine-tuned BERT variants (such as SecureBERT) and general-purpose large-language models (LLMs) in- cluding Gemma, GPT, DeepSeek, Meta Llama, and Gemini under zero-shot and few-shot settings. We"
+        ],
+        "reference":"Real-world requirement statements, totaling 2,652 from six diverse documents, were annotated using a high-granularity taxonomy based on the OWASP Application Security Verification Standard (ASVS) V2-V13 and the MATTER cycle annotation framework by three cybersecurity experts. This dataset was then used to evaluate both supervised fine-tuned BERT variants, such as SecureBERT, and general-purpose large-language models (LLMs) including Gemma, GPT, DeepSeek, Meta Llama, and Gemini under zero-shot and few-shot settings.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"LONG",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is traditional methods?",
+        "reference_contexts":[
+            "conduct an empirical comparison between tradi-"
+        ],
+        "reference":"The context provided is incomplete and does not fully explain traditional methods.",
+        "persona_name":"Reade",
+        "query_style":"POOR_GRAMMAR",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is the significance of Ankara 06800 in the provided context?",
+        "reference_contexts":[
+            "Yusuf G\u00a8ur\n\nGraduate School of Informatics, Middle East Technical University, Ankara 06800, T\u00a8urkiye\n\nE-mail: yusuf.gur@metu.edu.tr\n\nyusuf.gur@metu.edu.tr\n\nTu\u02d8gba Ta\u00b8skaya Temizel\n\nGraduate School of Informatics, Middle East Technical University, Ankara 06800, T\u00a8urkiye\n\nE-mail: ttemizel@metu.edu.tr\n\nttemizel@metu.edu.tr\n\nBanu G\u00a8unel K\u0131l\u0131\u00b8c\n\nGraduate School of Informatics, Middle East Technical University, Ankara 06800, T\u00a8urkiye\n\nE-mail: bgunel@metu.edu.tr\n\n2\n\nYusuf G\u00a8ur et al."
+        ],
+        "reference":"Ankara 06800 refers to the location of the Graduate School of Informatics at Middle East Technical University in T\u0000fcrkiye, where the authors Yusuf G\u0000fcr, Tu\u0000fgba Ta\u0000fskaya Temizel, and Banu G\u0000fcnel K\u0000f1l\u0000f1\u0000e7 are affiliated.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"How do fine-tuned transformer models compare to contemporary large language models in terms of performance, particularly in the context of implicit security requirements?",
+        "reference_contexts":[
+            "tional fine-tuned transformer models and contemporary Large Language Mod- els (LLMs) employing few-shot and zero-shot prompt engineering strategies. The results show that a few-shot prompting with Gemini 2.0 achieves a macro- average F1 score of 0.941, directly comparable to the fine-tuned BERT model\u2019s 0.942. This study culminates in two primary findings: first, the validation and publication of the ASRD, a high-granularity, multi-label dataset for implicit security requirements based on OWASP ASVS V2-V13;"
+        ],
+        "reference":"The study shows that fine-tuned transformer models, such as a fine-tuned BERT model, achieve a macro-average F1 score of 0.942. In comparison, contemporary large language models like Gemini 2.0, using few-shot prompting strategies, achieve a similar macro-average F1 score of 0.941. This demonstrates comparable performance between the two approaches in the context of implicit security requirements.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"LONG",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"How do few-shot Large Language Models perform in multi-label classification compared to fine-tuned transformer models?",
+        "reference_contexts":[
+            "and second, the di- rect comparison demonstrating that few-shot Large Language Models (LLMs) achieve competitive multi-label classification performance (Macro-F1 0.941) nearly equal to resource-intensive fine-tuned transformer models (Macro-F1 0.942). This confirms that LLMs represent a highly practical and resource- saving strategy for automating the identification of embedded (implicit) secu- rity requirements for software security in industrial SRS documents"
+        ],
+        "reference":"Few-shot Large Language Models (LLMs) achieve competitive multi-label classification performance with a Macro-F1 score of 0.941, which is nearly equal to the performance of resource-intensive fine-tuned transformer models with a Macro-F1 score of 0.942. This demonstrates that LLMs are a highly practical and resource-saving strategy for automating the identification of embedded security requirements in industrial SRS documents.",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is OWASP-based security requirement classification?",
+        "reference_contexts":[
+            "Keywords Cybersecurity requirement elicitation \u00b7 OWASP based security requirement classification \u00b7 OWASP ASVS-based Requirement Labeling \u00b7 LLM based classification\n\n1 Introduction"
+        ],
+        "reference":"OWASP-based security requirement classification refers to the categorization of security requirements using guidelines and standards provided by the OWASP (Open Web Application Security Project).",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"Why do security need add in initial requirements analysis?",
+        "reference_contexts":[
+            "Requirements Engineering (RE) concerns the identification, documentation, and management of software requirements (Sommerville and Sawyer, 1997). The increasing interconnectivity of information systems forces organizations to provide secure services in cyberspace. Integrating security during initial requirements analysis is essential to proactively mitigate risks, reduce vulner- abilities, and reduce the high costs associated with downstream remediation (Villamizar et al., 2018). This proactive approach is"
+        ],
+        "reference":"Integrating security during initial requirements analysis is essential to proactively mitigate risks, reduce vulnerabilities, and lower the high costs associated with downstream remediation.",
+        "persona_name":"Reade",
+        "query_style":"POOR_GRAMMAR",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"Caan you explane the Shift-Left securitty paradim and its role in the SDLC?",
+        "reference_contexts":[
+            "central to the \u201dShift- Left\u201d security paradigm, which advocates for the identification and mitigation of vulnerabilities as early as possible in the Software Development Life Cycle (SDLC)."
+        ],
+        "reference":"The Shift-Left security paradigm emphasizes identifying and mitigating vulnerabilities as early as possible in the Software Development Life Cycle (SDLC).",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"LONG",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"Why effective application of SRE hard?",
+        "reference_contexts":[
+            "Although Security Requirements Engineering (SRE) has matured as a dis- cipline, its effective application in practice remains challenging. The issue is not the absence of security considerations, but the difficulty of ensuring that security requirements are properly validated and verified. An empirical investi- gation that combines a systematic literature review with a survey of 58 indus- try professionals highlights this gap (Alam et al., 2025). While practitioners reported a moderate understanding of SRE"
+        ],
+        "reference":"The effective application of Security Requirements Engineering (SRE) is challenging because, while security considerations are present, it is difficult to ensure that security requirements are properly validated and verified.",
+        "persona_name":"Reade",
+        "query_style":"POOR_GRAMMAR",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is SRA and why is it challenging in practice?",
+        "reference_contexts":[
+            "practices, Security Requirements Assurance (SRA) was found to be poorly understood and rarely applied in industrial contexts. The study concludes that validating and ensuring security requirements remains a major and unresolved challenge in practice."
+        ],
+        "reference":"SRA, or Security Requirements Assurance, is poorly understood and rarely applied in industrial contexts. Validating and ensuring security requirements remains a major and unresolved challenge in practice.",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"Why developers not get specialized security training and what problems it cause?",
+        "reference_contexts":[
+            "This assurance gap persists due to the documented lack of specialized se- curity training for developers in early-phase RE (Andrade et al., 2023). The task relies heavily on scarce specialized expertise and time-intensive manual analysis. The main challenge is that critical security requirements are often not explicitly stated. Instead, they are implicitly embedded within standard func- tional descriptions. For example, a seemingly simple functional requirement,"
+        ],
+        "reference":"Developers do not receive specialized security training in early-phase requirements engineering due to a documented lack of such training (Andrade et al., 2023). This results in reliance on scarce specialized expertise and time-intensive manual analysis. A major problem is that critical security requirements are often not explicitly stated but are instead implicitly embedded within standard functional descriptions.",
+        "persona_name":"Reade",
+        "query_style":"POOR_GRAMMAR",
+        "query_length":"LONG",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is Implicit Security Requirements Classification?",
+        "reference_contexts":[
+            "Implicit Security Requirements Classification\n\n3"
+        ],
+        "reference":"Implicit Security Requirements Classification is a concept mentioned in the provided context, but no further details or explanation are given about it.",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What does 'not scalable' mean in the given context?",
+        "reference_contexts":[
+            "inconsistent, and not scalable (Ye et al., 2025)."
+        ],
+        "reference":"The term 'not scalable' in the given context refers to something that cannot effectively handle growth or increased demand, as described by Ye et al., 2025.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"Wht are the limtations of manual SRA?",
+        "reference_contexts":[
+            "Given the limitations of manual SRA, automation through Artificial In- telligence (AI) based Natural Language Processing (NLP) methods, offers a promising path forward. Although AI based approaches for RE have received growing attention (Abbasi et al., 2025; Zadenoori et al., 2025), recent evidence shows a gap between experimental advances and validated industrial solutions. For example, an analysis of 74 primary studies found that most AI based tools are evaluated in controlled settings, with limited"
+        ],
+        "reference":"The limitations of manual SRA include the need for automation, as evidenced by the promising potential of AI-based Natural Language Processing (NLP) methods to address these challenges. However, there is a gap between experimental advances and validated industrial solutions, with most AI-based tools being evaluated in controlled settings rather than real-world applications.",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What are the challenges of integrating SRE into reel workflows in industrial settings?",
+        "reference_contexts":[
+            "industrial adoption and weak integration into real workflows (Bolanos et al., 2024). Similarly, another study reports a clear mismatch between expectations and practical outcomes in SRE in real world use (Karhu et al., 2025)."
+        ],
+        "reference":"The challenges of integrating SRE into real workflows in industrial settings include weak integration into real workflows, as noted by Bolanos et al. (2024), and a clear mismatch between expectations and practical outcomes in real-world use, as reported by Karhu et al. (2025).",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"LONG",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"Wht are the chalenges of data driven aproaches?",
+        "reference_contexts":[
+            "The main problem is the lack of suitable data, not the availability of ef- fective modeling approaches. The development and validation of data driven approaches is constrained by the scarcity and limited quality of domain spe- cific datasets (Wang et al., 2024; Zadenoori et al., 2025). This concern ex- tends beyond SRE, as leading NLP venues highlight dataset limitations that make reliable evaluation difficult (Muresan et al., 2022; Goldberg et al., 2022; Christodoulopoulos et al., 2025)."
+        ],
+        "reference":"The challenges of data driven approaches include the scarcity and limited quality of domain-specific datasets, which constrain their development and validation. This issue is not limited to specific areas but extends to broader fields, as highlighted by leading NLP venues that emphasize dataset limitations affecting reliable evaluation.",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"Wht r sme security concerens in SRE?",
+        "reference_contexts":[
+            "This challenge is especially evident in SRE. Identifying implicit security requirements relies on large collections of functional requirements annotated by security experts to reflect underlying security concerns. Current datasets do not meet this need. For instance, PROMISE exp (Lima et al., 2019) includes only a single, high-level security category; DOSSPRE (Kadebu et al., 2023) is based on student projects and lacks industry realism; and the Healthcare dataset (Riaz et al., 2014) is limited to a narrow"
+        ],
+        "reference":"Identifying implicit security requirements in SRE relies on large collections of functional requirements annotated by security experts to reflect underlying security concerns. However, current datasets do not adequately meet this need. For example, PROMISE exp includes only a single, high-level security category; DOSSPRE is based on student projects and lacks industry realism; and the Healthcare dataset is limited to a narrow scope.",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What challenges exist in evaluating methods for uncovering implicit security requirements?",
+        "reference_contexts":[
+            "domain and uses coarse- grained labels. As a result, existing resources offer limited support for devel- oping and evaluating methods aimed at uncovering implicit security require- ments."
+        ],
+        "reference":"Existing resources provide limited support for developing and evaluating methods aimed at uncovering implicit security requirements due to the use of coarse-grained labels in the domain.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is the OWASP Application Security Verification Standard?",
+        "reference_contexts":[
+            "The OWASP Application Security Verification Standard (ASVS) 1 offers a standardized, systematic, and verifiable framework for defining and evaluating application security controls. ASVS emphasizes the principle of \u201csecurity by design\u201d by facilitating the integration of security considerations early in the software development lifecycle. Its comprehensive set of requirements can be directly mapped to verifiable test cases and secure coding practices, ensuring traceability throughout the development process."
+        ],
+        "reference":"The OWASP Application Security Verification Standard (ASVS) provides a standardized, systematic, and verifiable framework for defining and evaluating application security controls. It emphasizes 'security by design' by integrating security considerations early in the software development lifecycle and includes a comprehensive set of requirements that can be mapped to verifiable test cases and secure coding practices, ensuring traceability throughout the development process.",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"How does early identification contribute to the efficient remediation of vulnerabilities?",
+        "reference_contexts":[
+            "This approach enables the early identification and remediation of vulnerabilities, which is both more effi-"
+        ],
+        "reference":"Early identification allows for the detection and remediation of vulnerabilities at an earlier stage, making the process more efficient.",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"LONG",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"Why is it more efficient and cost-effective to address security issues during the early stages of development?",
+        "reference_contexts":[
+            "1 https:\/\/owasp.org\/www-project-application-security-verification-standard\/\n\n4\n\nYusuf G\u00a8ur et al.\n\ncient and cost-effective compared to addressing security issues at later stages of development ((Khan et al., 2024)."
+        ],
+        "reference":"Addressing security issues during the early stages of development is more efficient and cost-effective compared to addressing them at later stages, as highlighted by Khan et al., 2024.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"LONG",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is the purpose of analyzing SRS documents in this study?",
+        "reference_contexts":[
+            "This paper proposes a machine learning-based system to automatically an- alyze SRS documents and classify security requirements according to OWASP ASVS. Its main contribution is the Agency Security Requirements Dataset (ASRD), a publicly available corpus created to support research in automated SRA. The ASRD comprises:\n\n\u2013 Real-World Data: 2,652 Software Requirements Specification (SRS) sen- tences extracted from six diverse, real-world industry projects,"
+        ],
+        "reference":"The study proposes a machine learning-based system to automatically analyze SRS documents and classify security requirements according to OWASP ASVS.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is a rigourous methdology in the MATTER cycle?",
+        "reference_contexts":[
+            "\u2013 Expert Annotation: Meticulously annotated by three cybersecurity experts, each with over 15 years of industry experience,\n\n\u2013 Rigorous Methodology: Developed using the iterative MATTER cycle an- notation framework (Pustejovsky and Stubbs, 2012),"
+        ],
+        "reference":"A rigorous methodology refers to the iterative MATTER cycle annotation framework, as developed by Pustejovsky and Stubbs in 2012.",
+        "persona_name":"Reade",
+        "query_style":"MISSPELLED",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is the purpose of the ASRD in research?",
+        "reference_contexts":[
+            "\u2013 High Granularity and Multi-label Structure: Mapped to 11 distinct, action- able security categories from the industry-standard OWASP Application Security Verification Standard (ASVS, V 2\u2013V 13), allowing each require- ment to be associated with multiple categories.\n\nThe ASRD is intended as a shared research resource and benchmark. Using this dataset, the study conducts an empirical analysis of automated classifica- tion approaches and addresses the following research questions:"
+        ],
+        "reference":"The ASRD is intended as a shared research resource and benchmark, enabling empirical analysis of automated classification approaches and addressing specific research questions.",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What are OWASP ASVS categories, and how are they used in the classification of implicit security requirements?",
+        "reference_contexts":[
+            "1. To what extent can fine-tuned transformer models accurately perform multi-label classification of implicit security requirements into OWASP ASVS categories using the ASRD?\n\n2. How does the performance of prompt-based approaches (zero-shot and few- shot) using modern LLMs compare to fine-tuned BERT-based models and naive baselines for this task?"
+        ],
+        "reference":"OWASP ASVS categories are a set of security standards used to classify and assess the security requirements of applications. In the context provided, fine-tuned transformer models are evaluated for their ability to accurately perform multi-label classification of implicit security requirements into these categories using the ASRD. Additionally, the performance of prompt-based approaches, such as zero-shot and few-shot methods using modern LLMs, is compared to fine-tuned BERT-based models and naive baselines for this classification task.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"How does example-guided inference compare to supervised fine-tuning in terms of performance and resource requirements, based on the evaluation results?",
+        "reference_contexts":[
+            "The results show that few-shot prompting with a modern language model (Gemini 2.0) achieves a macro-average F1 score of 0.941, closely matching the best fine-tuned BERT-based model (0.942). This demonstrates that example- guided inference can reach performance comparable to supervised fine-tuning while requiring substantially less annotated data and model retraining. The evaluation compares fine-tuned transformer models (e.g., SecureBERT) with prompt-based methods in zero-shot and few-shot settings across"
+        ],
+        "reference":"Example-guided inference, as demonstrated by few-shot prompting with the Gemini 2.0 language model, achieves a macro-average F1 score of 0.941, which closely matches the performance of the best fine-tuned BERT-based model (0.942). This shows that example-guided inference can achieve performance comparable to supervised fine-tuning while requiring substantially less annotated data and model retraining.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"LONG",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What contemporary models do?",
+        "reference_contexts":[
+            "multiple con- temporary models, demonstrating that prompt-based approaches provide a practical and resource-efficient alternative for identifying implicit security re- quirements in industrial SRS documents."
+        ],
+        "reference":"Contemporary models demonstrate that prompt-based approaches provide a practical and resource-efficient alternative for identifying implicit security requirements in industrial SRS documents.",
+        "persona_name":"Reade",
+        "query_style":"POOR_GRAMMAR",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is the process and significance of curation and expert annotation in the context of the ASRD as described in the paper?",
+        "reference_contexts":[
+            "The remainder of this paper is organized as follows. Section 2 reviews re- lated work on NLP-based requirements classification, security frameworks, and existing security datasets. Section 3 describes the curation and expert anno- tation of the ASRD and summarizes its key characteristics. Section 4 outlines the experimental setup and classification methods, including fine-tuned BERT models and prompt-based approaches. Section 5 reports the experimental re- sults. Section 6 discusses the findings and their"
+        ],
+        "reference":"The curation and expert annotation of the ASRD are described in the paper as a key process, with Section 3 summarizing its key characteristics. This involves organizing and annotating the dataset with expert input to ensure its quality and relevance for the intended applications, such as NLP-based requirements classification and security frameworks.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"LONG",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What Section 7 talk about?",
+        "reference_contexts":[
+            "implications, with a com- parative analysis of fine-tuning and prompting strategies. Section 7 examines"
+        ],
+        "reference":"Section 7 examines implications, with a comparative analysis of fine-tuning and prompting strategies.",
+        "persona_name":"Reade",
+        "query_style":"POOR_GRAMMAR",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is the background of implicit security requirements classification and how NLP techniques are used for it?",
+        "reference_contexts":[
+            "Implicit Security Requirements Classification\n\nthreats to validity, and Section 8 concludes with a summary of contributions and directions for future work.\n\n5\n\n2 Background\n\nThis section reviews prior work on NLP-based techniques for requirements classification, followed by an overview of relevant security frameworks. It con- cludes with a discussion of existing datasets used in security requirements research.\n\n2.1 Related Work on Requirements Classification using NLP Techniques"
+        ],
+        "reference":"The background of implicit security requirements classification involves reviewing prior work on NLP-based techniques for requirements classification. It also includes an overview of relevant security frameworks and a discussion of existing datasets used in security requirements research.",
+        "persona_name":"Reade",
+        "query_style":"POOR_GRAMMAR",
+        "query_length":"LONG",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What are security requirements in software development?",
+        "reference_contexts":[
+            "Software requirements (SR) classification supports effective project manage- ment by enabling prioritization and risk assessment (Batool et al., 2025). The task typically involves distinguishing functional requirements (FRs) from non- functional requirements (NFRs) and further categorizing NFRs into classes such as security, usability, and performance. Security requirements may ap- pear as explicit system behaviors or as quality attributes addressing confiden- tiality, integrity, and availability\u2014the"
+        ],
+        "reference":"Security requirements in software development may appear as explicit system behaviors or as quality attributes addressing confidentiality, integrity, and availability.",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"MEDIUM",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What inherent ambiguity mean?",
+        "reference_contexts":[
+            "security triad\u2014which are often abstract and difficult to specify precisely in practice (Anwar Mohammad et al., 2019). This inherent ambiguity complicates the development of clear guidelines for separating security-related requirements from non-security ones."
+        ],
+        "reference":"Inherent ambiguity refers to the abstract and difficult-to-specify nature of concepts like the security triad, which complicates creating clear guidelines for distinguishing security-related requirements from non-security ones.",
+        "persona_name":"Reade",
+        "query_style":"POOR_GRAMMAR",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What are some examples of supervised learning techniques used in early studies?",
+        "reference_contexts":[
+            "Early studies applied supervised learning techniques, including Bayesian classifiers(Knauss et al., 2011), decision trees (Jindal et al., 2016), and Sup- port Vector Machines (SVMs) (Dalpiaz et al., 2019), but these approaches depended heavily on manual feature engineering and rigid linguistic patterns. To address these limitations, later work adopted neural models such as convo- lutional neural networks (CNN) combined with Word2Vec embeddings (Dekht- yar and Fong, 2017). The adoption of transformer-based"
+        ],
+        "reference":"Early studies applied supervised learning techniques, including Bayesian classifiers (Knauss et al., 2011), decision trees (Jindal et al., 2016), and Support Vector Machines (SVMs) (Dalpiaz et al., 2019).",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What is the role of fine-tuning in improving model performance?",
+        "reference_contexts":[
+            "models such as BERT enabled improved classification accuracy through transfer learning and fine- tuning, eliminating the need for handcrafted features (Devlin et al., 2019; Sub- ahi, 2023). More recent work explores domain-adapted transformer models, such as NoRBERT (Hey et al., 2020) and SecureBERT (Aghaei et al., 2022), to better capture domain-specific semantics and mitigate overfitting. These models have shown improved capability in identifying implicit non-functional requirements, a particularly"
+        ],
+        "reference":"Fine-tuning enables improved classification accuracy through transfer learning, eliminating the need for handcrafted features.",
+        "persona_name":"Reade",
+        "query_style":"PERFECT_GRAMMAR",
+        "query_length":"SHORT",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    },
+    {
+        "user_input":"What makes progress in SRE a challenging task in security-critical settings, and what factors limit further advancements?",
+        "reference_contexts":[
+            "challenging task in security-critical settings (Nec- ula et al., 2024). However, further progress in SRE is limited by the availability of large, high-quality, and domain-specific annotated datasets."
+        ],
+        "reference":"Progress in SRE is a challenging task in security-critical settings due to the complexity of the domain. Further advancements are limited by the availability of large, high-quality, and domain-specific annotated datasets.",
+        "persona_name":"Reade",
+        "query_style":"WEB_SEARCH_LIKE",
+        "query_length":"LONG",
+        "synthesizer_name":"single_hop_specific_query_synthesizer"
+    }
+]

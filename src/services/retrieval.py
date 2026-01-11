@@ -41,6 +41,7 @@ class RetrievalService:
             graph_points = []
             
             # --- PATH A: GRAPH SEARCH (Skip if mode='vector') ---
+            graph_context_str = "No graph context available."
             if mode in ["hybrid", "graph"]:
                 # Step A: Entity Extraction (Extract UP TO 3 entities)
                 entity_res = await self.llm.generate_local(
@@ -129,13 +130,13 @@ class RetrievalService:
             for r in vec_results:
                 if r.id not in seen_ids:
                     seen_ids.add(r.id)
-                    pass_through_docs.append({"id": r.id, "text": r.payload['text'], "meta": r.payload})
+                    pass_through_docs.append({"id": r.id, "text": r.payload.get('text', ''), "meta": r.payload})
 
             # Add Graph results
             for r in graph_points:
                 if r.id not in seen_ids:
                     seen_ids.add(r.id)
-                    pass_through_docs.append({"id": r.id, "text": r.payload['text'], "meta": r.payload})
+                    pass_through_docs.append({"id": r.id, "text": r.payload.get('text', ''), "meta": r.payload})
             
             logger.info(f"🔀 Unified Reranking Pool: {len(pass_through_docs)} documents (Mode: {mode})")
 

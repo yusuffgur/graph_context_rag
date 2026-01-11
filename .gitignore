@@ -1,9 +1,11 @@
-.venv
-__pycache__
-.env
 .venv/
-.venv/*
-benchmark/results
-benchmark/results/*
-falkor_data/*
-qdrant_data/*
+__pycache__/
+.env
+.vscode/
+
+# Project Data & Logs
+benchmark/results/
+falkor_data/
+qdrant_data/
+temp/
+logs/

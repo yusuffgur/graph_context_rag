@@ -97,7 +97,7 @@ class FalkorGraph:
         # Simplified: Just dump all connections between these nodes if they exist
         q = f"""
         MATCH (a)-[r]-(b)
-        WHERE ({where_clause}) AND ({where_clause.replace('n.', 'b.')}) AND id(a) <> id(b)
+        WHERE ({where_clause.replace('n.', 'a.')}) AND ({where_clause.replace('n.', 'b.')}) AND id(a) <> id(b)
         RETURN a.name, type(r), b.name
         LIMIT 20
         """
